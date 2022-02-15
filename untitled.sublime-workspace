@@ -1,0 +1,221 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 92.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/stbanlol/Documentos/work/akronenglish2.0/frontend/src/client/modules/Chat/VideoChat.js",
+		"/mnt/akron-volume/Finales-Akron/conversacion/inicial_i/lesson_1.vtt",
+		"/mnt/akron-volume/Finales-Akron/conversacion/inicial_i/lesson_1ok.vtt",
+		"/home/stbanlol/Escritorio/lesson_1.txt",
+		"/home/stbanlol/Escritorio/lesson_1.vtt",
+		"/home/stbanlol/Escritorio/SRT /inicial_iv/lesson_9.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_iv/lesson_8.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_iv/lesson_7.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_iv/lesson_6.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_iv/lesson_5.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_iv/lesson_4.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_iv/lesson_3.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_iv/lesson_2.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_iv/lesson_1.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_iii/lesson_9.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_iii/lesson_8.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_iii/lesson_7.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_iii/lesson_6.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_iii/lesson_5.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_iii/lesson_4.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_iii/lesson_3.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_iii/lesson_2.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_iii/lesson_1.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_ii/lesson_9.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_ii/lesson_8.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_ii/lesson_7.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_ii/lesson_6.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_ii/lesson_5.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_ii/lesson_4.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_ii/lesson_3.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_ii/lesson_2.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_ii/lesson_10.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_ii/lesson_1.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_i/lesson_9.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_i/lesson_8.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_i/lesson_7.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_i/lesson_6.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_i/lesson_5.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_i/lesson_4.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_i/lesson_3.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_i/lesson_2.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_i/lesson_10.txt",
+		"/home/stbanlol/Escritorio/SRT /inicial_i/lesson_1.srt"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"/home/stbanlol/Escritorio/SRT /inicial_iv",
+			"/home/stbanlol/Escritorio/SRT /inicial_iii",
+			"/home/stbanlol/Escritorio/SRT /inicial_ii",
+			"/home/stbanlol/Escritorio/SRT /inicial_i"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			",000"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			".000"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 216.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

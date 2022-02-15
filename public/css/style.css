@@ -1,0 +1,4605 @@
+@font-face {
+    font-family: "Tofino-Bold";
+    src: url("../font/TofinoUltra/TofinoBold.ttf");
+}
+
+@font-face {
+    font-family: "Tofino-Black";
+    src: url("../font/TofinoUltra/TofinoBlack.ttf");
+}
+
+@font-face {
+    font-family: "Tofino-Book";
+    src: url("../font/TofinoUltra/TofinoBook.ttf");
+}
+
+@font-face {
+    font-family: "Tofino-Light";
+    src: url("../font/TofinoUltra/TofinoLight.ttf");
+}
+
+@font-face {
+    font-family: "Tofino-Light";
+    src: url("../font/TofinoUltra/TofinoLight.ttf");
+}
+
+@font-face {
+    font-family: "Tofino-Medium";
+    src: url("../font/TofinoUltra/TofinoMedium.ttf");
+}
+
+@font-face {
+    font-family: "Tofino-Regular";
+    src: url("../font/TofinoUltra/TofinoRegular.ttf");
+}
+
+@font-face {
+    font-family: "Tofino-Thin";
+    src: url("../font/TofinoUltra/TofinoThin.ttf");
+}
+
+@font-face {
+    font-family: "Tofino-Ultra";
+    src: url("../font/TofinoUltra/TofinoUltra.ttf");
+}
+
+@font-face {
+    font-family: "ITC-Bd";
+    src: url("../font/ITCGaramond/ITCGaramondStd-Bd.otf");
+}
+
+@font-face {
+    font-family: "ITC-BdCond";
+    src: url("../font/ITCGaramond/ITCGaramondStd-BdCond.otf");
+}
+
+@font-face {
+    font-family: "ITC-BdCondIta";
+    src: url("../font/ITCGaramond/ITCGaramondStd-BdCondIta.otf");
+}
+
+@font-face {
+    font-family: "ITC-BdNarrow";
+    src: url("../font/ITCGaramond/ITCGaramondStd-BdNarrow.otf");
+}
+
+@font-face {
+    font-family: "ITC-BdNarrowIta";
+    src: url("../font/ITCGaramond/ITCGaramondStd-BdNarrowIta.otf");
+}
+
+@font-face {
+    font-family: "ITC-Bk";
+    src: url("../font/ITCGaramond/ITCGaramondStd-Bk.otf");
+}
+
+@font-face {
+    font-family: "ITC-BkCond";
+    src: url("../font/ITCGaramond/ITCGaramondStd-BkCond.otf");
+}
+
+@font-face {
+    font-family: "ITC-BkCondIta";
+    src: url("../font/ITCGaramond/ITCGaramondStd-BkCondIta.otf");
+}
+
+@font-face {
+    font-family: "ITC-BkIta";
+    src: url("../font/ITCGaramond/ITCGaramondStd-BkIta.otf");
+}
+
+@font-face {
+    font-family: "ITC-BkNarrow";
+    src: url("../font/ITCGaramond/ITCGaramondStd-BkNarrow.otf");
+}
+
+@font-face {
+    font-family: "ITC-BkNarrowIta";
+    src: url("../font/ITCGaramond/ITCGaramondStd-BkNarrowIta.otf");
+}
+
+@font-face {
+    font-family: "ITC-Lt";
+    src: url("../font/ITCGaramond/ITCGaramondStd-Lt.otf");
+}
+
+@font-face {
+    font-family: "ITC-LtCond";
+    src: url("../font/ITCGaramond/ITCGaramondStd-LtCond.otf");
+}
+
+@font-face {
+    font-family: "ITC-LtCondIta";
+    src: url("../font/ITCGaramond/ITCGaramondStd-LtCondIta.otf");
+}
+
+@font-face {
+    font-family: "ITC-LtIta";
+    src: url("../font/ITCGaramond/ITCGaramondStd-LtIta.otf");
+}
+
+@font-face {
+    font-family: "ITC-LtNarrow";
+    src: url("../font/ITCGaramond/ITCGaramondStd-LtNarrow.otf");
+}
+
+@font-face {
+    font-family: "ITC-LtNarrowIta";
+    src: url("../font/ITCGaramond/ITCGaramondStd-LtNarrowIta.otf");
+}
+
+@font-face {
+    font-family: "ITC-Ult";
+    src: url("../font/ITCGaramond/ITCGaramondStd-Ult.otf");
+}
+
+@font-face {
+    font-family: "ITC-UltCond";
+    src: url("../font/ITCGaramond/ITCGaramondStd-UltCond.otf");
+}
+
+@font-face {
+    font-family: "ITC-UltCondIta";
+    src: url("../font/ITCGaramond/ITCGaramondStd-UltCondIta.otf");
+}
+
+@font-face {
+    font-family: "ITC-UltIta";
+    src: url("../font/ITCGaramond/ITCGaramondStd-UltIta.otf");
+}
+
+@font-face {
+    font-family: "ITC-UltNarrow";
+    src: url("../font/ITCGaramond/ITCGaramondStd-UltNarrow.otf");
+}
+
+@font-face {
+    font-family: "ITC-UltNarrowIta";
+    src: url("../font/ITCGaramond/ITCGaramondStd-UltNarrowIta.otf");
+}
+
+@font-face {
+    font-family: "StagSans-Book";
+    src: url("../font/StagSans/StagSans-Book.otf");
+}
+
+@font-face {
+    font-family: "StagSans-Semibold";
+    src: url("../font/StagSans/StagSans-Semibold.otf");
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Tofino-Regular";
+    background: #EEEEEE;
+}
+
+header {
+    background: #EAEAEA;
+    height: 12vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+a {
+    text-decoration: none;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #cfcfcf;
+    font-weight: bold;
+    text-align: center;
+}
+
+:-moz-placeholder, ::-moz-placeholder, :-ms-input-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #cfcfcf;
+    opacity: 1;
+    text-align: center;
+    font-weight: bold;
+}
+
+.image-logo-container {
+    text-align: center;
+    padding: 1em;
+    position: absolute;
+    left: 0;
+}
+
+.logo-page {
+    height: 100%;
+    width: auto;
+    float: left;
+}
+
+.practice-text {
+    /*    white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;*/
+}
+
+footer {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.login-footer {
+    background: #1a1a1a;
+    width: 100%;
+    bottom: 1em;
+    left: 0;
+}
+
+.page-footer {
+    background: #1a1a1a;
+    padding-bottom: 3em;
+}
+
+.logo-page-footer {
+    height: auto;
+    width: 7em;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.user-icon-container {
+    padding: 1em;
+}
+
+.user-icon {
+    display: block;
+    height: 3em;
+    width: 3em;
+    background: #1345C9;
+    border-radius: 50%;
+    float: right;
+}
+
+.menu-top-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    float: right;
+    color: #212FDB;
+    font-family: "Tofino-Medium";
+}
+
+/* no se ocualta en dispositivos pequeños debido a que solo esta el video chat en el menu*/
+
+.menu-top-teacher {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    float: right;
+    color: #212FDB;
+    font-family: "Tofino-Medium";
+}
+
+.footer-text-container {
+    margin-bottom: 0.5em;
+}
+
+.footer-text-title {
+    margin-bottom: 1em;
+}
+
+.menu-top li:hover {
+    background: rgb(197, 216, 227);
+}
+
+.menu-top .item-menu-border {
+    padding-right: 1em;
+    padding-left: 1em;
+    border-left: 2px solid #212FDB;
+    display: inline-block;
+    position: relative;
+}
+
+.menu-top .item-menu {
+    padding-right: 1em;
+    padding-left: 1em;
+    display: inline-block;
+    position: relative;
+}
+
+.page-content {
+    margin-top: 2em;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.sub-title {
+    color: rgb(0, 224, 148);
+    font-family: "Tofino-Medium";
+    font-size: 0.9rem;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.title-inicial {
+    font-family: "Tofino-Bold";
+    color: #1959dc;
+    font-size: 1.5rem;
+}
+
+.select-title {
+    margin-left: 1em;
+}
+
+.menu-mobile {
+    background: #181926;
+    max-height: 0;
+    overflow-y: hidden;
+    -webkit-transition: max-height 1s ease-in-out;
+    -moz-transition: max-height 1s ease-in-out;
+    -o-transition: max-height 1s ease-in-out;
+    transition: max-height 1s ease-in-out;
+}
+
+.open-menu {
+    max-height: 1500px;
+    padding-top: 8px;
+}
+
+.mobile-sub-menu {
+    background: #181926;
+    max-height: 0;
+    overflow-y: hidden;
+    -webkit-transition: max-height 1s ease-in-out;
+    -moz-transition: max-height 1s ease-in-out;
+    -o-transition: max-height 1s ease-in-out;
+    transition: max-height 1s ease-in-out;
+}
+
+.open-sub-menu {
+    max-height: 500px;
+}
+
+/* Portrait phones and smaller */
+
+@media (max-width: 480px) {
+    .card-container {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .margin-min {
+        margin-bottom: 1em;
+    }
+}
+
+@media only screen and (min-width: 62em) {
+    .card-profile {
+        margin-top: 3.5em;
+    }
+
+    .card-next-event {
+        margin-top: 1.8em;
+    }
+
+    .practices-types {
+        padding-left: 2em !important;
+        padding-right: 2em !important;
+    }
+
+    .menu-top-container {
+        display: flex;
+    }
+
+    .menu-mobile {
+        display: none !important;
+    }
+
+    .mobile-sub-menu {
+        display: none !important;
+    }
+
+    .mobile-button {
+        display: none;
+    }
+
+    .padding-big {
+        padding-left: 3em !important;
+        padding-right: 3em !important;
+    }
+}
+
+@media only screen and (max-width: 62em) {
+    .card-profile {
+        margin-bottom: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .card-next-event {
+        margin-bottom: 1em;
+    }
+
+    .menu-top-container {
+        display: none;
+    }
+
+    .user-icon-container {
+        display: none;
+    }
+
+    header {
+        position: relative;
+        background: #eaeaea;
+    }
+
+    .mobile-button {
+        display: block;
+    }
+
+    .cosmo-image-container {
+        height: 6em !important;
+    }
+
+    .padding-big {
+        padding-left: 1em !important;
+        padding-right: 1em !important;
+    }
+
+    .video-play {
+        width: 7em;
+    }
+
+    .nav-user-area {
+        margin-right: 1em;
+    }
+
+    .video-chat-container {
+        margin-top: 1em;
+    }
+
+    .chat-mobile {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .other-user-video-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid 1px rgba(148, 148, 148, 0.5);
+    }
+
+    .other-user-video-container-row {
+        margin-top: 1em;
+    }
+
+    .other-user-video {
+        height: auto;
+        width: 100%;
+    }
+
+    .register-button-home-container {
+        margin-bottom: 4em;
+    }
+
+    .user-nav-container {
+        display: none !important;
+    }
+
+    .small-out {
+        display: none;
+    }
+
+    .title-home {
+        font-size: 2em !important;
+        margin-top: 0em !important;
+    }
+
+    .subtitle-home {
+        font-size: 1.5em !important;
+    }
+}
+
+.header-container {
+    position: relative;
+}
+
+.card {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.card .image-container {
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: relative;
+    display: flex;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-text {
+    overflow: hidden;
+    height: 6em;
+    display: inline-block;
+    color: black;
+}
+
+.card-text-title {
+    font-family: "Tofino-Bold";
+    text-decoration: none !important;
+    color: white;
+    text-align: left;
+    display: block;
+}
+
+.card-text-container {
+    max-height: 8em;
+    background: #5a88fb;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 0.5em;
+}
+
+#login-page {
+    height: 100%;
+    background: url(../images/landing_background.png);
+    background-size: 100% 100%;
+}
+
+#app {
+    height: 100%;
+}
+
+.register-button {
+    display: inline-block;
+    width: 200px;
+    padding: 8px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+}
+
+.register-button:hover, .register-button:active {
+    background-color: #fff;
+    color: #000;
+}
+
+.footer-title {
+    font-family: "Tofino-Bold";
+    color: #008AFF;
+    font-size: 1.4rem;
+    display: block;
+    text-align: left;
+}
+
+.footer-text {
+    color: #008AFF;
+    font-family: "Tofino-Light";
+    font-size: 1rem;
+    display: block;
+    text-align: left;
+}
+
+.icon-footer-container {
+    text-align: left;
+    margin-bottom: 0.5em;
+}
+
+.input-subscribe {
+    border: none;
+    font-family: "Tofino-Regular";
+    padding: 0.5em;
+    font-size: 1rem;
+}
+
+.flex-footer {
+    display: flex;
+    margin-top: 1em;
+}
+
+.icon-up {
+    height: auto;
+    width: 3em;
+}
+
+.icon-up:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.icon-go:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.social:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+}
+
+.card-profile {
+    background: #EEEEEE;
+    width: 100%;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    border-radius: 5px;
+}
+
+.profile-image {
+    width: 100%;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.profile-image img {
+    max-width: 100%;
+}
+
+.user-name-text {
+    font-family: "Tofino-Bold";
+    color: rgb(0, 70, 82);
+}
+
+.user-name-text {
+    font-family: "Tofino-Bold";
+    color: rgb(0, 70, 82);
+}
+
+.user-last-session-text {
+    font-family: "Tofino-Regular";
+    color: red;
+    font-size: 0.7rem;
+}
+
+.rounded-component {
+    border-radius: 6px;
+    padding: 10px;
+    border: none;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.large-input {
+    width: 200px;
+    font-size: 0.8rem !important;
+    color: black !important;
+    font-family: "StagSans-Book";
+}
+
+.input-submit {
+    width: 125px;
+}
+
+.login-button {
+    color: white;
+    background-color: #00e094;
+}
+
+.reset-button {
+    color: white;
+    background-color: #ff4d4d;
+}
+
+.line-profile {
+    line-height: 1em;
+}
+
+.line-profile-last {
+    line-height: 0.8em;
+}
+
+.hr-profile {
+    width: 45%;
+}
+
+.register {
+    font-family: "StagSans-Book";
+    font-size: 0.9rem;
+    padding-right: 1em;
+    padding-left: 1em;
+    line-height: 1.6em;
+    background: transparent;
+    border: 1px solid #0064a9;
+    border-radius: 1em;
+    color: #0064a9;
+}
+
+.register:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.height-login-header {
+    height: 5em;
+}
+
+.register-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-login {
+    height: 3em;
+}
+
+.login-nav-img-container {
+    position: relative;
+}
+
+.card-login-form {
+    color: white;
+    font-family: "StagSans-Semibold";
+    display: inline-block;
+}
+
+.card-login-form .error {
+    color: rgba(255, 77, 77, 1);
+    font-size: 0.7rem;
+}
+
+.card-login-form p {
+    margin-left: -10px;
+}
+
+.card-login-form #card-alert {
+    border-radius: 1em;
+    height: 3em;
+    line-height: 3em;
+    position: relative;
+    background: rgba(255, 77, 77, 1);
+    color: white;
+    font-size: 0.7rem;
+}
+
+#card-alert .close {
+    position: absolute;
+    top: -8px;
+    right: -3px;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: white;
+}
+
+.img-login {
+    padding: 1em;
+}
+
+.login-profile {
+    height: 176px;
+    width: 176px;
+    border-radius: 50%;
+}
+
+.login-button:hover {
+    background-color: rgba(0, 224, 148, 0.7);
+}
+
+.reset-button:hover {
+    background-color: rgba(255, 77, 77, 0.7);
+}
+
+.login-footer-icon {
+    height: 100%;
+    margin-right: 1em;
+}
+
+.login-footer-icon:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.footer-text-login {
+    font-family: "StagSans-Book";
+    color: white;
+    padding-right: 1em;
+    margin-right: 1em;
+    border-right: solid 1px;
+    font-size: 0.9rem;
+}
+
+.footer-text-login-last {
+    font-family: "StagSans-Book";
+    color: white;
+    font-size: 0.9rem;
+}
+
+.bg-image {
+}
+
+.bg-image-img {
+    position: absolute;
+    max-height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.lesson-index {
+    font-family: "Tofino-Book";
+    z-index: 1;
+    color: #FFF;
+    font-size: 1.1rem;
+    text-align: left;
+    display: block;
+    margin-bottom: 0.2em;
+}
+
+.lesson-title {
+    font-family: "Tofino-Black";
+    z-index: 1;
+    color: #FFF;
+    font-size: 3.5rem;
+    width: 80%;
+    text-align: left;
+    line-height: 1em;
+    display: block;
+}
+
+.lesson-subtitle {
+    margin-top: 0.4em;
+    font-family: "Tofino-Bold";
+    z-index: 1;
+    color: #FFF;
+    font-size: 1.5rem;
+    text-align: left;
+    display: block;
+}
+
+.lesson-description {
+    margin-top: 0.4em;
+    font-family: "Tofino-Book";
+    z-index: 1;
+    color: #FFF;
+    font-size: 0.9rem;
+    text-align: left;
+    display: block;
+    margin-bottom: 2em;
+}
+
+.lesson-border span {
+    width: 100%;
+    z-index: 1;
+    border-bottom: 0.4em solid #fff;
+    margin-bottom: 1em;
+    display: block;
+}
+
+.presentation-lesson {
+    margin-top: 8vh;
+}
+
+.front {
+    z-index: 1;
+}
+
+.practices {
+    z-index: 1;
+    background: #001781;
+    color: #fff;
+    height: 2.55em;
+    font-family: "Tofino-Bold";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    border-right: solid 1px #001781;
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+.practice {
+    z-index: 1;
+    color: #fff;
+    min-height: 2.55em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Tofino-Bold";
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+    font-size: 0.9rem;
+    padding-right: 1em;
+    background: #1D77D4;
+    border: 1px solid #009CDE;
+    margin-bottom: 0.5em;
+}
+
+.rowgo {
+    height: 2.3em;
+    background: #001781;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.rowgo.active {
+    background: #009CDE;
+}
+
+.front-flex {
+    display: flex;
+    z-index: 1;
+}
+
+.bloqued-icon {
+    width: 1.1em !important;
+    min-width: 1.1em !important;
+    max-width: 1.1em !important;
+    height: 1.4em !important;
+    min-height: 1.4em !important;
+    max-height: 1.4em !important;
+    margin-right: 0.6em;
+}
+
+.practice.bloqued {
+    background: #A33639;
+    color: #FF9494;
+}
+
+.bloqued-big {
+    width: 4em !important;
+    height: auto !important;
+}
+
+.bloqued-big-enter {
+    width: 2em;
+}
+
+.succes-big-enter {
+    width: 4.5em;
+}
+
+.bloqued-big-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.5);
+    left: 0;
+    z-index: 2;
+}
+
+.succes-big-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(58, 180, 69, 0.8);
+}
+
+.image-container-comment::selection, .comment-item::selection, .comment-item:focus, .image-container-comment:focus {
+    background: transparent !important;
+    outline: none !important;
+}
+
+.image-container-comment::-moz-selection, .comment-item::-moz-selection {
+    background: transparent !important;
+    outline: none;
+}
+
+.section-container {
+    margin-top: 15vh;
+}
+
+.section {
+    height: 8em;
+    width: 100%;
+    background: #0100ff;
+    border-left: solid 1em #df3c3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.section-1 {
+    background: #0000b7;
+    border-left: solid 1em #df3c3c;
+}
+
+.section-2 {
+    background: #000055;
+    border-left: solid 1em #df3c3c;
+}
+
+.section-3 {
+    background: #000021;
+    border-left: solid 1em #df3c3c;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.no-padding-left {
+    padding-left: 0 !important;
+}
+
+.header-image-container {
+    background: #0063a8;
+    position: relative;
+}
+
+.tutorial-color {
+    background: #ffba5c !important;
+}
+
+.section-text {
+    font-family: "Tofino-Black";
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.image-interaction-comment {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.image-container-comment {
+    width: 15em;
+    height: 15em;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.icon-comment-container {
+    z-index: 1;
+    padding: 0.3em;
+}
+
+.icon-comment {
+    width: 3em;
+    height: 3em;
+    transition: all .2s ease-in-out;
+}
+
+.icon-comment:hover {
+    transform: scale(1.1);
+}
+
+.enter-comment {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.exercise-border {
+    width: 100%;
+}
+
+.exercise-border span {
+    width: 100%;
+    z-index: 1;
+    border-bottom: 0.4em solid #3a8aff;
+    margin-bottom: 1em;
+    display: block;
+}
+
+.exercise-border-dotted {
+    width: 100%;
+}
+
+.exercise-border-dotted span {
+    width: 100%;
+    z-index: 1;
+    border-bottom: 0.2em dotted #000;
+    margin-bottom: 1em;
+    display: block;
+    border-color: #3863a4 !important;
+}
+
+.number-exercise {
+    font-family: "Tofino-Black";
+    font-size: 4rem;
+    line-height: 0.7em;
+    display: inline-block;
+    float: left;
+    color: #1959dc;
+}
+
+.title-container {
+    padding-bottom: 1em;
+    display: block;
+    /*display: flex;*/
+    align-items: center;
+    text-align: left;
+    line-height: 1.5em;
+    padding-left: 3em;
+}
+
+.title-exercise {
+    display: block;
+    font-family: "Tofino-Black";
+    font-size: 1.5rem;
+    margin-top: 0.5em;
+    color: #1959dc;
+}
+
+.text-to-say {
+    font-family: "Tofino-Bold";
+}
+
+.title-row {
+    align-items: center;
+}
+
+.info-exercise-container {
+    display: block;
+}
+
+.sub-title-exercise {
+    display: block;
+    color: #1959dc;
+}
+
+.description-exercise {
+    display: block;
+    margin-top: 1em;
+}
+
+.comments-slider-container {
+    display: block;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.slick-initialized .slick-slide {
+    margin-left: 1em;
+}
+
+.drop-div:empty::before {
+    color: grey;
+}
+
+.drop-div[data-placeholder]:not([data-placeholder=""]):empty::before {
+    content: attr(data-placeholder);
+}
+
+.drag-word-place {
+    color: #AFB1B3;
+    border-bottom: solid #AFB1B3 1px;
+    width: 80%;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.image-container-drag {
+    width: 80%;
+}
+
+.drag-word-place-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.image-drag {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.exercise-container {
+    margin-top: 2em;
+}
+
+.image-drag-excercise {
+    display: flex;
+}
+
+.text-to-say-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-to-say-opacity {
+    opacity: 0.4 !important;
+}
+
+.margin-top-container {
+    margin-top: 1em;
+}
+
+.bad-pronunciation .text-to-say {
+    color: #FF4D4D;
+}
+
+.order-word-container {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.result-order-exercise {
+    border-bottom: solid #AFB1B3 1px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.order-word-place {
+    color: #AFB1B3;
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.select-word-order {
+    /*height: 1em;*/
+    background: #3a8aff;
+    color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.remove-option {
+    position: relative;
+    padding-right: 1.3em;
+}
+
+.words-to-select-container {
+    margin-bottom: 3em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.words-to-complete {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.remove-order {
+    position: absolute;
+    top: 0;
+    right: 6px;
+}
+
+.opacity-regular {
+    opacity: 0.4 !important;
+}
+
+.input-complete {
+    height: 100%;
+    max-height: 100%;
+    width: 100%;
+    border: solid 2px #0043cd;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.input-complete-container {
+    height: 3em;
+    min-height: 3em;
+    min-width: 4em;
+    width: 4em;
+    margin-right: 10px;
+}
+
+.right-translation-phrase {
+    float: left;
+    font-family: "Tofino-Bold";
+    margin-bottom: 10px;
+}
+
+.translation-to-select {
+    min-height: 1em;
+    border: solid 2px #FF4D4D;
+    padding: 1em;
+    border-radius: 5px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.translate-input {
+    height: 2.2em;
+    text-align: left;
+    width: 100%;
+    color: #AFB1B3;
+    font-size: 1.1rem;
+    border: none;
+    background: transparent;
+    border-bottom: solid #AFB1B3 1px;
+}
+
+.translate-input::placeholder {
+    font-size: 1.1rem;
+    color: #AFB1B3;
+    text-align: left;
+    font-family: "Tofino-Regular";
+}
+
+.translate-input::-webkit-input-placeholder {
+    font-size: 1.1rem;
+    color: #AFB1B3;
+    text-align: left;
+    font-family: "Tofino-Regular";
+}
+
+.translate-check {
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1rem;
+    height: 100%;
+    border: none;
+    background: #0043cd;
+    color: #fff;
+    font-family: "Tofino-Regular";
+}
+
+.words-to-translate {
+    margin-bottom: 10px;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+    20% {
+        transform: scale(1.1);
+    }
+    40% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(1.1);
+    }
+    80% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.micro-active {
+    animation: heartbeat 3s infinite;
+}
+
+.text-to-say-container {
+    display: flex;
+    justify-content: center;
+}
+
+.to-congratulate {
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    z-index: 9999;
+    border-radius: 10px;
+    margin-right: -24em;
+    right: 1em;
+    transition: margin .5s ease-in-out;
+}
+
+.to-congratulate-img {
+    width: 100%;
+}
+
+.to-congratulate-text {
+    font-family: "Tofino-Black";
+    color: #FFF;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1em;
+    display: block;
+}
+
+.show-congratulate {
+    margin-right: 0 !important;
+}
+
+.me-Comment {
+    justify-content: flex-end;
+}
+
+.acction-container {
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+}
+
+.cosmo-image-container {
+    height: 13em;
+    position: relative;
+}
+
+.cosmo-image {
+    height: 100%;
+    border-radius: 50%;
+}
+
+.cosmo-image:hover {
+    opacity: 0.7;
+}
+
+.cosmo-background {
+    background: #EFEDDF;
+}
+
+.me-background {
+    background: #DCEAED;
+}
+
+.cosmo-text {
+    width: 100%;
+    padding-left: 2em;
+}
+
+.cosmo-text-title {
+    font-family: "Tofino-Bold";
+    font-size: 1.2rem;
+}
+
+.cosmo-text-content {
+    font-family: "Tofino-Book";
+    /*text-transform: uppercase;*/
+    font-size: 1.1rem;
+}
+
+.cosmo-text-title-container {
+    margin-bottom: 1em;
+}
+
+.icons-cosmo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bad-pronunciation.cosmo-text-content {
+    color: #FF4D4D;
+}
+
+.whatAmISaying {
+    text-align: center;
+    font-style: italic;
+    font-family: "Tofino-Black";
+}
+
+.presentation-main {
+    display: flex;
+    align-items: center;
+}
+
+.height-calc {
+    height: calc(100vh - 5em);
+}
+
+.height-full {
+    height: 100%;
+}
+
+.info-title-section-container {
+    display: flex;
+    align-items: center;
+}
+
+.info-title-container {
+    padding-left: 1em
+}
+
+.info-title {
+    font-family: "Tofino-Black";
+    font-size: 1.5rem;
+    color: #1959dc;
+}
+
+.book-icon {
+    display: flex;
+}
+
+.pdf-icon-container {
+    display: flex;
+    height: 3em;
+    width: 3em;
+    min-width: 3em;
+}
+
+.pdf-icon {
+    height: 100%;
+    width: 100%;
+}
+
+.pdf-title {
+    font-family: "Tofino-Book";
+    border-bottom: solid 1px rgba(0, 0, 0, 0.7);
+    font-size: 1.4rem;
+}
+
+.section-name {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.pdf-link {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.header-card {
+    background: #df3c3c;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-family: "Tofino-Book";
+    color: rgba(255, 255, 255, 1);
+}
+
+.header-calendar {
+    background: #1345c9;
+}
+
+.bold {
+    font-family: "Tofino-Bold" !important;
+}
+
+.header-score20 {
+    background: #2E5DD4;
+    display: flex;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-family: "Tofino-Book";
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.2em;
+}
+
+.header-score100 {
+    background: #2ED4CE;
+    display: flex;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-family: "Tofino-Book";
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.2em;
+}
+
+.body-score {
+    padding-bottom: 1em;
+    background: #F1F3F4;
+}
+
+.body-card {
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    background: rgba(255, 255, 255, 1);
+}
+
+.card-next-event-title-body {
+    font-family: "Tofino-Black";
+}
+
+.event-next {
+    display: flex;
+    align-items: center;
+    margin-top: 0.6em;
+    line-height: 1em;
+}
+
+.event-icon-container {
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.event-next-name {
+    color: #0066ff;
+}
+
+.card-link-container {
+    margin-top: 0.6em;
+    text-align: center;
+}
+
+.card-link {
+    font-family: "Tofino-Bold";
+    color: #0066ff;
+    border-bottom: solid 1px;
+}
+
+.title-operacional {
+    font-family: "Tofino-Bold";
+    color: #c23a3a;
+    font-size: 1.5rem;
+}
+
+.title-fundamental {
+    font-family: "Tofino-Bold";
+    color: #525252;
+    font-size: 1.5rem;
+}
+
+.card-calendar-title {
+    font-family: "Tofino-Bold";
+    color: #1345c9;
+    font-size: 1rem;
+}
+
+.arrow-right {
+    position: absolute;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #1345C9;
+}
+
+.arrow-left {
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #1345C9;
+}
+
+.card-calendar-row {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.calendar-day-container {
+    display: flex;
+}
+
+.calendar-day {
+    width: 100%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.calendar-day-title .calendar-day {
+    font-size: 0.8rem;
+}
+
+.day-red {
+    color: #F66F6F !important;
+}
+
+.arrow-left {
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #1345C9;
+}
+
+.navegation-container {
+    display: flex;
+    align-items: center;
+}
+
+.arrow-right-navegation {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid;
+}
+
+.arrow-down-navegation {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid;
+}
+
+.navegation-2 {
+    margin-left: 5px;
+}
+
+.header-navigation {
+    display: flex;
+}
+
+.navgation-item {
+    color: #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.row-navigation {
+    margin-left: 5px;
+}
+
+.row-navigation::before {
+    content: '';
+    margin-right: 5px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid;
+    clear: both;
+}
+
+.practices-title-card {
+    height: 3em;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.title-container-practice {
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.blue-text {
+    color: #1345C9;
+}
+
+.practices-navigation {
+    font-family: "Tofino-Black";
+    color: white;
+}
+
+.practices-navigation-item {
+    font-size: 0.8rem;
+}
+
+.info-description {
+    font-family: "Tofino-Light";
+    font-size: 1.1rem;
+}
+
+.white-arrow-down {
+    width: 4em;
+    min-width: 4em;
+    margin-bottom: 0.5em;
+    margin-top: 0.7em;
+    z-index: 2;
+}
+
+.white-arrow-down-container {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 2;
+}
+
+.white-arrow-down-img {
+    width: 100%;
+}
+
+.white-arrow-down-container:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.course-content {
+    display: flex;
+    align-items: center;
+    padding-left: 2em !important;
+    margin-top: 10px;
+}
+
+.course-content-title {
+    font-family: "Tofino-Regular";
+    margin-left: 10px;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.icon-course {
+    width: 1.5em;
+    height: 1.5em;
+    min-width: 1.5em;
+    min-height: 1.5em;
+    max-width: 1.5em;
+    max-height: 1.5em;
+}
+
+.section-course {
+    margin-top: 0.4em;
+}
+
+.navegation-container-3 {
+    padding-left: 1em !important;
+}
+
+.navegation-container-4 {
+    padding-left: 2em !important;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    background: #F1F1F1;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.sub-menu ul {
+    padding: 0;
+}
+
+/*.sub-menu li:hover {
+    background: rgba(19, 69, 201, 0.5);
+}*/
+
+.sub-menu li {
+    padding-left: 1em;
+    list-style-type: none;
+}
+
+.item-menu a {
+    color: #212FDB;
+    display: block;
+    font-size: 0.9rem;
+}
+
+.item-menu-border a {
+    color: #212FDB;
+    display: block;
+    font-size: 0.9rem;
+}
+
+.sub-menu a {
+    color: #3F3F3F;
+}
+
+.item-menu:hover .sub-menu {
+    display: block;
+}
+
+.item-menu-border:hover .sub-menu {
+    display: block;
+    z-index: 2;
+}
+
+.border-menu {
+    position: relative;
+    padding-left: 1.25em;
+}
+
+.border-menu:before {
+    content: "";
+    position: absolute;
+    top: 1.1em;
+    left: 0.8em;
+    width: 1.5em;
+    height: 0.125em;
+    border-top: 0.375em double #fff;
+    border-bottom: 0.125em solid #fff;
+}
+
+.mobile-button {
+    height: 3em;
+    margin-top: 1em;
+    width: 3em;
+    position: absolute;
+    right: 1em;
+    background: #F0533E;
+}
+
+.mobile-button:hover, .mobile-button:focus {
+    background: #1345C9;
+}
+
+.menu-mobile a {
+    font-family: "Tofino-Bold";
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.3em;
+    position: relative;
+    width: 100%;
+    background: #F0533E;
+    border: 1px solid #F0533E;
+}
+
+.item-mobile-menu {
+    margin-bottom: 0.5em;
+    padding: 0 !important;
+}
+
+.item-mobile-menu:hover .link-menu, .item-mobile-menu:focus .link-menu, .item-mobile-menu:active .link-menu {
+    background: transparent;
+}
+
+.rowgo-mobile {
+    position: absolute;
+    right: 0;
+}
+
+.item-mobile-sub-menu {
+    margin-top: 0.5em;
+    padding: 0 !important;
+}
+
+.item-mobile-sub-menu a {
+    font-family: "Tofino-Bold";
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.3em;
+    position: relative;
+    width: 100%;
+    background: transparent;
+    border: 1px solid #EB4949;
+}
+
+.item-mobile-sub-menu:hover a, .item-mobile-sub-menu:focus a, .item-mobile-sub-menu:active a {
+    background: rgba(163, 54, 57, 0.2);
+}
+
+.complete-word {
+    background: #008BFF;
+    padding: 0.5em;
+    color: #fff;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.complete-words-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.info-title-complete {
+    color: #284852;
+    font-size: 1.2rem;
+    font-family: "Tofino-Bold";
+}
+
+.complete-word-number-container {
+    display: flex;
+    width: 2em;
+    height: 2em;
+    max-width: 2em;
+    max-height: 2em;
+    min-width: 2em;
+    min-height: 2em;
+    justify-content: center;
+    align-items: center;
+    background: #FF3939;
+    border-radius: 50%;
+    font-family: "Tofino-Regular";
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.solution-button {
+    background: #00E186;
+    border: none;
+    color: #fff;
+    font-family: "Tofino-Bold";
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.next-button {
+    margin-bottom: 2em;
+    margin-top: 2em;
+    background: #36E08A;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: "Tofino-Bold";
+    padding-left: 1.3em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.next-button::after {
+    content: '';
+    margin-left: 5px;
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid;
+    clear: both;
+}
+
+.action-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pass-exercise {
+  padding-right: 3rem;
+}
+
+.mark-word {
+    padding: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border: solid 1px #008BFF;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.order-word-practice {
+    background: #008BFF;
+    color: #fff;
+    padding: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.order-word-practice.active {
+    opacity: 0.4 !important;
+    cursor: not-allowed !important;
+}
+
+.select-word-order-practice {
+    background: #008BFF;
+    padding: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 10px;
+}
+
+.mousePoint {
+    cursor: pointer !important;
+}
+
+.mousePoint:hover {
+    opacity: 0.7;
+}
+
+.order-container {
+    margin-top: 15px;
+}
+
+.order-word-practice-container {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.correct-answer {
+    background: rgba(132, 218, 79, 0.8) !important;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: #fff !important;
+}
+
+.wrong-answer {
+    background: rgba(255, 0, 0, 0.5) !important;
+    border-radius: 5px;
+    color: #fff !important;
+    padding-left: 10px;
+}
+
+.wrong-Order {
+    background: rgba(255, 0, 0, 0.5) !important;
+}
+
+.correct-Order {
+    border: 3px solid rgba(132, 218, 79, 0.8);
+    border-radius: 10px;
+    padding-top: 1em !important;
+    padding-left: 1em !important;
+}
+
+.transparent {
+    background: transparent;
+}
+
+.congrat-image {
+    width: 22em;
+    height: 22em;
+    background: rgba(125, 125, 125, 0.2);
+    border-radius: 10px;
+}
+
+.icons-cosmo-out {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+.title-home {
+    text-align: center;
+    font-family: "Tofino-Regular";
+    z-index: 1;
+    color: #FFF;
+    font-size: 3.5rem;
+    line-height: 1em;
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 0.2em;
+}
+
+.subtitle-home {
+    text-align: center;
+    font-family: "Tofino-Black";
+    z-index: 1;
+    color: #FFF;
+    font-size: 3.5rem;
+    line-height: 1em;
+    display: block;
+}
+
+.home-description {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-family: "Tofino-Book";
+    z-index: 1;
+    color: #FFF;
+    font-size: 1rem;
+    text-align: left;
+    display: block;
+}
+
+.center-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.home-blur {
+    /*filter: alpha(opacity=50);
+      -moz-opacity: 0.5;
+      opacity: 0.5;*/
+}
+
+.register-button-home:hover, .register-button-home:active {
+    background-color: #fff;
+    color: #000;
+}
+
+.register-button-home {
+    background: #F41942;
+    border: none;
+    color: #fff;
+    font-family: "Tofino-Bold";
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.img-home-back {
+    width: 100%;
+    max-height: 370px;
+}
+
+.home-first-container {
+    position: relative;
+    padding: 1em;
+    min-height: 21em;
+}
+
+.first-card {
+    display: none !important;
+    margin: 0em !important;
+    background: rgba(9, 77, 225, 0.8);
+}
+
+.home-first-container:hover .first-card {
+    display: flex !important;
+}
+
+.home-first-card-description {
+    font-family: "Tofino-Book";
+    text-align: center;
+    color: #fff;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.first-card-img {
+    margin-top: 2em;
+}
+
+.background-home-1 {
+    background: url(../images/home-1-back.jpg);
+}
+
+.background-home-2 {
+    background: url(../images/home-2-back.jpg);
+}
+
+.background-home-3 {
+    background: url(../images/home-3-back.jpg);
+}
+
+.background-home {
+    margin-bottom: 1em;
+}
+
+.home-title {
+    font-family: "Tofino-Regular";
+    font-size: 3rem;
+    text-align: center;
+}
+
+.home-subtitle {
+    text-align: center;
+    margin-bottom: 3em;
+    margin-top: 2em;
+}
+
+.second-card-img {
+    width: 75%;
+}
+
+.second-home-description-container {
+    margin-bottom: 1em;
+    margin-top: 1em;
+    text-align: justify;
+}
+
+.second-home-description {
+    font-family: "Tofino-Book";
+}
+
+.video-img {
+    width: 100%;
+}
+
+.video-container {
+    margin-top: 4em;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-play {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.video-play:hover {
+    opacity: 0.5;
+}
+
+.leyend-item-container {
+    display: flex;
+    margin-top: 1em;
+}
+
+.leyend-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0600ff;
+    padding: 0.5em;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.leyend-item-exam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0600ff;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+}
+
+.leyend-img {
+    width: 1em;
+    min-width: 1em;
+    margin-right: 5px;
+}
+
+.leyend-item-score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leyend-img-score {
+    width: 0.9em;
+    min-width: 0.9em;
+    margin-right: 1em;
+}
+
+.read-color {
+    background: #0000b2 !important;
+}
+
+.audio-color {
+    background: #000054 !important;
+}
+
+.oral-color {
+    background: #000025 !important;
+}
+
+.cicle-title {
+    background: #1959dc;
+    color: #fff;
+    font-family: "Tofino-Bold";
+    font-size: 1.5rem;
+    padding: 0.5em;
+    padding-left: 1em;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.cicle-title-note {
+    background: #89E978;
+    font-family: "Tofino-Bold";
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 30px;
+}
+
+.cicle-title-note .note {
+    float: right;
+}
+
+.score-over {
+    padding-top: 1.1em;
+}
+
+.score-over .note {
+    float: right;
+}
+
+.score-final {
+    color: #323232;
+}
+
+.score-final .note {
+    font-size: 4em;
+}
+
+.noteRed {
+    color: #FE0A0A;
+}
+
+.score-final .description {
+    color: #878787;
+}
+
+.head-sub-level {
+    font-family: "Tofino-Bold";
+    display: flex;
+    align-items: center;
+    height: 3em;
+    padding: 0 !important;
+    padding-left: 1em !important;
+}
+
+.title-note {
+    display: flex;
+    align-items: center;
+    height: 3em;
+    padding: 0 !important;
+    padding-left: 1em !important;
+    border-bottom: solid 1px rgba(125, 125, 125, 0.2);
+}
+
+.title-note-last {
+    border-bottom: none;
+}
+
+.exam-types {
+    display: flex;
+    align-items: center;
+    height: 3em;
+    padding: 0 !important;
+}
+
+.exam-notes {
+    display: flex;
+    align-items: center;
+    height: 3em;
+    padding: 0 !important;
+}
+
+.exam-note {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border-right: solid 1px rgba(125, 125, 125, 0.2);
+    padding: 0 !important;
+}
+
+.sub-level-evg {
+    display: flex;
+    align-items: center;
+    height: 3em;
+    justify-content: flex-end;
+    padding: 0 !important;
+}
+
+.exam-note-avg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border-top: solid 1px rgba(125, 125, 125, 0.2);
+}
+
+.exam-try {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border-top: solid 1px rgba(125, 125, 125, 0.2);
+    border-right: solid 1px rgba(125, 125, 125, 0.2);
+}
+
+.exam-note-last {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.body-exam-note {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.sub-level-note {
+    border: solid 1px rgba(125, 125, 125, 0.2);
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    position: relative;
+}
+
+.head-title-note {
+    border: solid 1px rgba(125, 125, 125, 0.2);
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.level-notes {
+    margin-bottom: 4em;
+}
+
+.cicle-title-fund {
+    background: #c23a3a !important;
+}
+
+.cicle-title-op {
+    background: #525252 !important;
+}
+
+.crono-title {
+    color: #BB0C21;
+    font-family: "Tofino-Light";
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+.crono-number-container {
+    background: #D5122F;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    font-family: "Tofino-Bold";
+    font-size: 5rem;
+}
+
+.video-chat .item-menu a {
+    color: #212FDB;
+}
+
+.video-chat .menu-top .item-menu-border {
+    border-color: #212FDB;
+}
+
+.video-chat .item-menu-border a {
+    color: #212FDB;
+}
+
+.video-chat header {
+    position: relative;
+}
+
+.video-chat .sub-menu {
+    /*background: rgba(68, 68, 68, 0.3);*/
+}
+
+.video-chat .menu-top li:hover {
+    background: rgba(68, 68, 68, 0.3);
+}
+
+.video-chat {
+    background: #EEEEEE;
+    padding-bottom: 4em;
+    position: relative;
+}
+
+.users-online {
+    position: fixed;
+    bottom: 0;
+    right: 2em;
+    width: 18em;
+    z-index: 10;
+}
+
+.users-pause-call {
+    position: fixed;
+    bottom: 0;
+    right: 21em;
+    width: 18em;
+    z-index: 10;
+}
+
+.user-list {
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    background: #0054ff;
+    cursor: pointer;
+}
+
+.users-pause-call-list {
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    background: #FD6E69;
+    cursor: pointer;
+}
+
+.user-list:hover {
+    opacity: 0.8;
+}
+
+.user-list-header-text {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.user-list-header-text-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learner-list-container {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    background: #F9F9F9;
+    height: 0;
+    overflow: scroll;
+    -webkit-transition: height 1s ease-in-out;
+    -moz-transition: height 1s ease-in-out;
+    -o-transition: height 1s ease-in-out;
+    transition: height 1s ease-in-out;
+}
+
+.learner-list-container-open {
+    height: 70vh;
+    padding-top: 2em;
+    margin-top: -10px;
+    padding-bottom: 2em;
+}
+
+.img-user-list {
+    height: 3em;
+    position: relative;
+}
+
+.learner-list {
+    display: flex;
+    align-items: center;
+    /*border-radius: 100px;*/
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    background: #0054ff;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+
+.user-list-header-text-learner {
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 5px;
+    max-width: 9em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.7em;
+    margin-left: 5px;
+    margin-right: 16px;
+    background: #EB565A;
+    color: #fff;
+    font-size: 0.8rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+}
+
+.user-chat-video {
+    width: 100%;
+    z-index: 2;
+}
+
+.user-video-container {
+    margin-bottom: 0.5em;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.chat-color {
+    height: 17em;
+    background: #F5F5F5;
+    border: solid 1px rgba(148, 148, 148, 0.5);
+    overflow: scroll;
+}
+
+.chat-color-box {
+    height: 36em;
+    background: #F5F5F5;
+    border: solid 1px rgba(148, 148, 148, 0.5);
+    overflow: scroll;
+}
+
+.chat-color-no-chat {
+    height: 23em;
+    background: #F5F5F5;
+    border: solid 1px rgba(148, 148, 148, 0.5);
+    overflow: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat-sender {
+    background: #F5F5F5;
+    border: solid 1px rgba(148, 148, 148, 0.5);
+    border-top: none;
+    padding: 1em;
+    /*display: flex;*/
+}
+
+.input-chat {
+    height: 2em;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border: solid 1px rgba(148, 148, 148, 0.2);
+    font-family: "Tofino-Regular";
+    padding: 10px;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+.input-chat-container {
+    margin-right: 0.3em;
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid transparent;
+    border-left: 13px solid rgba(148, 148, 148, 0.2);
+}
+
+.inner-triangle {
+    position: relative;
+    top: 1px;
+    right: 14px;
+    width: 0;
+    height: 0;
+    border-bottom: 8px solid transparent;
+    border-left: 11px solid #fff;
+}
+
+.input-chat:active, .input-chat:focus {
+    outline: none;
+}
+
+.chat-button {
+    background: #0054ff;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    height: 100%;
+    /*padding-left: 1em;
+    padding-right: 1em;*/
+    font-size: 0.9rem;
+}
+
+.load-message-content {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.load-message-button {
+    background: #0054ff;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    padding: 0.5em;
+    font-size: 0.9rem;
+}
+
+.chat-send-file {
+    background: #4BAF4F !important;
+    margin-right: 0.5em;
+}
+
+.other-user-video-area {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 18em;
+    width: 100%;
+    overflow: hidden;
+}
+
+.other-user-video-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 2;
+    background: #d0d7e7;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+}
+
+.other-user-video {
+    /*height: 100%;*/
+    width: 100%;
+}
+
+.other-user-video-container-row {
+    height: 100%;
+}
+
+.button-round {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8em;
+    border-radius: 50%;
+    color: #fff;
+    background: #464d55;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 1rem !important;
+}
+
+.green {
+    background: #464d55;
+}
+
+.red {
+    background: #EA5253;
+}
+
+.call-buttons {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    padding: 0.5em 1em 0.5em 1em;
+    z-index: 3;
+}
+
+.button-round:active, .button-round:focus {
+    opacity: 0.5;
+}
+
+.call-buttons-container {
+    display: flex;
+}
+
+.user-video-container-in {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 18em;
+    width: 100%;
+    background: #e9dcdc;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+}
+
+.swal2-modal .swal2-confirm {
+    background-color: rgba(219, 68, 55, 0.8) !important;
+    margin-top: 0.1em !important;
+}
+
+.swal2-modal .swal2-confirm:hover {
+    background-color: rgba(219, 68, 55, 0.5) !important;
+}
+
+.swal2-modal .swal2-title {
+    font-family: "Tofino-Bold";
+    color: #1345C9 !important;
+    font-size: 2.3rem !important;
+    margin-bottom: 0.1em !important;
+}
+
+.swal2-modal .swal2-content {
+    font-family: "Tofino-Regular";
+    color: #1345C9 !important;
+    font-size: 1.7rem !important;
+}
+
+.swal2-modal {
+    background: #ECECEC !important;
+}
+
+.sweet-alert[data-has-confirm-button=false][data-has-cancel-button=false] {
+    padding-bottom: 0 !important;
+}
+
+.modal-title {
+    font-family: "Tofino-Bold";
+    font-size: 2.5rem;
+}
+
+.modal-title-name {
+    font-family: "Tofino-Bold";
+    font-size: 1.8rem;
+}
+
+.subtitle-modal {
+    font-family: "Tofino-Regular";
+    font-size: 2rem;
+}
+
+.img-loading {
+    -webkit-animation: spin 3s linear infinite;
+    -moz-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+    width: 100%;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.modal-title-container {
+    margin-top: 0.5em;
+}
+
+.image-user-modal {
+    width: 100%;
+}
+
+.timer {
+    z-index: 3;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    font-family: "Tofino-Regular";
+    font-size: 5rem;
+    color: #fff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.timer span {
+    float: right;
+    padding-right: 20px;
+}
+
+.screen-board {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d0d7e7;
+}
+
+.student-board {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 1;
+}
+
+.head-board {
+    padding: 0.5em;
+    color: #fff;
+    font-size: 2rem;
+    background: #EA5253;
+}
+
+.mce-item-table {
+    width: 100%;
+}
+
+.mce-item-table td {
+    border: solid 1px rgba(148, 148, 148, 0.5);
+}
+
+.no-chat {
+    width: 5em;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8em;
+    border-radius: 50%;
+    color: #fff;
+    background: #264f9e;
+}
+
+.no-chat i {
+    font-size: 5rem !important;
+}
+
+.no-chat-title {
+    color: #B7BFD6;
+    font-family: "Tofino-Bold";
+    font-size: 1.1rem;
+    margin-top: 1em;
+}
+
+.no-chat-subtitle {
+    color: #B7BFD6;
+    font-family: "Tofino-Regular";
+    font-size: 1rem;
+}
+
+.message-container {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+.message-subcontainer {
+    word-wrap: break-word;
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #464c55;
+    padding: 0.5em;
+    margin-left: 15px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.message-subcontainer:before {
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: 0;
+    height: 0;
+    content: '';
+    border: 10px solid transparent;
+    border-top-color: #FFFFFF;
+}
+
+.student-message {
+    background: #1757dc;
+    color: #fff;
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.student-message:before {
+    left: auto;
+    right: -10px;
+    border-top-color: #1757dc;
+}
+
+.student-message-file {
+    background: #1757dc;
+    color: #fff;
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.student-message-file:before {
+    left: auto;
+    right: -10px;
+    border-top-color: rgb(158, 158, 158);
+}
+
+.student-message-container {
+    justify-content: flex-end;
+}
+
+.pull-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-disp {
+    display: flex;
+}
+
+.message-name {
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+    color: #B7BFD6;
+}
+
+.play-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.playExam {
+    width: 100%;
+    background: transparent;
+}
+
+.play-images {
+    padding-right: 1em;
+    /*opacity: 0.7;
+      filter: alpha(opacity=70);*/
+    /* For IE8 and earlier */
+}
+
+.play-images-active {
+    opacity: 0.5;
+    filter: alpha(opacity=100);
+    /* For IE8 and earlier */
+}
+
+.icons-faces {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #565656;
+}
+
+.icons-faces i {
+    font-size: 3rem !important;
+}
+
+.selected-face {
+    color: rgba(219, 68, 55, 1) !important;
+}
+
+.comment-feed {
+    color: rgba(219, 68, 55, 1) !important;
+}
+
+.text-area-feed {
+    width: 100%;
+    height: 88px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 1em;
+    font-size: 1rem;
+    padding: 0.5em;
+}
+
+.title-teacher-feed {
+    font-size: 1.4rem !important;
+    color: black;
+}
+
+.title-teacher-feed-container {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.radio-feed {
+    display: block !important;
+    width: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 1em !important;
+}
+
+.label-radio {
+    font-size: 1.4rem !important;
+    color: black;
+}
+
+.icon-check-modal {
+    font-size: 10rem !important;
+    color: rgba(219, 68, 55, 0.8) !important;
+}
+
+.img-student {
+    position: absolute;
+    width: 17em;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.nav-user-area {
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.name-user {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #212FDB;
+}
+
+.name-user:hover {
+}
+
+.user-nav-container {
+    max-width: 8em;
+    display: flex;
+    margin-right: 1em;
+}
+
+.user-nav-container:hover {
+    background: rgb(197, 216, 227);
+}
+
+.teacher-position {
+    justify-content: flex-end;
+}
+
+.second-container {
+    z-index: 3;
+}
+
+.alerts-zone {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 0em;
+    z-index: 5;
+    margin-bottom: -5em;
+    transition: margin .5s ease-in-out;
+}
+
+.alert-toltip {
+    min-width: 20em;
+}
+
+.img-user-toltip {
+    height: 5em;
+    position: relative;
+}
+
+.user-info-toltip {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.user-name-toltip {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.user-action-toltip {
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Tofino-Thin";
+}
+
+.show-user-toltip {
+    margin-bottom: 5em !important;
+}
+
+.toltip-text {
+    margin-right: 1em;
+}
+
+#customAudio::-webkit-media-controls-panel {
+    background: transparent;
+}
+
+#customAudio::-webkit-media-controls-play-button {
+    display: none;
+}
+
+#customAudio::-webkit-media-controls-current-time-display {
+    font-family: "Tofino-Bold";
+    color: #414040;
+    font-size: 1.8rem;
+}
+
+#customAudio::-webkit-media-controls-time-remaining-display {
+    font-family: "Tofino-Bold";
+    color: #414040;
+    font-size: 1.8rem;
+}
+
+#customAudio::-webkit-media-controls-timeline {
+    padding: 6px 8px;
+    margin: 1px 13px;
+}
+
+#customAudio::-webkit-media-controls-mute-button {
+    display: none;
+}
+
+#customAudio::-webkit-media-controls-volume-slider {
+    padding: 6px 1px;
+    margin: 1px 15px;
+}
+
+#customAudio::-webkit-media-controls {
+    overflow: hidden !important
+}
+
+#customAudio::-webkit-media-controls-enclosure {
+    width: calc(100% + 32px);
+    margin-left: auto;
+}
+
+.presentation-main-login {
+    /*margin-bottom: 4em;
+      margin-top: 4em;*/
+}
+
+.login-center {
+    position: relative;
+    background: #0063a8;
+}
+
+.teacher-display {
+    display: flex !important;
+}
+
+.leyend-item-type {
+    padding-left: 1em;
+    padding-right: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e23737;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.leyend-item-account {
+    min-height: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.learner-data-container {
+    padding-bottom: 1em;
+}
+
+.input-flex {
+    display: flex;
+}
+
+.account-input-text {
+    float: right;
+    text-align: right;
+}
+
+.account-input-text-container {
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+
+.account-input {
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 5px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background: #F7FCFF;
+    text-align: left;
+    padding-left: 1em;
+    font-family: "Tofino-Regular";
+}
+
+.account-container {
+    margin-top: 2em;
+}
+
+.button-selected {
+    border-radius: 5px;
+    height: 0.3em;
+    background: #e23737;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.account-input::-webkit-input-placeholder {
+    color: #AFB1B3;
+    text-align: left;
+}
+
+.select-option {
+    color: #AFB1B3;
+    padding-left: 1em;
+    font-family: "Tofino-Regular";
+}
+
+.account-button {
+    margin-left: 2em;
+    background: #ff8a00;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: "Tofino-Bold";
+    padding-left: 2.3em;
+    padding-right: 2em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.fileContainer {
+    overflow: hidden;
+    position: relative;
+}
+
+.fileContainer [type=file] {
+    cursor: inherit;
+    display: block;
+    font-size: 999px;
+    filter: alpha(opacity=0);
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+}
+
+.account-container .error {
+    margin-top: 0.5em;
+    color: rgba(255, 77, 77, 1);
+    font-size: 0.7rem;
+}
+
+.red-button {
+    background: #F41942 !important;
+}
+
+.calendar-title {
+    width: 100%;
+    display: block;
+    text-align: center;
+    color: #004652;
+    font-size: 1.5rem;
+    font-family: "Tofino-Black";
+}
+
+.next-prev-month-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.next-month-container {
+    justify-content: flex-end;
+}
+
+.prev-month-container {
+    justify-content: flex-start;
+}
+
+.next-prev-month {
+    font-size: 1.3rem;
+}
+
+.next-month {
+    margin-right: 5px;
+}
+
+.prev-month {
+    margin-left: 5px;
+}
+
+.next-row {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #004652;
+}
+
+.prev-row {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #004652;
+}
+
+.calendar-day-page-container {
+    background: #094DE1;
+    color: #fff;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border: solid 1px #fff;
+}
+
+.calendar-day-page {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.calendar-day-page-number-container {
+    background: #EAE3E9;
+    border: solid 1px #fff;
+}
+
+.calendar-day-page-number-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 2em;
+    padding-left: 1em !important;
+}
+
+.calendar-day-page-number {
+    color: #004652;
+    font-family: "Tofino-Bold";
+    font-size: 1.3rem;
+}
+
+.calendar-day-page-number-content {
+    height: 8em;
+    max-height: 8em;
+    overflow-y: auto;
+}
+
+.event-calendar {
+    background: #496BFF;
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
+    margin-bottom: 0.2em;
+    cursor: pointer;
+}
+
+.event-calendar-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.empty {
+    background: #EFF9FB;
+    height: 10em;
+}
+
+.next-prev-month-container:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.next-buttons {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.event-calendar:hover {
+    opacity: 0.5;
+}
+
+.web-practice-sections {
+    display: flex;
+    padding: 0 !important;
+}
+
+.test {
+    display: inline-block;
+    margin: 0px auto;
+    margin-top: 2em;
+}
+
+.crop-button {
+    color: white;
+    margin-top: 1em;
+    width: 10em;
+    height: 3em;
+    border-radius: 5px;
+    border: none;
+}
+
+.inquiryButton {
+  background: #00FA87;
+  cursor: pointer;
+}
+
+.inquiryCard {
+    background: #e23737;
+}
+
+.inquiryCard-body {
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    background: #E9F1F7;
+    font-family: "Tofino-Book";
+    text-align: justify;
+}
+
+.help-number-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.8em;
+}
+
+.help-number-font {
+    font-size: 1.8em;
+    font-family: Tofino-Bold;
+    color: white;
+}
+
+.help-number {
+    width: 3.5em;
+    height: 3.5em;
+    background: #e23737;
+    margin-right: 0.5em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marginHelp {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.helpColor {
+    color: #284852;
+}
+
+.video-card-text {
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "Tofino-Black";
+}
+
+.flex {
+    display: flex !important;
+}
+
+/*video modal*/
+
+#videoCard {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#videoCard:hover {
+    opacity: 0.7;
+}
+
+/* The Modal (background) */
+
+.videoModal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 99999;
+    /* Sit on top */
+    padding-top: 2.5em;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: hidden;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+
+.closeModal {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.closeModal:hover, .closeModal:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+
+/*logOut Color*/
+
+.logOut-color {
+    background: #BD3B3B;
+}
+
+/*Audio text Entry */
+
+.margin-audio-text {
+    margin-top: 3em;
+}
+
+.lesson-practice:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.black-shadow {
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.disp-block {
+    display: block;
+}
+
+/*
+Nuevo Css akron 2.0
+ */
+
+.front-nackground {
+    background: #eaeaea;
+}
+
+.center-img-home {
+    text-align: center;
+}
+
+.padding-card-home {
+    padding: 40px !important;
+}
+
+.tittle-card-home {
+    color: #1345c9;
+}
+
+.subtittle-card {
+    color: #008aff;
+}
+
+.second-home-description-container li {
+    color: #008aff;
+}
+
+.second-home-description-container li span {
+    color: black;
+}
+
+.bottom-div {
+    height: 0.3em;
+    background: white;
+    width: 30%;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    z-index: 2;
+}
+
+.padding-main {
+    padding-top: 4em;
+    padding-bottom: 2em;
+}
+
+.tittle-blue {
+    color: #3863a4 !important;
+}
+
+.back-button {
+    background: #FF4D4D !important;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.back-button-disabled {
+    background: rgba(255, 77, 77, 0.3) !important;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.solution-pdf-button {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.border-boot-title {
+    padding-bottom: 0.3em;
+    border-bottom: 5px solid;
+}
+
+.web-practice-initial {
+    color: #1959DC !important;
+}
+
+.web-practice-operational {
+    color: #E23737 !important;
+}
+
+.web-practice-fundamental {
+    color: #525252 !important;
+}
+
+.web-backg-initial {
+    background: #1959DC !important;
+}
+
+.web-backg-operational {
+    background: #E23737 !important;
+}
+
+.web-backg-fundamental {
+    background: #525252 !important;
+}
+
+.calc100 {
+    min-height: calc(100vh - 129px);
+}
+
+.color-text-help {
+    color: #081aa2 !important;
+}
+
+.blue-back {
+    background: #2d47c4 !important;
+}
+
+.document-button-back {
+    background: #0066ad !important;
+}
+
+.video-card-color {
+    background: #7184f2 !important;
+}
+
+.videos-cards {
+    background: #494c54 !important;
+}
+
+.program-card-text {
+    color: #001EFF;
+    font-size: 1.7em;
+}
+
+.relative {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.testimony-card-img {
+    width: 100%;
+    height: 100%
+}
+
+.testimony-card-text {
+    min-height: 4em;
+    min-width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+    bottom: 0;
+    position: absolute;
+    color: white;
+    background: rgba(9, 77, 225, 0.8);
+}
+
+.testimony-margin {
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+.new-account-container {
+    background: rgb(0, 99, 168);
+    color: white;
+    padding-left: 5em !important;
+}
+
+.new-account-tittle {
+    font-size: 3em;
+}
+
+.min-heigh {
+    min-height: calc(100vh - 8em);
+}
+
+.break-word-tittle {
+    word-break: break-word;
+}
+
+/*Slider Home Convenios*/
+
+@keyframes slidy {
+    0% {
+        left: 0%;
+    }
+    20% {
+        left: 0%;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+
+body {
+    margin: 0;
+}
+
+div#slider {
+    overflow: hidden;
+}
+
+div#slider figure img {
+    width: 20%;
+    float: left;
+}
+
+div#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 3s slidy infinite;
+}
+
+.pdfViewer .canvasWrapper {
+    box-shadow: 0 0 3px #bbb;
+}
+
+.annotationLayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#content-wrapper {
+    overflow-x: hidden;
+    max-width: 100% !important;
+    bottom: 0;
+    display: inline-block;
+    overflow: auto;
+    position: relative;
+}
+
+#content-wrapper2 {
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+    bottom: 0;
+    display: inline-block;
+    overflow: auto;
+    position: relative;
+}
+
+.page {
+    position: relative !important;
+}
+
+.pdfjs-container {
+    position: relative;
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+}
+
+/*Pdf Bar*/
+
+.pdf-bar {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    height: 100%;
+    display: none;
+    left: 0.5em;
+    /*border: 2px dashed #f69c55;*/
+    flex-direction: column;
+    justify-content: center;
+    max-width: 8em;
+}
+
+.pdf-bar-item {
+    margin-top: 0.5em;
+}
+
+.text-size-select {
+    border: none;
+    color: #fff;
+    font-family: "Tofino-Bold";
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    text-align-last: center;
+    background: #0000b2;
+    margin-top: 0.1em;
+}
+
+.button-back-pdf {
+    position: fixed;
+    bottom: 3em;
+    right: 2em;
+}
+
+.button-solution-pdf {
+    position: fixed;
+    bottom: 0;
+    right: 2em;
+}
+
+/*check answer*/
+
+.check-class {
+    margin-left: 1em;
+    font-size: 3.5em !important;
+}
+
+.html2canvasreset {
+    overflow: visible !important;
+}
+
+/*item selected*/
+
+.some-selected {
+    opacity: 0.3;
+}
+
+.semi-square {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.styled-select {
+    padding-left: 1em;
+    font-size: 1.3em;
+    border: none;
+    margin-top: 0.5em;
+    background-color: #39f;
+    margin-right: 1em;
+}
+
+/*video::-internal-media-controls-download-button {*/
+/*display: none!important;*/
+/*}*/
+
+/*video::-webkit-media-controls-enclosure {*/
+/*overflow: hidden!important;*/
+/*}*/
+
+/*video::-webkit-media-controls-panel {*/
+/*width: calc(100% + 30px)!important;*/
+/*!* Adjust as needed *!*/
+/*}*/
+
+/*tooltip goTop button Fotter*/
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 99;
+    top: 5px;
+    right: 65%;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.popupAnnotation {
+    display: none;
+}
+
+.tutorial-button {
+    background: #FD6E69;
+    border-radius: 5px;
+    color: white !important;
+    max-width: 5em;
+    text-align: center;
+    padding: 0.6em;
+}
+
+.menu-top-flex {
+    display: flex;
+    align-items: center;
+}
+
+.gray-font {
+    color: #47525E;
+}
+
+.tutorial-div-section {
+    height: 3em;
+    background: #ffba5c;
+    /*width: 100%;*/
+}
+
+.first-col-tutorial {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blue-border {
+    width: 12%;
+    height: 0.4em;
+    margin-bottom: 2em;
+    background: #00A6FF;
+    border-radius: 5px;
+}
+
+.card-top-section {
+    border-radius: 5px 5px 0 0;
+    height: 16em;
+    background: #47525E;
+}
+
+.card-mid-section {
+    border-radius: 0 0 5px 5px;
+    height: 2.5em;
+    background: #00A6FF;
+    margin-bottom: 1.2em;
+}
+
+.card-bot-section {
+    border-radius: 5px 5px 0 0;
+    height: 10em;
+    background: #47525E;
+}
+
+.text-card-tutorial {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.teacher-button {
+    position: relative;
+    height: 3em;
+    width: 5em;
+    background: #F0533E;
+}
+
+.teacher-button:hover, .teacher-button:focus {
+    background: #1345C9;
+}
+
+.teachers-list {
+    background: gray;
+    height: 2em;
+    border-radius: 100px;
+    margin-bottom: 0.5em;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.orangeMenssage {
+    background: #ffba5c !important;
+}
+
+.borderTest {
+    border: solid 2px black;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+
+.iframe-books {
+    width: 100%;
+    /*height: 100%;*/
+    border: none;
+}
+
+.pauseContaine {
+    background: white;
+    position: absolute;
+    z-index: 5;
+    text-align: center;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.pauseTitle {
+    font-family: "Tofino-Bold";
+    color: #1345C9 !important;
+    font-size: 2.3rem !important;
+}
+
+.pauseDesc {
+    font-family: "Tofino-Regular";
+    color: #1345C9 !important;
+    font-size: 1.7rem !important;
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+.video-home {
+    width: 100%;
+}
+
+.platform-msg {
+    background: rgba(253, 110, 105, 0.7);
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    text-align: justify;
+
+    border-radius: 22px 22px 22px 22px;
+    -moz-border-radius: 22px 22px 22px 22px;
+    -webkit-border-radius: 22px 22px 22px 22px;
+    border: 0px none #000000;
+    font-family: "Tofino-Book";
+    font-size: 1rem;
+
+    transition: all 2s linear;
+    display: block;
+}
+
+.msg-hide {
+    display: none;
+    opacity: 0;
+}
+
+.hide-msg-text {
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-align: right;
+}
+
+.m-y-0 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.m-y-10 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.m-y-20 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.m-y-30 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.m-y-40 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.m-y-2em{
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.m-b-0 {
+    margin-bottom: 0;
+}
+.m-b-10 {
+    margin-bottom: 10px;
+}
+.m-b-20 {
+    margin-bottom: 20px;
+}
+
+.m-t-0 {
+    margin-top: 0;
+}
+.m-t-10 {
+    margin-top: 10px;
+}
+.m-t-20 {
+    margin-top: 20px;
+}
+.m-t-30 {
+    margin-top: 30px;
+}
+
+
+.m-r-0{
+    margin-right: 0px;
+}
+.m-r-10{
+    margin-right: 10px;
+}
+.m-r-20{
+    margin-right: 20px;
+}
+
+.m-l-10{
+    margin-left: 10px;
+}
+.m-l-20{
+    margin-left: 20px;
+}
+
+.width-80{
+    width: 80%;
+}
+
+.error-msg{
+    margin-top: 0.5em;
+    color: rgba(255, 77, 77, 1);
+    font-size: 0.7rem;
+}
+
+.opacity-5{
+    opacity: 0.5;
+}
+
+.container-mesagge-context {
+    width: 100%;
+    margin-right: 2em;
+    margin-bottom: 1em;
+}
+
+.old-platform-link:hover{
+    background: #FD6E69!important;
+}
+
+.to-upper-case{
+    text-transform: uppercase;
+}
+
+.fotter-noHeader {
+  color: white;
+}
+
+.help-us-to-improve {
+  position: fixed;
+  bottom: 0;
+  right: 2em;
+  width: 25em;
+  z-index: 10;
+  padding-bottom: 5px;
+}
+
+.incident-form {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background: #e23737;
+  cursor: pointer;
+  justify-content: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.incident-form:hover {
+  opacity: 0.8;
+}
+
+.incident-image {
+  height: 100%;
+}
+
+.incident-header-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-incident {
+  height: 2em;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+}
+
+.incident-list-question {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.incident-list-questions-text-container {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.incidentButton {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.incident-numbering {
+  width: 25px;
+  height: 25px;
+}
+
+.incident-question-content {
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  align-items: center
+}
+
+.incident-question {
+  width: 90%;
+  padding-left: 10px;
+  font-size: 14px;
+  min-height: 25px;
+}
+
+.incident-questions-container-open {
+  height: 70vh;
+  padding-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.incident-container {
+  margin-top: 5px;
+}
+
+.incident-container .error {
+  margin-top: 0.5em;
+  color: rgba(255, 77, 77, 1);
+  font-size: 0.7rem;
+}
+
+.title-questions {
+  color: #1959dc;
+  font-family: "Tofino-Bold";
+  text-decoration: underline;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  display: flex;
+}
+
+.incident-buttons {
+  justify-content: center;
+  display: grid;
+  /* grid-template-columns: 100px 100px; */
+  grid-template-columns: 150px;
+  grid-gap: 20px;
+}
+
+.attach-incident {
+  padding-top: 10px;
+  justify-content: center;
+  display: flex;
+}
