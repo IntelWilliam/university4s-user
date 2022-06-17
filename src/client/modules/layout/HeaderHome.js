@@ -46,9 +46,9 @@ export class HeaderHome extends React.Component {
             if(platform === 'new'){
                 this.context.router.push('/login')
             }else{
-                // window.location = "https://dev.akronenglish1.com"
+                // window.location = "https://dev.ibceducacion.com"
 
-                var win = window.open("https://dev.akronenglish1.com", '_blank');
+                var win = window.open("https://dev.ibceducacion.com", '_blank');
                 win.focus();
             }
         })
@@ -114,7 +114,7 @@ export class HeaderHome extends React.Component {
                                       {/*<li className="item-menu-border mousePoint" style={{maxWidth: '6em'}}>*/}
                                             {/*/!* <Link to={hrefLogin}>Cuenta*/}
                                             {/*</Link> *!/*/}
-                                            {/*<a href="https://dev.akronenglish1.com/">Log in plataforma antigua</a>*/}
+                                            {/*<a href="https://dev.ibceducacion.com/">Log in plataforma antigua</a>*/}
                                         {/*</li>*/}
                                     </ul>
                                 </div>
@@ -149,13 +149,13 @@ export class HeaderHome extends React.Component {
                         <div className="col-xs-12 item-mobile-menu">
                             <Link className="link-menu" to={hrefLogin}>Plataforma nueva versión
                             </Link>
-                            {/*<a className="link-menu" href="https://dev.akronenglish1.com/">Cuenta</a>*/}
+                            {/*<a className="link-menu" href="https://dev.ibceducacion.com/">Cuenta</a>*/}
 
                         </div>
                         <div className="col-xs-12 item-mobile-menu">
                             {/* <Link className="link-menu" to={hrefLogin}>Cuenta
                         </Link> */}
-                            <a className="link-menu" href="https://dev.akronenglish1.com/">Plataforma antigua
+                            <a className="link-menu" href="https://dev.ibceducacion.com/">Plataforma antigua
                                 versión</a>
                         </div>
                     </div>
