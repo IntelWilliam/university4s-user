@@ -20,8 +20,7 @@ class LessonItem extends React.Component {
       if (err) return err;
 
       const OLD_URL = 'https://image.re-cosmo.com/source';
-      const NEW_URL =
-        'https://devimage.ibceducacion.com.s3-website-us-east-1.amazonaws.com';
+      const NEW_URL = 'https://dl2ugelrl67z6.cloudfront.net';
       const newUrlResponse = response;
       newUrlResponse.imageUrl = newUrlResponse.imageUrl.replace(
         OLD_URL,
