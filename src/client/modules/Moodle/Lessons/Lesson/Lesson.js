@@ -137,7 +137,7 @@ export default class Lesson extends React.Component {
 
     console.log('sublevelIndex', sublevelIndex);
     let bookSrc =
-      'http://devbooks.ibceducacion.com.s3-website-us-east-1.amazonaws.com/new_books_course/' +
+      'https://d23hm4f8ygkcco.cloudfront.net/new_books_course/' +
       this.props.location.query.levelName.toLowerCase() +
       '_' +
       this.romanize(parseInt(sublevelIndex)) +

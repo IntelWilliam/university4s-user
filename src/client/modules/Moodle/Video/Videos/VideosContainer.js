@@ -39,8 +39,7 @@ export default class VideosContainer extends React.Component {
 
     const videoName = 'lesson_' + videoIndex + '.mp4';
     const thumbName = 'lesson_' + videoIndex + '.png';
-    const VIDEO_URL =
-      'http://devbooks.ibceducacion.com.s3-website-us-east-1.amazonaws.com/Finales-Akron/';
+    const VIDEO_URL = 'https://d23hm4f8ygkcco.cloudfront.net/Finales-Akron/';
 
     if (cat == 'C') {
       var videoP = VIDEO_URL + pathLevel + videoName;

@@ -21,7 +21,7 @@ class LessonItem extends React.Component {
 
       const OLD_URL = 'https://image.re-cosmo.com/source';
       const NEW_URL =
-        'http://devimage.ibceducacion.com.s3-website-us-east-1.amazonaws.com';
+        'https://devimage.ibceducacion.com.s3-website-us-east-1.amazonaws.com';
       const newUrlResponse = response;
       newUrlResponse.imageUrl = newUrlResponse.imageUrl.replace(
         OLD_URL,

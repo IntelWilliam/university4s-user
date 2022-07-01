@@ -92,7 +92,7 @@ class EntryItem extends React.Component {
         break;
       case 9:
         this.playVideo(
-          'http://devbooks.ibceducacion.com.s3-website-us-east-1.amazonaws.com/Finales-Akron/' +
+          'https://d23hm4f8ygkcco.cloudfront.net/Finales-Akron/' +
             this.props.entry.uriFile,
           this.props.entry.name
         );
