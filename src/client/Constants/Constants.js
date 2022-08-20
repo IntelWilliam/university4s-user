@@ -2,7 +2,7 @@ export default {
   API_LINK : '/api/',
   // API_LINK: 'http://admin.re-cosmo.com:3017/api/',
   LOG_IN_LINK : '/',
-  // LOG_IN_LINK: 'http://dev.ibceducacion.com/base/api/',
+  // LOG_IN_LINK: 'http://php.akronenglish.com/base/api/',
   CHAT_BOX_LINK : 'http://chatbot.akronenglish1.com/',
   ADMIN_PATH : '',
   EXERCISE : {
