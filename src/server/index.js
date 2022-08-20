@@ -142,7 +142,7 @@ mongoose.Promise = global.Promise;
 // se conecta a la base de datos MONGODB donde se almacenaran los datos
 mongoose.connect(
   process.env.MONGOLAB_URI ||
-    'mongodb://cosmoEditor:tCmY49WBhcSQwyrs@44.207.127.94:15514/cosmo'
+    'mongodb://cosmoEditor:tCmY49WBhcSQwyrs@54.83.185.215:15514/cosmo'
 );
 
 // La api va a recibir peticiones desde otros dominios, se habilitan los cors

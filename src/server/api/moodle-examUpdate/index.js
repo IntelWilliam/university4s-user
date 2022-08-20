@@ -1,6 +1,6 @@
 import express from 'express';
 import request from 'request';
-// import Constants from 'src/server/constants';
+import Constants from 'src/server/constants';
 
 const router = express.Router();
 
@@ -8,7 +8,7 @@ router.post('', (req, res) => {
   request(
     {
       uri:
-        (process.env.API_URL || 'https://dev.ibceducacion.com/') +
+        (process.env.API_URL || Constants.API_BASE_URL || 'https://dev.ibceducacion.com/') +
         'admin/students/notes/do_new/',
       method: 'POST',
       form: {

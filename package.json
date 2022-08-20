@@ -19,7 +19,7 @@
     "iconv-lite": "0.4.19",
     "keymirror": "0.1.1",
     "mailgun-js": "0.8.2",
-    "mongoose": "4.4.12",
+    "mongoose": "4.12.2",
     "mongoose-paginate": "5.0.0",
     "multer": "1.2.1",
     "node-cron": "1.1.3",
