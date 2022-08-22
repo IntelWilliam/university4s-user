@@ -145,10 +145,7 @@ export default class Header extends React.Component {
                                                 </Link>
                                               </li>
 
-                                                <li className="item-menu-border">
-                                                      <Link className="mousePoint" to={hrefChat}>Video chat
-                                                    </Link>
-                                                </li>
+                                                
                                                 <li className="item-menu-border">
                                                     <a className="mousePoint">Consultas</a>
                                                     <div className="sub-menu">
@@ -172,7 +169,7 @@ export default class Header extends React.Component {
                                         <div className="col-xs height-100 menu-top-teacher">
                                             {/* <ul className="menu-top">
                                                 <li className="item-menu">
-                                                      <Link to={hrefChat}>Video chat
+                                                      <Link to={hrefChat}>Video chats
                                                     </Link>
                                                 </li>
                                             </ul> */}
