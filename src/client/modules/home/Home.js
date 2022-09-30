@@ -241,7 +241,7 @@ export default class Home extends React.Component {
                     <div className="col-xs-12 col-md-4 padding-card-home">
                       <div className="row">
                         <div className="col-xs-12 center-img-home">
-                          <img className="second-card-img" src="/images/home-second-1.png"/>
+                          <img className="second-card-img" src="/images/acuario1.jpg"/>
                         </div>
                         <div className="col-xs-12 tittle-card-home">
                           {/* <span> Nuevos </span> */}
@@ -254,7 +254,7 @@ export default class Home extends React.Component {
                         <div className="col-xs-12 second-home-description-container">
                       <span className="second-home-description">
                         {this.state.pageTexts[6]}
-                        {/* Nuestro innovador e intensivo método de aprendizaje concibe la utilización de diferentes herramientas tecnológicas y pedagógicas como Skype, medio por el que podrás tener asesorías en línea  con nuestros tutores las 24 horas del día y Cosmos, con quien practicarás la pronunciación y conversación en este programa. */}
+                        {/* Nuestro  es la mejor de mundo innovador e intensivo método de aprendizaje concibe la utilización de diferentes herramientas tecnológicas y pedagógicas como Skype, medio por el que podrás tener asesorías en línea  con nuestros tutores las 24 horas del día y Cosmos, con quien practicarás la pronunciación y conversación en este programa. */}
                       </span>
 
                           <p className="second-home-description">Recuerda que para todas tus consultas académicas, puedes contactarnos a nuestra línea gratuita 0800-77-007 o a nuestro Whatsapp 966 969 245 de lunes a viernes de 8 a.m. a 6:30 p.m. y sábados de 8 a.m. a 1 p.m.</p>
@@ -264,7 +264,7 @@ export default class Home extends React.Component {
                     <div className="col-xs-12 col-md-4 padding-card-home">
                       <div className="row">
                         <div className="col-xs-12 center-img-home">
-                          <img className="second-card-img" src="/images/home-second-2.png"/>
+                          <img className="second-card-img" src="/images/home-2.png"/>
                         </div>
                         <div className="col-xs-12 tittle-card-home">
                           <span> {this.state.pageTexts[7]}</span>
@@ -286,13 +286,13 @@ export default class Home extends React.Component {
                     <div className="col-xs-12 col-md-4 padding-card-home">
                       <div className="row">
                         <div className="col-xs-12 center-img-home">
-                          <img className="second-card-img" src="/images/home-second-3.png"/>
+                          <img className="second-card-img" src="/images/home-2.png"/>
                         </div>
 
                         <div className="col-xs-12 tittle-card-home">
                           {/* <span> Eficaz</span> */}
                           <span> {this.state.pageTexts[10]}</span>
-                        </div>
+                        </div>ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
                         <div className="col-xs-12 tittle-card-home bold">
                           <span> {this.state.pageTexts[11]}</span>
                           {/* <span> Aprendizaje</span> */}
