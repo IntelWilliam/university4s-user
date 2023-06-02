@@ -178,12 +178,14 @@ html, body {
 }
 
 header {
-    background: #EAEAEA;
+    
     height: 12vh;
     top: 0;
     left: 0;
     right: 0;
     z-index: 9999;
+    position: absolute;
+background: linear-gradient(to right, rgba(82,82,82,0) 30%, rgba(82,82,82,0.02) 32%, rgba(82,82,82,0.62) 100%);
 }
 
 a {
@@ -212,10 +214,19 @@ a {
     left: 0;
 }
 
-.logo-page {
-    height: 100%;
-    width: auto;
+.logo-pagei {
+    height: auto;
+    width: 100%;
     float: left;
+padding-bottom: 53px;
+}
+
+
+.logo-page {
+    height: auto;
+    width: 100%;
+    float: left;
+padding-top: 13px;
 }
 
 .practice-text {
@@ -230,7 +241,7 @@ footer {
 }
 
 .login-footer {
-    background: #1a1a1a;
+    background: #ff5d10;
     width: 100%;
     bottom: 1em;
     left: 0;
@@ -296,15 +307,17 @@ footer {
 }
 
 .menu-top li:hover {
-    background: rgb(197, 216, 227);
+    background: rgb(245 148 29);
 }
 
 .menu-top .item-menu-border {
     padding-right: 1em;
     padding-left: 1em;
-    border-left: 2px solid #212FDB;
+    color:#fff;
     display: inline-block;
     position: relative;
+padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .menu-top .item-menu {
@@ -312,6 +325,12 @@ footer {
     padding-left: 1em;
     display: inline-block;
     position: relative;
+    color: #e53b08;
+padding-top: 1em;
+    padding-bottom: 1em;
+
+
+
 }
 
 .page-content {
@@ -442,7 +461,7 @@ footer {
 
     header {
         position: relative;
-        background: #eaeaea;
+        background: #FFF;
     }
 
     .mobile-button {
@@ -671,27 +690,29 @@ footer {
 }
 
 .rounded-component {
-    border-radius: 6px;
-    padding: 10px;
+    border-radius: 1px;
+    padding-top: 16px;
+	padding-bottom: 16px;
+padding-left: 16px;
     border: none;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
 
 .large-input {
-    width: 200px;
-    font-size: 0.8rem !important;
+    width: 100%;
+    font-size: 0.9rem !important;
     color: black !important;
-    font-family: "StagSans-Book";
+    border: 1px solid #ababab;
 }
 
 .input-submit {
-    width: 125px;
+    width: 100%;
 }
 
 .login-button {
     color: white;
-    background-color: #00e094;
+    background-color: #294f75;
 }
 
 .reset-button {
@@ -743,11 +764,31 @@ footer {
 .login-nav-img-container {
     position: relative;
 }
+.float{
+	position: fixed;
+    width: 180px;
+    height: 60px;
+    bottom: 100px;
+    right: 20px;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.my-float{
+	margin-top:16px;
+}
 
 .card-login-form {
-    color: white;
-    font-family: "StagSans-Semibold";
-    display: inline-block;
+    color: #ed2a2a;
+      display: inline-block;
+font-size:12px;
 }
 
 .card-login-form .error {
@@ -825,7 +866,6 @@ footer {
     color: white;
     font-size: 0.9rem;
 }
-
 .bg-image {
 }
 
@@ -834,6 +874,7 @@ footer {
     max-height: 100%;
     width: 100%;
     z-index: 1;
+bottom: 0;
 }
 
 .lesson-index {
@@ -867,6 +908,7 @@ footer {
     display: block;
 }
 
+
 .lesson-description {
     margin-top: 0.4em;
     font-family: "Tofino-Book";
@@ -887,7 +929,7 @@ footer {
 }
 
 .presentation-lesson {
-    margin-top: 8vh;
+    margin-top: 19vh;
 }
 
 .front {
@@ -1045,8 +1087,12 @@ footer {
 }
 
 .header-image-container {
-    background: #0063a8;
+    background: #043668;
     position: relative;
+    BACKGROUND-SIZE: cover;
+    BACKGROUND-REPEAT: no-repeat;
+ background-image: url("/images/fo.jpg");
+
 }
 
 .tutorial-color {
@@ -1516,7 +1562,7 @@ footer {
 }
 
 .height-calc {
-    height: calc(100vh - 5em);
+    height: calc(100vh - 10em);
 }
 
 .height-full {
@@ -1570,15 +1616,16 @@ footer {
 }
 
 .header-card {
-    background: #df3c3c;
+    /*background: #df3c3c;*/
     display: flex;
-    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     font-family: "Tofino-Book";
-    color: rgba(255, 255, 255, 1);
+    color: #01c9ca;
 }
 
 .header-calendar {
@@ -1757,7 +1804,7 @@ footer {
 }
 
 .navgation-item {
-    color: #fff;
+    color: #ffbd2a;
     position: relative;
     display: flex;
     align-items: center;
@@ -1876,6 +1923,7 @@ footer {
     background: #F1F1F1;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+    margin-top: 1em;
 }
 
 .sub-menu ul {
@@ -1892,13 +1940,13 @@ footer {
 }
 
 .item-menu a {
-    color: #212FDB;
+    color: #fff;
     display: block;
     font-size: 0.9rem;
 }
 
 .item-menu-border a {
-    color: #212FDB;
+    color: #fff;
     display: block;
     font-size: 0.9rem;
 }
@@ -2124,7 +2172,8 @@ footer {
 }
 
 .mousePoint:hover {
-    opacity: 0.7;
+    color: #fbff18;
+
 }
 
 .order-container {
@@ -2180,35 +2229,41 @@ footer {
 }
 
 .title-home {
-    text-align: center;
+    text-align: left;
     font-family: "Tofino-Regular";
     z-index: 1;
-    color: #FFF;
-    font-size: 3.5rem;
+    color: #194395;
+    font-size: 2.5rem;
     line-height: 1em;
     display: block;
     margin-top: 2em;
     margin-bottom: 0.2em;
+    font-weight: bold;
+
 }
 
 .subtitle-home {
-    text-align: center;
+  text-align: left;
+
     font-family: "Tofino-Black";
     z-index: 1;
-    color: #FFF;
-    font-size: 3.5rem;
+     color: #194395;
+    font-size:2.5rem;
     line-height: 1em;
     display: block;
+font-weight: bold;
+
 }
 
 .home-description {
+ text-align: left !important;
     margin-top: 1em;
     margin-bottom: 0.5em;
     font-family: "Tofino-Book";
     z-index: 1;
-    color: #FFF;
+    color: #ed3112;
     font-size: 1rem;
-    text-align: left;
+  font-weight: 600;
     display: block;
 }
 
@@ -2264,10 +2319,42 @@ footer {
 
 .home-first-card-description {
     font-family: "Tofino-Book";
-    text-align: center;
-    color: #fff;
+    
+    color: #3a3a3a;
     margin-left: 2em;
     margin-right: 2em;
+}
+.home-first-card-description1 {
+    font-family: "Tofino-Book";
+    text-align: right;
+    line-height: 25px;
+    font-size: 15px;
+    color: #999;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.call_to_action {
+       background-size: cover;
+    background-position: 0 0;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+margin: 0px !important;
+}
+.call_to_action:before {
+   background: rgb(25 79 167);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -9;
+    content: "";
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
 }
 
 .first-card-img {
@@ -2292,18 +2379,22 @@ footer {
 
 .home-title {
     font-family: "Tofino-Regular";
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
+    color:#fff;
+    padding-bottom: 15px;
+
 }
 
 .home-subtitle {
     text-align: center;
     margin-bottom: 3em;
     margin-top: 2em;
+    color:#fff;
 }
 
 .second-card-img {
-    width: 75%;
+    width: 100%;
 }
 
 .second-home-description-container {
@@ -2314,6 +2405,8 @@ footer {
 
 .second-home-description {
     font-family: "Tofino-Book";
+    color:#575659;
+    font-size: 17px;
 }
 
 .video-img {
@@ -3247,7 +3340,7 @@ footer {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    color: #212FDB;
+    color: #82db21;
 }
 
 .name-user:hover {
@@ -3365,7 +3458,7 @@ footer {
 
 .login-center {
     position: relative;
-    background: #0063a8;
+    background: #fff;
 }
 
 .teacher-display {
@@ -3387,6 +3480,7 @@ footer {
     margin-bottom: 0.5em;
 }
 
+
 .leyend-item-account {
     min-height: 2.5em;
     display: flex;
@@ -3407,6 +3501,9 @@ footer {
 .account-input-text {
     float: right;
     text-align: right;
+    color:#000;
+font-weight: normal;
+    font-family: 'Tofino-Regular' !important;
 }
 
 .account-input-text-container {
@@ -3640,20 +3737,21 @@ footer {
 }
 
 .inquiryButton {
-  background: #00FA87;
+  background: #ed8112;
   cursor: pointer;
 }
 
 .inquiryCard {
-    background: #e23737;
+    background: #174590;
 }
 
 .inquiryCard-body {
-    padding-top: 0.5em;
-    padding-bottom: 1em;
-    background: #E9F1F7;
+    /*padding-top: 0.5em;
+    padding-bottom: 1em;*/
+  
     font-family: "Tofino-Book";
     text-align: justify;
+    color:#fff;
 }
 
 .help-number-center {
@@ -3841,7 +3939,7 @@ Nuevo Css akron 2.0
  */
 
 .front-nackground {
-    background: #eaeaea;
+    background: #fff;
 }
 
 .center-img-home {
@@ -3865,7 +3963,8 @@ Nuevo Css akron 2.0
 }
 
 .second-home-description-container li span {
-    color: black;
+    color: #575659;
+    font-size: 15px;
 }
 
 .bottom-div {
@@ -3878,7 +3977,7 @@ Nuevo Css akron 2.0
 }
 
 .padding-main {
-    padding-top: 4em;
+    padding-top: 10em;
     padding-bottom: 2em;
 }
 
@@ -3957,8 +4056,8 @@ Nuevo Css akron 2.0
 }
 
 .program-card-text {
-    color: #001EFF;
-    font-size: 1.7em;
+    color: #fff;
+    font-size: 1.4em;
 }
 
 .relative {
@@ -4349,6 +4448,10 @@ div#slider figure {
 
 .justify-text {
     text-align: justify;
+    color: #575659;
+    
+    line-height: 25px;
+    font-size: 15px;
 }
 
 .video-home {

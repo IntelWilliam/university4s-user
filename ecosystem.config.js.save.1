@@ -1,0 +1,17 @@
+module.exports = {
+  apps: [
+    {
+      name: 'userdev.ibceducacion.com',
+      script: '/home/ubuntu/akronenglish-user/dist/src/server/index.js',
+      env_production: {
+        PORT: '3017',
+        NODE_ENV: 'production',
+        NODE_PATH: '/home/ubuntu/akronenglish-user/dist',
+        API_URL: 'https://dev.ibceducacion.com/',
+        API_BASE_URL: 'https://dev.ibceducacion.com/base/api/',
+        API_BASE_URL_CHAT: 'https://dev.ibceducacion.com/base/ajax/',
+        AJAX_BASE_URL: '',
+      },
+    },
+  ],
+};
