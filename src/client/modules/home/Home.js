@@ -217,7 +217,7 @@ export default class Home extends React.Component {
   }
 
   render() {
-    let backgroundImage = "/images/home.jpg";
+    let backgroundImage = "/images/home.gif";
     let headerInfo = {
       backgroundImage: backgroundImage
     }
@@ -241,7 +241,7 @@ export default class Home extends React.Component {
                     <div className="col-xs-12 col-md-4 padding-card-home">
                       <div className="row">
                         <div className="col-xs-12 center-img-home">
-                          <img className="second-card-img" src="/images/acuario1.jpg"/>
+                          <img className="second-card-img" src="/images/home-second-1.png"/>
                         </div>
                         <div className="col-xs-12 tittle-card-home">
                           {/* <span> Nuevos </span> */}
@@ -264,7 +264,7 @@ export default class Home extends React.Component {
                     <div className="col-xs-12 col-md-4 padding-card-home">
                       <div className="row">
                         <div className="col-xs-12 center-img-home">
-                          <img className="second-card-img" src="/images/home-2.png"/>
+                          <img className="second-card-img" src="/images/home-second-2.png"/>
                         </div>
                         <div className="col-xs-12 tittle-card-home">
                           <span> {this.state.pageTexts[7]}</span>
@@ -286,7 +286,7 @@ export default class Home extends React.Component {
                     <div className="col-xs-12 col-md-4 padding-card-home">
                       <div className="row">
                         <div className="col-xs-12 center-img-home">
-                          <img className="second-card-img" src="/images/home-2.png"/>
+                          <img className="second-card-img" src="/images/home-second-3.png"/>
                         </div>
 
                         <div className="col-xs-12 tittle-card-home">
