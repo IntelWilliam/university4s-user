@@ -228,7 +228,7 @@ class Login extends React.Component {
         <LoginHeader/>
         <div className="col-xs-12 header-image-container calc100">
           <div className="row">
-            <img className="bg-image-img home-blur" src="/images/landing_background.jpg" />
+            <img className="bg-image-img home-blur" src="/images/elear.jpg" />
           </div>
           <div className="row height-full login-center calc100">
             <div className="container presentation-main presentation-main-login">
