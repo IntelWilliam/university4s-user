@@ -327,7 +327,7 @@ export default class Home extends React.Component {
           </div>
 
           <div style={{
-            background: "#DADCE3",
+            background: "#ed8112",
             paddingTop: '3em'
           }}>
             <div className="container" style={{
