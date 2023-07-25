@@ -80,12 +80,6 @@ export class HeaderHome extends React.Component {
                 <div className='col-xs height-100 menu-top-container'>
                   <ul className='menu-top menu-top-flex'>
                     <Link
-                      to={videoTutorial}
-                      className='item-menu mousePoint tutorial-button'
-                    >
-                      <span>Video tutoriales</span>
-                    </Link>
-                    <Link
                       to={'/?goTo=Nosotros'}
                       className='item-menu mousePoint'
                     >
@@ -130,13 +124,8 @@ export class HeaderHome extends React.Component {
                       className='item-menu mousePoint tutorial-button old-platform-link'
                       style={{ maxWidth: '8em', marginRight: '1em' }}
                     >
-                      <span>Ingreso a Plataforma</span>
+                      <span>Plataforma</span>
                     </li>
-                    {/*<li className="item-menu-border mousePoint" style={{maxWidth: '6em'}}>*/}
-                    {/*/!* <Link to={hrefLogin}>Cuenta*/}
-                    {/*</Link> *!/*/}
-                    {/*<a href="https://php.akronenglish.com/">Log in plataforma antigua</a>*/}
-                    {/*</li>*/}
                   </ul>
                 </div>
                 <div
