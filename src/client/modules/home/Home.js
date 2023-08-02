@@ -292,7 +292,7 @@ export default class Home extends React.Component {
                         <div className="col-xs-12 tittle-card-home">
                           {/* <span> Eficaz</span> */}
                           <span> {this.state.pageTexts[10]}</span>
-                        </div>ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                        </div>
                         <div className="col-xs-12 tittle-card-home bold">
                           <span> {this.state.pageTexts[11]}</span>
                           {/* <span> Aprendizaje</span> */}
