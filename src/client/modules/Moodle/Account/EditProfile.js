@@ -647,8 +647,9 @@ class EditProfile extends React.Component {
                         <div className="col-xs-12">
                           <div className="leyend-item-account read-color fileContainer height-100">
                             <input type="file" ref="img" id="profileImg" name="profileImg" accept="image/*"
-                                   onChange={this.handleForm.bind(this),
-                                     this.loadFile.bind(this)}/>
+                                onChange={(e) => {
+                                    this.handleForm.bind(e);
+                                    this.loadFile.bind(e)}}/>
                             <img src="/images/usuario-perfil.png" className="leyend-img"/>
                             <span className="leyend-name">{this.props.pageTexts[22]}</span>
                             {/* <span className="leyend-name">Imagen de perfil</span> */}
