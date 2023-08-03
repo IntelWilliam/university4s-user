@@ -18,19 +18,19 @@ export default class TermsContent extends React.Component {
           <p>Los Términos y Condiciones contenidos en este instrumento se aplicarán y se entenderá que
             forman parte de todos los actos y contratos que se ejecuten o celebren mediante los
             sistemas de oferta y comercialización comprendidos en este sitio web entre los usuarios
-            de este sitio y Akron English S.A.C., la cual se denominará en adelante también en forma
+            de este sitio y International Bilingual Company S.A.C, la cual se denominará en adelante también en forma
             indistinta como "la empresa", o bien "la empresa oferente", "el proveedor" o "la empresa
             proveedora", según convenga al sentido del texto.
           </p>
 
-          <p>Es requisito para el uso de la página Web de Akron English S.A.C. la aceptación de los
+          <p>Es requisito para el uso de la página Web de International Bilingual Company S.A.C la aceptación de los
             Términos y Condiciones descritos a continuación. Cualquier persona que utilice la página
-            Web de Akron English S.A.C., declara y reconoce, que conoce y acepta todos y cada uno de
+            Web de International Bilingual Company S.A.C, declara y reconoce, que conoce y acepta todos y cada uno de
             los Términos y Condiciones descritos a continuación. Se entenderán conocidos y aceptados
             los Términos y Condiciones por el solo hecho del registro a través de este sitio.
           </p>
 
-          <p>Akron English S.A.C. se reserva el derecho de actualizar y/o modificar los Términos y
+          <p>International Bilingual Company S.A.C se reserva el derecho de actualizar y/o modificar los Términos y
             Condiciones que detallamos a continuación en cualquier momento, sin previo aviso. Por
             esta razón recomendamos revisar los Términos y Condiciones cada vez que utilice este
             Sitio. Los consumidores quedarán sujetos a los Términos y Condiciones del presente sitio,
@@ -62,12 +62,12 @@ export default class TermsContent extends React.Component {
               Email, Clave, País de residencia, Tipo de documento, Número de documento, Género, Fecha
               de nacimiento, Celular. Para acceder al registro del usuario, se deberán aceptar los
               términos y condiciones de la web, así como la Política de Protección Tratamiento de
-              Datos Personales de Akron English S.A.C. . En caso de no registrarse, el usuario deberá
+              Datos Personales de International Bilingual Company S.A.C . En caso de no registrarse, el usuario deberá
               completar los datos que se indican en el contrato de compra con el fin de hacer efectiva
               la adquisición de productos o servicios. </p>
 
             <p>Los usuarios que se registren no tendrán que ingresar sus datos por cada compra posterior
-              que realicen. Akron English S.A.C. utilizará los datos de los usuarios que se registren
+              que realicen. International Bilingual Company S.A.C utilizará los datos de los usuarios que se registren
               exclusivamente para los fines que realice el usuario, sin realizar otro tipo de
               tratamiento de sus datos personales.</p>
 
@@ -80,8 +80,8 @@ export default class TermsContent extends React.Component {
               procedimiento establecido en el sitio respectivo. El usuario asume totalmente la
               responsabilidad por el mantenimiento de la confidencialidad de su clave secreta
               registrada en este sitio web, solicitar servicios y obtener información. Dicha clave es
-              de uso personal y su entrega a terceros, no involucra responsabilidad de Akron English
-              S.A.C.</p>
+              de uso personal y su entrega a terceros, no involucra responsabilidad de International Bilingual 
+              Company S.A.C</p>
             <li>
               DERECHOS DEL USUARIO DE ESTE SITIO.
             </li>
@@ -120,7 +120,7 @@ export default class TermsContent extends React.Component {
             <li>
               En caso la respuesta a la solicitud de Anulación sea PROCEDENTE el cliente deberá hacer el
               pago de los gastos administrativos, puesto que al momento de generar sus códigos de ingreso
-              a la Plataforma Educativa a www.akronenglish1.com la empresa genera un pago previo equivalente
+              a la Plataforma Educativa a www.ibceducacion.com la empresa genera un pago previo equivalente
               a 03 cuotas (iguales a las cuotas mensuales acordadas dentro del contrato).
             </li>
           </ul>
