@@ -336,12 +336,12 @@ export default class Home extends React.Component {
               <div className="col-xs-12" id="Programas">
                 <div className="row">
                   <div className="col-xs-12 center-flex">
-                    <span className="home-title"> {this.state.pageTexts[16]} &nbsp; <span
-                      className="home-title bold"> {this.state.pageTexts[17]} </span> </span>
+                    <span className="home-title" style={{color: "white"}} > {this.state.pageTexts[16]} &nbsp; <span
+                      className="home-title bold" style={{color: "white"}} > {this.state.pageTexts[17]} </span> </span>
                     {/* <span className="home-title"> Nuestro &nbsp; <span className="home-title bold"> Programa </span> </span> */}
                   </div>
                   <div className="col-xs-12 center-flex">
-            <span className="home-subtitle">
+            <span className="home-subtitle" >
               {this.state.pageTexts[18]}
               {/* AKRON ENGLISH es un programa diseñado para satisfacer tus necesidades como alumno de inglés. Tendrás acceso a asesorías personalizadas con tutores conectados a Skype las 24 horas del día que te ayudarán a resolver tus dudas o inquietudes durante el tiempo de estudio. */}
             </span>
@@ -402,7 +402,7 @@ export default class Home extends React.Component {
                 <div className="home-first-container">
                   <div className="first-card row">
                     <div className="col-xs-12 center-flex">
-                      <img className="first-card-img" src="/images/home-1.png"/>
+                      <img className="first-card-img" src="/images/home-1-back.jpg"/>
                     </div>
                     <div className="col-xs-12 ">
                       <p className="home-first-card-description bold">
@@ -417,30 +417,11 @@ export default class Home extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 col-xs-12 no-padding background-home background-home-2">
-                <div className="home-first-container">
-                  <div className="first-card row">
-                    <div className="col-xs-12 center-flex">
-                      <img className="first-card-img" src="/images/home-2.png"/>
-                    </div>
-                    <div className="col-xs-12">
-                      <p className="home-first-card-description bold">
-                        {this.state.pageTexts[24]}
-                        {/* Nuestras Herramientas */}
-                      </p>
-                      <p className="home-first-card-description">
-                        {this.state.pageTexts[25]}
-                        {/* Tu computadora, tu aliada. Tu smartphone, tu compañero.  En este proceso de enseñanza online puedes conectarte con nosotros en donde estés y en el momento que gustes. */}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
               <div className="col-md-4 col-xs-12 no-padding background-home background-home-3">
                 <div className="home-first-container">
                   <div className="first-card row">
                     <div className="col-xs-12 center-flex">
-                      <img className="first-card-img" src="/images/home-3.png"/>
+                      <img className="first-card-img" src="/images/home-3-back.jpg"/>
                     </div>
                     <div className="col-xs-12">
                       <p className="home-first-card-description bold">
@@ -455,10 +436,29 @@ export default class Home extends React.Component {
                   </div>
                 </div>
               </div>
+              <div className="col-md-4 col-xs-12 no-padding background-home background-home-2">
+                <div className="home-first-container">
+                  <div className="first-card row">
+                    <div className="col-xs-12 center-flex">
+                      <img className="first-card-img" src="/images/home-2-back.jpg"/>
+                    </div>
+                    <div className="col-xs-12">
+                      <p className="home-first-card-description bold">
+                        {this.state.pageTexts[24]}
+                        {/* Nuestras Herramientas */}
+                      </p>
+                      <p className="home-first-card-description">
+                        {this.state.pageTexts[25]}
+                        {/* Tu computadora, tu aliada. Tu smartphone, tu compañero.  En este proceso de enseñanza online puedes conectarte con nosotros en donde estés y en el momento que gustes. */}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div className="container" style={{marginTop: "1em"}}>
+          <div className="container" style={{display: "none"}}>
             <div className="col-xs-12 padding-big" id="Testimonios">
               <div className="row">
                 <div className="col-xs-12 center-flex">

@@ -34,15 +34,6 @@ export class HeaderHome extends React.Component {
   }
 
   goNewPlatform(platform) {
-    swal({
-      text: '¿Tienes una licencia con formato A1001B? Ingresa directamente a la nueva versión de tu plataforma, regístrate y goza de nuestras novedades. ¿Tienes una licencia con formato 000ZF-GJFJDKD y nunca creaste tu cuenta? Accede primero a la antigua versión de tu plataforma y regístrate. Luego, podrás ingresar a la nueva versión con tu correo y contraseña registrados.',
-      showCancelButton: true,
-      confirmButtonColor: '#DD6B55',
-      confirmButtonText: 'Continuar',
-      cancelButtonText: 'Regresar',
-      // confirmButtonText: "Si, contactar!",
-      // cancelButtonText: "No, Regresar"
-    }).then(() => {
       if (platform === 'new') {
         this.context.router.push('/login');
       } else {
@@ -51,8 +42,8 @@ export class HeaderHome extends React.Component {
         var win = window.open('https://php.akronenglish.com', '_blank');
         win.focus();
       }
-    });
   }
+  
 
   render() {
     let hrefLogin = '/login';

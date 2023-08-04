@@ -218,15 +218,14 @@ a {
     height: auto;
     width: 100%;
     float: left;
-padding-bottom: 53px;
+    padding-bottom: 53px;
 }
 
 
 .logo-page {
-    height: auto;
-    width: 100%;
+    height: 4rem;
     float: left;
-padding-top: 13px;
+    padding-top: 5px;
 }
 
 .practice-text {
@@ -2243,27 +2242,25 @@ bottom: 0;
 }
 
 .subtitle-home {
-  text-align: left;
-
+    text-align: left;
     font-family: "Tofino-Black";
     z-index: 1;
-     color: #194395;
+    color: #194395;
     font-size:2.5rem;
-    line-height: 1em;
+    line-height: 1.4em;
     display: block;
-font-weight: bold;
 
 }
 
 .home-description {
- text-align: left !important;
+    text-align: left !important;
     margin-top: 1em;
     margin-bottom: 0.5em;
     font-family: "Tofino-Book";
     z-index: 1;
-    color: #ed3112;
+    color: #6a6668;
     font-size: 1rem;
-  font-weight: 600;
+    font-weight: 600;
     display: block;
 }
 
@@ -2308,18 +2305,17 @@ font-weight: bold;
 }
 
 .first-card {
-    display: none !important;
     margin: 0em !important;
-    background: rgba(9, 77, 225, 0.8);
+    background: #f6f7f7;
+    max-width: fit-content;
 }
 
-.home-first-container:hover .first-card {
+/* .home-first-container .first-card {
     display: flex !important;
-}
+} */
 
 .home-first-card-description {
     font-family: "Tofino-Book";
-    
     color: #3a3a3a;
     margin-left: 2em;
     margin-right: 2em;
@@ -2334,12 +2330,12 @@ font-weight: bold;
     margin-right: 2em;
 }
 .call_to_action {
-       background-size: cover;
+    background-size: cover;
     background-position: 0 0;
     position: relative;
     z-index: 1;
     background-attachment: fixed;
-margin: 0px !important;
+    margin: 0px !important;
 }
 .call_to_action:before {
    background: rgb(25 79 167);
@@ -2359,18 +2355,19 @@ margin: 0px !important;
 
 .first-card-img {
     margin-top: 2em;
+    max-width: 100;
 }
 
 .background-home-1 {
-    background: url(../images/home-1-back.jpg);
+    background: #f6f7f7;
 }
 
 .background-home-2 {
-    background: url(../images/home-2-back.jpg);
+    background: #f6f7f7;
 }
 
 .background-home-3 {
-    background: url(../images/home-3-back.jpg);
+    background: #f6f7f7;
 }
 
 .background-home {
@@ -2381,7 +2378,7 @@ margin: 0px !important;
     font-family: "Tofino-Regular";
     font-size: 2rem;
     text-align: center;
-    color:#fff;
+    color:#1a4496;
     padding-bottom: 15px;
 
 }
@@ -4323,7 +4320,7 @@ div#slider figure {
 }
 
 .tutorial-button {
-    background: #FD6E69;
+    background: #ed8112;
     border-radius: 5px;
     color: white !important;
     max-width: 5em;
@@ -4332,7 +4329,7 @@ div#slider figure {
 }
 
 .menu-top-flex {
-    display: flex;
+    display: flex;  
     align-items: center;
 }
 
