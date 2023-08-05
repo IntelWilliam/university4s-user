@@ -676,7 +676,7 @@ export default class CreateAccount extends React.Component {
           <div className="row">
 
             <div className="col-xs-12 col-md-6 " style={{
-              background: "#ff4d4d"
+              background: "rgb(6 7 66)"
             }}>
               <div className="row">
                 {/* <img src="/images/new-account.jpg" className="width-100 min-heigh"></img> */}

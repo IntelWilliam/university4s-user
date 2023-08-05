@@ -114,7 +114,7 @@ export default class TermsContent extends React.Component {
             <li>
               Presentar una solicitud sustentada informando el motivo de la anulación del contrato de
               compra – venta (motivo Económico, personal y/o salud), dicha solicitud más anexos se ingresa
-              a través de mesa de partes o correo electrónico ( consultas@akronenglish.com), dándole una
+              a través de mesa de partes o correo electrónico (consultas@ibceducacion.com), dándole una
               respuesta sea procedente o improcedente a su solicitud en un plazo de 07 a 15 días hábiles.
             </li><br/>
             <li>
@@ -126,8 +126,7 @@ export default class TermsContent extends React.Component {
           </ul>
 
           <p>
-            El costo del envío del Programa de Ingles, según sea el caso, será asumido por AKRON INTERNATIONAL
-            SAC cuando la devolución o cambio se produzca porque:
+            El costo del envío del Programa de Ingles, según sea el caso, será asumido por International Bilingual Company S.A.C cuando la devolución o cambio se produzca porque:
           </p>
           <ul>
             <li>El producto no corresponde a lo que figura en el contrato. (Clausula Segunda)</li>

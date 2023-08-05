@@ -240,7 +240,7 @@ footer {
 }
 
 .login-footer {
-    background: #ff5d10;
+    background: #282827;
     width: 100%;
     bottom: 1em;
     left: 0;
@@ -306,7 +306,7 @@ footer {
 }
 
 .menu-top li:hover {
-    background: rgb(245 148 29);
+    background-color: rgb(34, 34, 34);
 }
 
 .menu-top .item-menu-border {
@@ -3546,7 +3546,7 @@ font-weight: normal;
 
 .account-button {
     margin-left: 2em;
-    background: #ff8a00;
+    background: #444848;
     border: none;
     display: flex;
     align-items: center;
@@ -4085,7 +4085,7 @@ Nuevo Css akron 2.0
 }
 
 .new-account-container {
-    background: rgb(0, 99, 168);
+    background: #d76700;
     color: white;
     padding-left: 5em !important;
 }

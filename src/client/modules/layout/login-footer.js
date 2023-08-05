@@ -9,11 +9,11 @@ export default class LoginFooter extends React.Component {
                     <div className="row center-xs footer-container">
                         <img className="login-footer-icon" src="/images/mailicon.png"/>
                         <span className="footer-text-login">
-                          consultasacademicas@akronenglish.com
+                          consultas@ibceducacion.com
                         </span>
                         <img className="login-footer-icon" src="/images/phoneicon.png"/>
                         <span className="footer-text-login-last">
-                          Whatsapp: 984 203 215
+                          Whatsapp: 952 161 973
                         </span>
                         {/*<img className="login-footer-icon" src="/images/facebookicon.png"/>*/}
                         {/*<span className="footer-text-login-last">*/}
