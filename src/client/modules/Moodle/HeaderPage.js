@@ -33,7 +33,7 @@ export default class HeaderPage extends React.Component {
               <div className="row height-calc">
                 <div className="container presentation-main">
                   <div className="col-xs-12">
-                    <div className="row center-flex">
+                    <div className="row start-flex">
                       <div className="col-xs-12 front">
                         <div>
                           {/* <span className="title-home break-word-tittle">¡El inglés es la lengua */}
@@ -44,7 +44,7 @@ export default class HeaderPage extends React.Component {
                         </div>
                       </div>
                       <div className="bottom-div"></div>
-                      <div className="col-xs-12 col-md-10 front">
+                      <div className="col-xs-9 col-md-9 front">
                         <div className="home-description" style={{'textAlign': 'center'}}>
                           <p className="disp-block">
                             {/* <span>Somos AKRON INTERNATIONAL, una organización especializada en la enseñanza del programa de autoaprendizaje del idioma inglés con asesoría online con tutores las 24 horas del día y dueña del programa educativo AKRON ENGLISH. </span> */}

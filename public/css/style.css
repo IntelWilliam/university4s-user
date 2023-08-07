@@ -174,7 +174,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: "Tofino-Regular";
-    background: #EEEEEE;
+    background: #f6f7f7;
 }
 
 header {
@@ -2258,7 +2258,7 @@ bottom: 0;
     margin-bottom: 0.5em;
     font-family: "Tofino-Book";
     z-index: 1;
-    color: #6a6668;
+    color: #4e4f58;
     font-size: 1rem;
     font-weight: 600;
     display: block;
@@ -3498,8 +3498,8 @@ bottom: 0;
 .account-input-text {
     float: right;
     text-align: right;
-    color:#000;
-font-weight: normal;
+    color:#f7f7f7;
+    font-weight: normal;
     font-family: 'Tofino-Regular' !important;
 }
 
@@ -4446,7 +4446,6 @@ div#slider figure {
 .justify-text {
     text-align: justify;
     color: #575659;
-    
     line-height: 25px;
     font-size: 15px;
 }

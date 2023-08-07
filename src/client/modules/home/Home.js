@@ -256,8 +256,6 @@ export default class Home extends React.Component {
                         {this.state.pageTexts[6]}
                         {/* Nuestro  es la mejor de mundo innovador e intensivo método de aprendizaje concibe la utilización de diferentes herramientas tecnológicas y pedagógicas como Skype, medio por el que podrás tener asesorías en línea  con nuestros tutores las 24 horas del día y Cosmos, con quien practicarás la pronunciación y conversación en este programa. */}
                       </span>
-
-                          <p className="second-home-description">Recuerda que para todas tus consultas académicas, puedes contactarnos a nuestra línea gratuita 0800-77-007 o a nuestro Whatsapp 966 969 245 de lunes a viernes de 8 a.m. a 6:30 p.m. y sábados de 8 a.m. a 1 p.m.</p>
                         </div>
                       </div>
                     </div>
@@ -590,8 +588,8 @@ export default class Home extends React.Component {
             <div className="col-xs-12 padding-big" id="Convenios">
               <div className="row">
                 <div className="col-xs-10 col-xs-offset-1 ">
-          <span className="home-title">Alianzas estratégicas y <span className="home-title bold">
-            convenios
+          <span className="home-title"><span className="home-title bold" style={{paddingLeft: "10rem"}}  >
+                  Alianzas estratégicas y Aconvenios
           </span></span>
 
                   <p className="justify-text">Nuestro convenio de cooperación interinstitucional con las empresas
@@ -689,11 +687,11 @@ export default class Home extends React.Component {
   </div> */}
 
           <div className="col-xs-12 learner-data-container" style={{
-            background: "rgb(218, 220, 227)"
+            background: "#0c2d70"
           }} id="Contacto">
             <div className="row">
               <div className="col-xs-12 center-flex">
-                <span className="home-title bold">
+                <span className="home-title bold" style={{color: "white"}}>
                   {this.state.pageTexts[33]}
                   {/* Contacto */}
                 </span>
