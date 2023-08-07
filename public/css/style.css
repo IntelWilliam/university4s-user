@@ -689,10 +689,10 @@ padding-top: 1em;
 }
 
 .rounded-component {
-    border-radius: 1px;
+    border-radius: 10px;
     padding-top: 16px;
 	padding-bottom: 16px;
-padding-left: 16px;
+    padding-left: 16px;
     border: none;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -734,17 +734,21 @@ padding-left: 16px;
 .register {
     font-family: "StagSans-Book";
     font-size: 0.9rem;
-    padding-right: 1em;
-    padding-left: 1em;
     line-height: 1.6em;
-    background: transparent;
-    border: 1px solid #0064a9;
-    border-radius: 1em;
-    color: #0064a9;
+    background: #ff5e10;
+    border-radius: 1.4em;
+    color: white;
+    width: 8rem;
+    padding: 0.4rem;
+    border: none;
+    cursor: pointer;
 }
 
 .register:hover {
-    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.1);
+    transition: 0.3s;
+    background: #c0480c 
+    
 }
 
 .height-login-header {
@@ -786,8 +790,10 @@ box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 
 .card-login-form {
     color: #ed2a2a;
-      display: inline-block;
-font-size:12px;
+    display: inline-block;
+    font-size:12px;
+    text-align: center;
+    padding-right: 11rem;
 }
 
 .card-login-form .error {
@@ -824,8 +830,8 @@ font-size:12px;
 }
 
 .login-profile {
-    height: 176px;
-    width: 176px;
+    height: 130px;
+    width: 130px;
     border-radius: 50%;
 }
 
@@ -1090,8 +1096,7 @@ bottom: 0;
     position: relative;
     BACKGROUND-SIZE: cover;
     BACKGROUND-REPEAT: no-repeat;
- background-image: url("/images/fo.jpg");
-
+    background-image: url("/images/fo.jpg");
 }
 
 .tutorial-color {

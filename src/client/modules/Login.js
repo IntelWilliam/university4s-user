@@ -233,7 +233,7 @@ class Login extends React.Component {
           <div className="row height-full login-center calc100">
             <div className="container presentation-main presentation-main-login">
               <div className="col-xs-12">
-                <div className="row center-xs">
+                <div className="row end-xs">
                   <div className="col-xs-12 col-md-4 front">
                     <div className="card-login-form">
                       <div className="img-login">
@@ -272,6 +272,7 @@ class Login extends React.Component {
                             </div>
                           </div>
                         </form>
+                        <br></br><br></br>
                         <div className="login-form formValidate" id="formlogin">
                           <div className="row">
                             <div className="col-xs-12">
