@@ -72,6 +72,7 @@ import incident from 'src/server/api/incident'
 import userIncident from 'src/server/api/userIncident'
 import uploadFileIncident from 'src/server/api/uploadFileIncident'
 import welcomeMessage from 'src/server/api/welcomeMessage'
+import watsapMessage from 'src/server/api/watsapMessage'
 
 // import accountCreation from 'src/server/api/account-creation'
 
@@ -170,6 +171,7 @@ router.use('/answer-capacity', answerCapacity)
 router.use('/chat-box', chatBox)
 router.use('/teacher-rating', teacherRating)
 router.use('/userNotes', userNotes)
+router.use('/watsap', watsapMessage )
 
 // se exporta el nuevo router
 export default router

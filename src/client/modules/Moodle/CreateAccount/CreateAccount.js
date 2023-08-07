@@ -384,6 +384,13 @@ export default class CreateAccount extends React.Component {
             username: toSave.email,
             password: toSave.password
           }
+
+          const userWatsap = {
+            email: toSave.email,
+            pass: toSave.password,
+            number: toSave.phone,
+          }
+
           loginUser.login(user, (loggedIn) => {
             if (!loggedIn) {
               console.log("loggedIn", loggedIn);
@@ -400,7 +407,25 @@ export default class CreateAccount extends React.Component {
               // confirmButtonText: "Continuar",
               type: "info"
             }).then(() => {
-              this.context.router.push('/user-area/')
+              // solicitud post al endpoint de watsap 
+              let uri = "https://ibceducacion.com"
+              let local = "http://localhost:3017"
+              fetch(`${uri}/api/watsap/`, {
+                method: "POST",
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify(userWatsap)
+              })
+                .then(res => res.json())
+                .then(data => {
+                  if(data.status === "success") {
+                    console.log('Exitoo', data.mensaje)
+                  } else {
+                    console.log('Error', data.mensaje)
+                  }
+                })
+                .finally(() => {
+                  this.context.router.push('/user-area/')
+                })
             })
 
           })
