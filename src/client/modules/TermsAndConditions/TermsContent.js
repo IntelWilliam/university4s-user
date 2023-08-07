@@ -102,7 +102,7 @@ export default class TermsContent extends React.Component {
           <h1>Oficina de Atención al Cliente</h1>
           <p>
             Para realizar cambios de productos adquiridos, puedes acercarte a la oficina de servicio al
-            cliente, ubicada en Julio C. Tello Nro. 221 – Lince, presentando tu DNI correspondiente.
+            cliente, ubicada en Julio C. Tello Nro. 215 – Lince, presentando tu DNI correspondiente.
             (Titular)
           </p>
           <p>
@@ -139,14 +139,12 @@ export default class TermsContent extends React.Component {
             será muestra de conformidad en la recepción.
           </p>
 
-          <p>No se aceptarán reclamos por daños estético y/o faltantes una vez firmado el remito conforme.</p>
+          <p>No se aceptarán reclamos por daños estético y/o una vez firmado el remito conforme.</p>
 
           <h1>IMPORTANTE</h1>
           <ol>
-            <li>El producto NO PUEDE haber sido usado.</li><br/>
             <li>
-              El producto puede estar abierto pero DEBE estar con sus embalajes originales completos y en
-              perfectas condiciones. Esto quiere decir que no pueden estar rotas.
+              El producto puede estar abierto pero DEBE estar en perfectas condiciones. Esto quiere decir que no pueden estar rotas.
             </li><br/>
             <li>Entregar todos sus accesorios.</li><br/>
             <li>

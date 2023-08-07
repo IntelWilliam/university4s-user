@@ -13,7 +13,7 @@ export default class LoginFooter extends React.Component {
                         </span>
                         <img className="login-footer-icon" src="/images/phoneicon.png"/>
                         <span className="footer-text-login-last">
-                          Whatsapp: 952 161 973
+                          Whatsapp: 987 400 536
                         </span>
                         {/*<img className="login-footer-icon" src="/images/facebookicon.png"/>*/}
                         {/*<span className="footer-text-login-last">*/}
