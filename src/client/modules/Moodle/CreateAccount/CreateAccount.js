@@ -410,7 +410,7 @@ export default class CreateAccount extends React.Component {
               // solicitud post al endpoint de watsap 
               let uri = "https://ibceducacion.com"
               let local = "http://localhost:3017"
-              fetch(`${uri}/api/watsap/`, {
+              fetch("https://ibceducacion.com/api/watsap/", {
                 method: "POST",
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify(userWatsap)
