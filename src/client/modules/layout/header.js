@@ -91,10 +91,10 @@ export default class Header extends React.Component {
                                       return  (
                                         <div className="col-xs height-100 menu-top-container">
                                             <ul className="menu-top menu-top-flex">
-                                                <li className="item-menu">
+                                                {/* <li className="item-menu">
                                                     <Link className="mousePoint tutorial-button" target={newTab} to={videoTutorial}>Video tutoriales
                                                     </Link>
-                                                </li>
+                                                </li> */}
 
                                                 <li className="item-menu">
                                                     <Link className="mousePoint" target={newTab} to={hrefCurso}>Curso

@@ -121,11 +121,11 @@ router.use('/welcome-message', welcomeMessage)
 // router.use('/account-creation', accountCreation)
 
 // se valida que el usuario esté loguaedo, si no se responde con 401
-// router.use((req, res, next) => {
-//   if (req.user === undefined)
-//     return res.status(401).send('Unauthorized')
-//   next()
-// })
+router.use((req, res, next) => {
+  if (req.user === undefined)
+    return res.status(401).send('Unauthorized')
+  next()
+})
 
 router.use('/privados/videos', express.static(path.join("/mnt", "akron-volume", "Finales-Akron"), {fallthrough: false}))
 router.use('/accept-terms', acceptTerms)
