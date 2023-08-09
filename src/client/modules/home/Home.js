@@ -332,17 +332,17 @@ export default class Home extends React.Component {
               marginTop: "1em"
             }}>
               <div className="col-xs-12" id="Programas">
-                <div className="row">
+                <div className="row center-flex" >
                   <div className="col-xs-12 center-flex">
-                    <span className="home-title" style={{color: "white"}} > {this.state.pageTexts[16]} &nbsp; <span
+                    <span className="home-title" style={{color: "white"}} > {this.state.pageTexts[16]} <span
                       className="home-title bold" style={{color: "white"}} > {this.state.pageTexts[17]} </span> </span>
                     {/* <span className="home-title"> Nuestro &nbsp; <span className="home-title bold"> Programa </span> </span> */}
                   </div>
-                  <div className="col-xs-12 center-flex">
-            <span className="home-subtitle" >
-              {this.state.pageTexts[18]}
-              {/* AKRON ENGLISH es un programa diseñado para satisfacer tus necesidades como alumno de inglés. Tendrás acceso a asesorías personalizadas con tutores conectados a Skype las 24 horas del día que te ayudarán a resolver tus dudas o inquietudes durante el tiempo de estudio. */}
-            </span>
+                  <div className="col-xs-10 center-flex">
+                    <span className="home-subtitle" >
+                      {this.state.pageTexts[18]}
+                      {/* AKRON ENGLISH es un programa diseñado para satisfacer tus necesidades como alumno de inglés. Tendrás acceso a asesorías personalizadas con tutores conectados a Skype las 24 horas del día que te ayudarán a resolver tus dudas o inquietudes durante el tiempo de estudio. */}
+                    </span>
                   </div>
                   <div className="col-xs-12">
                     <div className="row">
@@ -391,10 +391,13 @@ export default class Home extends React.Component {
               </div>
             </div>
           </div>
-
+          
           <div className="col-xs-12 padding-big" id="" style={{
             marginTop: "4em"
           }}>
+            <div>
+              <h2 className='home-title'> Plataforam E-learning </h2>
+            </div>
             <div className="row">
               <div className="col-md-4 col-xs-12 no-padding background-home background-home-1">
                 <div className="home-first-container">
@@ -403,7 +406,7 @@ export default class Home extends React.Component {
                       <img className="first-card-img" src="/images/home-1-back.jpg"/>
                     </div>
                     <div className="col-xs-12 ">
-                      <p className="home-first-card-description bold">
+                      <p className="home-first-card-description-title bold">
                         {this.state.pageTexts[22]}
                         {/* Curso Completo */}
                       </p>
@@ -422,7 +425,7 @@ export default class Home extends React.Component {
                       <img className="first-card-img" src="/images/home-3-back.jpg"/>
                     </div>
                     <div className="col-xs-12">
-                      <p className="home-first-card-description bold">
+                      <p className="home-first-card-description-title bold">
                         {this.state.pageTexts[26]}
                         {/* Novedoso Programa */}
                       </p>
@@ -441,7 +444,7 @@ export default class Home extends React.Component {
                       <img className="first-card-img" src="/images/home-2-back.jpg"/>
                     </div>
                     <div className="col-xs-12">
-                      <p className="home-first-card-description bold">
+                      <p className="home-first-card-description-title bold">
                         {this.state.pageTexts[24]}
                         {/* Nuestras Herramientas */}
                       </p>
