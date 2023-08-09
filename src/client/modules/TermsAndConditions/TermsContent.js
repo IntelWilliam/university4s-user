@@ -33,7 +33,7 @@ export default class TermsContent extends React.Component {
           <p>International Bilingual Company S.A.C se reserva el derecho de actualizar y/o modificar los Términos y
             Condiciones que detallamos a continuación en cualquier momento, sin previo aviso. Por
             esta razón recomendamos revisar los Términos y Condiciones cada vez que utilice este
-            Sitio. Los consumidores quedarán sujetos a los Términos y Condiciones del presente sitio,
+            sitio. Los consumidores quedarán sujetos a los Términos y Condiciones del presente sitio,
             en el momento en el que envíen su solicitud.
           </p>
 
@@ -58,11 +58,11 @@ export default class TermsContent extends React.Component {
             <p>Para usar la web es necesario adquirir el producto. El registro de cada usuario se
               verificará completando y suscribiendo el formulario que aparece en el sitio y su
               posterior envío, el cual se realiza automáticamente mediante un "click" en el elemento
-              respectivo. Los datos necesarios para el registro son los siguientes: Nombre, Apellidos,
-              Email, Clave, País de residencia, Tipo de documento, Número de documento, Género, Fecha
-              de nacimiento, Celular. Para acceder al registro del usuario, se deberán aceptar los
-              términos y condiciones de la web, así como la Política de Protección Tratamiento de
-              Datos Personales de International Bilingual Company S.A.C . En caso de no registrarse, el usuario deberá
+              respectivo. Los datos necesarios para el registro son los siguientes: nombre, apellidos,
+              correo electrónico, clave, país de residencia, tipo de documento, número de documento, género, fecha
+              de nacimiento, número de celular. Para acceder al registro del usuario, se deberán aceptar los
+              términos y condiciones de la web, así como la Política de protección tratamiento de
+              datos personales de International Bilingual Company S.A.C . En caso de no registrarse, el usuario deberá
               completar los datos que se indican en el contrato de compra con el fin de hacer efectiva
               la adquisición de productos o servicios. </p>
 
@@ -70,7 +70,7 @@ export default class TermsContent extends React.Component {
               que realicen. International Bilingual Company S.A.C utilizará los datos de los usuarios que se registren
               exclusivamente para los fines que realice el usuario, sin realizar otro tipo de
               tratamiento de sus datos personales.</p>
-
+              
             <li>
               CLAVE SECRETA.
             </li>
