@@ -70,7 +70,7 @@ export default class TermsContent extends React.Component {
               que realicen. International Bilingual Company S.A.C utilizará los datos de los usuarios que se registren
               exclusivamente para los fines que realice el usuario, sin realizar otro tipo de
               tratamiento de sus datos personales.</p>
-              
+
             <li>
               CLAVE SECRETA.
             </li>
@@ -87,38 +87,36 @@ export default class TermsContent extends React.Component {
             </li>
             <p>El usuario gozará de todos los derechos que le reconoce la legislación sobre protección
               al consumidor vigente en el territorio de Perú, y además los que se le otorgan en estos
-              términos y condiciones. La sola visita de este sitio en el cual se ofrecen determinados
+              Términos y condiciones. La sola visita de este sitio en el cual se ofrecen determinados
               bienes y el acceso a determinados servicios, no impone al consumidor obligación alguna,
               a menos que haya aceptado en forma diferente a las condiciones ofrecidas por el
               proveedor.</p>
           </ol>
 
-          <h1>Políticas de Devolución y Cambios</h1>
+          <h1>Políticas de devolución y cambios</h1>
           <p>
             Los plazos para generar cambios y devoluciones comienzan a correr a partir del día siguiente
             de la compra.
           </p>
 
-          <h1>Oficina de Atención al Cliente</h1>
+          <h1>Oficina de atención al cliente</h1>
           <p>
             Para realizar cambios de productos adquiridos, puedes acercarte a la oficina de servicio al
-            cliente, ubicada en Julio C. Tello Nro. 215 – Lince, presentando tu DNI correspondiente.
-            (Titular)
+            cliente, ubicada en Julio C. Tello Nro. 215 – Lince, presentando tu DNI correspondiente (titular).
           </p>
           <p>
             Los cambios deberán realizarse antes de los 07 días hábiles desde la fecha de recepción del
             producto.
           </p>
-          <p>En el caso de anulación del Programa de Ingles el procedimiento será el siguiente:</p>
+          <p>En el caso de anulación del Programa de inglés el procedimiento será el siguiente:</p>
           <ul>
             <li>
               Presentar una solicitud sustentada informando el motivo de la anulación del contrato de
-              compra – venta (motivo Económico, personal y/o salud), dicha solicitud más anexos se ingresa
-              a través de mesa de partes o correo electrónico (consultas@ibceducacion.com), dándole una
-              respuesta sea procedente o improcedente a su solicitud en un plazo de 07 a 15 días hábiles.
+              compra – venta (motivo económico, personal y/o salud), dicha solicitud más anexos se ingresan
+              a través de mesa de partes o correo electrónico (consultas@ibceducacion.com). La empresa le dará una respuesta a su solicitud, sea procedente o improcedente, en un plazo de 07 a 15 días hábiles.
             </li><br/>
             <li>
-              En caso la respuesta a la solicitud de Anulación sea PROCEDENTE el cliente deberá hacer el
+              En caso la respuesta a la solicitud de anulación sea PROCEDENTE el cliente deberá hacer el
               pago de los gastos administrativos, puesto que al momento de generar sus códigos de ingreso
               a la Plataforma Educativa a www.ibceducacion.com la empresa genera un pago previo equivalente
               a 03 cuotas (iguales a las cuotas mensuales acordadas dentro del contrato).
