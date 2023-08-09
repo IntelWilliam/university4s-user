@@ -124,33 +124,8 @@ export default class TermsContent extends React.Component {
           </ul>
 
           <p>
-            El costo del envío del Programa de Ingles, según sea el caso, será asumido por International Bilingual Company S.A.C cuando la devolución o cambio se produzca porque:
+          Al acceder y usar nuestra plataforma, confirmas que has leído, entendido y aceptado estos términos y condiciones. Tu uso continuado de la plataforma está sujeto a estos términos y a cualquier actualización que realicemos. ¡Te deseamos un excelente aprendizaje y aprovechamiento de nuestra plataforma educativa de inglés!
           </p>
-          <ul>
-            <li>El producto no corresponde a lo que figura en el contrato. (Clausula Segunda)</li>
-          </ul>
-
-          <p>
-            Para evitar inconveniente, es muy importante que al momento de la recepción de la compra revises el
-            buen estado de los productos antes de firmar. Esto evitará inconvenientes futuros y te servirá
-            también para hacer uso de la garantía (si la hubiera). Tu nombre, firma y DNI al momento de la entrega
-            será muestra de conformidad en la recepción.
-          </p>
-
-          <p>No se aceptarán reclamos por daños estético y/o una vez firmado el remito conforme.</p>
-
-          <h1>IMPORTANTE</h1>
-          <ol>
-            <li>
-              El producto puede estar abierto pero DEBE estar en perfectas condiciones. Esto quiere decir que no pueden estar rotas.
-            </li><br/>
-            <li>Entregar todos sus accesorios.</li><br/>
-            <li>
-              Si el producto es devuelto por falla, se realizará un chequeo que confirmará la falla del producto,
-              la cual si no es atribuible a un mal uso del mismo, se podrá hacer efectiva la garantía de
-              satisfacción garantizada.
-            </li>
-          </ol>
 
         </div>
       </div>
