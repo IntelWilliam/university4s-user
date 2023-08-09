@@ -52,7 +52,7 @@ export default class TermsAndConditions extends React.Component {
             //   'url': null
             // }
         ]
-        let headerInfo = {
+        let headerInfo = {  
             // title: this.state.pageTexts[2],
             // description: this.state.pageTexts[4],
             title: "Términos, Condiciones y Políticas",
