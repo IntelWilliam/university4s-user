@@ -712,11 +712,15 @@ padding-top: 1em;
 .login-button {
     color: white;
     background-color: #294f75;
+    margin-left: 0.5rem;
+    cursor: pointer;
 }
 
 .reset-button {
     color: white;
     background-color: #ff4d4d;
+    margin-left: 0.6rem;
+    cursor: pointer;
 }
 
 .line-profile {
@@ -802,7 +806,7 @@ box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .card-login-form p {
-    margin-left: -10px;
+    margin-left: 20px;
 }
 
 .card-login-form #card-alert {
@@ -833,6 +837,7 @@ box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     height: 130px;
     width: 130px;
     border-radius: 50%;
+    margin-left: 1.5rem;
 }
 
 .login-button:hover {

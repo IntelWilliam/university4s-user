@@ -275,7 +275,7 @@ class Login extends React.Component {
                         <br></br><br></br>
                         <div className="login-form formValidate" id="formlogin">
                           <div className="row">
-                            <div className="col-xs-12">
+                            <div className="col-xs-12" style={{marginLeft: "0.7rem"}}>
                               <label>{this.state.pageTexts[1]}</label>
                               {/* <label>¿Olvidaste tu contraseña?</label> */}
                             </div>
