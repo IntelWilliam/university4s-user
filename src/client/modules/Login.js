@@ -300,7 +300,7 @@ class Login extends React.Component {
                           <div className="row">
                             <Link  to="/newaccount/" className="col-xs-12">
                             {/* <p className="mousePoint" style={{'color': 'white'}} name="action">¿No tienes una cuenta? Crea una. </p> */}
-                            <p className="mousePoint" style={{'color': 'white'}} name="action">{this.state.pageTexts[4]}</p>
+                            <p className="mousePoint" style={{'color': 'black'}} name="action">{this.state.pageTexts[4]}</p>
                           </Link>
                         </div>
                       </div>
