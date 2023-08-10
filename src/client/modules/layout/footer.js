@@ -104,12 +104,12 @@ export default class Footer extends React.Component {
             </div>
           </div>
         </div>
-        {(() => {
+        {/* {(() => {
           let hideIncidentForm = this.props.hideIncidentForm;
           if (!hideIncidentForm) {
             return <IncidentForm/>
           }
-        })()}
+        })()} */}
       </footer>
     )
   }
