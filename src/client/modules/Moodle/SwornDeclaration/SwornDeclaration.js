@@ -458,12 +458,11 @@ class SwornDeclaration extends React.Component {
                 </li>
                 <li>Que soy mayor de edad, en caso contrario mi padre o apoderado llenará esta declaración.
                 </li>
-                <li>No voy a difundir bajo ningún medio escrito, virtual, oral, el examen que estoy dando, afín de
+                <li>No voy a difundir bajo ningún medio escrito, virtual, oral, el examen que estoy dando, a fín de
                   mantener la confidencialidad del mismo.
                 </li>
                 <li>Soy totalmente responsable de los conocimientos vertidos en el examen por tanto en caso de salir
-                  aprobado, asumo la responsabilidad educativa y pedagógica con respecto al certificado que emita AKRON
-                  ENGLISH.
+                  aprobado, asumo la responsabilidad educativa y pedagógica con respecto al certificado que emita IBC International Bilingual Company.
                 </li>
                 <li>No falsificaré mi nombre ni apellidos.
                 </li>
@@ -475,12 +474,11 @@ class SwornDeclaration extends React.Component {
                 </li>
                 <li>En caso de participar en un Concurso Público, presentaré la DECLARACIÓN JURADA ÉTICA Y MORAL DE
                   PARTICIPACIÓN HONESTA EN LA EVALUACIÓN POR INTERNET junto con todos los certificados emitidos por
-                  AKRON
-                  ENGLISH y la Universidad Privada San Pedro de Chimbote.
+                  IBC International Bilingual Company y TrackTest Online English Assessment Center.
                 </li>
               </ol>
 
-              <p className={'m-y-30'}>La presente declaración lo realizo en honor a la verdad, en caso de falta a la fe
+              <p className={'m-y-30'}>Realizo la presente declaración en honor a la verdad, en caso de falta a la fe
                 pública me someto a las
                 sanciones de ley;
               </p>
