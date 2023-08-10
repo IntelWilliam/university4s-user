@@ -396,7 +396,7 @@ export default class Home extends React.Component {
             marginTop: "4em"
           }}>
             <div>
-              <h2 className='home-title'> Plataforam E-learning </h2>
+              <h2 className='home-title'> Plataforma E-learning </h2>
             </div>
             <div className="row">
               <div className="col-md-4 col-xs-12 no-padding background-home background-home-1">

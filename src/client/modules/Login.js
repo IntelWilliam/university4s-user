@@ -247,7 +247,7 @@ class Login extends React.Component {
                         <div className="row">
                           <div className="col-xs-12">
                             <input id="username" className="rounded-component large-input"
-                              name="username" placeholder="Nombre de usuario o E-mail" type="text" data-error=".errorTxt1" />
+                              name="username" placeholder="Correo electrónico" type="text" data-error=".errorTxt1" />
                               <div className="errorTxt1" ></div>
                             </div>
                           </div>
@@ -282,8 +282,8 @@ class Login extends React.Component {
                           </div>
                           <div className="row">
                             <div className="col-xs-12">
-                              {/* <input  value={this.state.rememEmail || ''} onChange={this.handleForm.bind(this)} name="email" onKeyUp={this.pressKeyNews.bind(this)} className="rounded-component large-input" type="email" placeholder="Escribe tu E-mail" data-error=".errorTxt2" /> */}
-                              <input  value={this.state.rememEmail || ''} onChange={this.handleForm.bind(this)} name="email" onKeyUp={this.pressKeyNews.bind(this)} className="rounded-component large-input" type="email" placeholder={this.state.pageTexts[2]} data-error=".errorTxt2" />
+                              {/* <input  value={this.state.rememEmail || ''} onChange={this.handleForm.bind(this)} name="email" onKeyUp={this.pressKeyNews.bind(this)} className="rounded-component large-input" type="email" placeholder="Escribe tu Correo electrónico" data-error=".errorTxt2" /> */}
+                              <input  value={this.state.rememEmail || ''} onChange={this.handleForm.bind(this)} name="email" onKeyUp={this.pressKeyNews.bind(this)} className="rounded-component large-input" type="email" placeholder="Correo electrónico" data-error=".errorTxt2" />
                             </div>
                           </div>
                           <div id="card-alert" style={{display: 'none'}}>
