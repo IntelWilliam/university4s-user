@@ -1096,7 +1096,7 @@ bottom: 0;
     position: relative;
     BACKGROUND-SIZE: cover;
     BACKGROUND-REPEAT: no-repeat;
-    background-image: url("/images/fo.jpg");
+    background-image: url("/images/home.gif");
 }
 
 .tutorial-color {
@@ -3765,7 +3765,7 @@ bottom: 0;
   
     font-family: "Tofino-Book";
     text-align: justify;
-    color:#fff;
+    color:#134c97;
 }
 
 .help-number-center {
