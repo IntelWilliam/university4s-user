@@ -171,7 +171,7 @@ export default class Lesson extends React.Component {
                   <img className="pdf-icon" src="/images/pdf.png"/>
                 </div>
                 <div className="info-title-container">
-                  <a className="pdf-link" 
+                  <a className="pdf-link" target={"_blank"}
                      href="https://s3.amazonaws.com/devbooks.ibceducacion.com/new_books_course/gui%CC%81a+de+estudio+(24-11-2017).pdf">
                     {/*<a className="pdf-link" download="Manual de estudio" href="https://image.re-cosmo.com/source/gui%CC%81a%20de%20estudio%20(24-11-2017).pdf">*/}
                     <span className="pdf-title">{this.state.pageTexts[6]}</span>
