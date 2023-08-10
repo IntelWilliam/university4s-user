@@ -86,14 +86,14 @@ export class HeaderHome extends React.Component {
                         Programas
                       </span>
                     </Link>
-                    <Link
+                    {/* <Link
                       to={'/?goTo=Testimonios'}
                       className='item-menu-border mousePoint'
                     >
                       <span onClick={this.goTo.bind(this, '#Testimonios')}>
                         Testimonios
                       </span>
-                    </Link>
+                    </Link> */}
                     <Link
                       to={'/?goTo=Convenios'}
                       className='item-menu-border mousePoint'
@@ -142,6 +142,7 @@ export class HeaderHome extends React.Component {
                 Nosotros
               </a>
             </div>
+
             <div className='col-xs-12 item-mobile-menu'>
               <a
                 className='link-menu'
@@ -150,14 +151,16 @@ export class HeaderHome extends React.Component {
                 Programas
               </a>
             </div>
-            <div className='col-xs-12 item-mobile-menu'>
+
+            {/* <div className='col-xs-12 item-mobile-menu'>
               <a
                 className='link-menu'
                 onClick={this.goTo.bind(this, '#Testimonios')}
               >
                 Testimonios
               </a>
-            </div>
+            </div> */}
+
             <div className='col-xs-12 item-mobile-menu'>
               <a
                 className='link-menu'
@@ -166,6 +169,7 @@ export class HeaderHome extends React.Component {
                 Convenios
               </a>
             </div>
+
             <div className='col-xs-12 item-mobile-menu'>
               <a
                 className='link-menu'
