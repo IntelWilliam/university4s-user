@@ -592,7 +592,7 @@ export default class Home extends React.Component {
               <div className="row">
                 <div className="col-xs-10 col-xs-offset-1 ">
           <span className="home-title"><span className="home-title bold" style={{paddingLeft: "10rem"}}  >
-                  Alianzas estratégicas y Aconvenios
+                  Alianzas estratégicas y convenios
           </span></span>
 
                   <p className="justify-text">Nuestro convenio de cooperación interinstitucional con las empresas

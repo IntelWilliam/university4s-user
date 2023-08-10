@@ -275,7 +275,7 @@ class SwornDeclaration extends React.Component {
                   encType="multipart/form-data">
 
               <p className={'bold m-y-0'}>EXAMEN DE EVALUACIÓN</p>
-              <p className={'bold m-y-0'}>AKRON ENGLISH</p>
+              <p className={'bold m-y-0'}>IBC International Bilingual Company</p>
               <p className={'bold m-t-0 m-b-20'}>Antes de dar el examen deberá llenar este formulario</p>
               <p className={'bold m-y-30'}>DECLARACIÓN JURADA ÉTICA Y MORAL DE PARTICIPACIÓN HONESTA EN LA
                 EVALUACIÓN POR
