@@ -34,7 +34,7 @@ export default class MessageSender extends React.Component {
       var formData = new FormData();
       formData.append("file", blobFile);
 
-      swal({title: 'Subiendo!', text: 'El archivo se esta subiendo.'}).then(() => {}, () => {})
+      swal({title: 'Subiendo', text: 'El archivo se está subiendo.'}).then(() => {}, () => {})
 
       ChatStore.uploadFile(formData, (err, resp) => {
 
