@@ -252,7 +252,7 @@ export default class NextEvents extends React.Component {
                             paddingLeft: "0.5em"
                           }}>
                             <span className="col-xs-12 event-next-name mousePoint"
-                                  onClick={this.checkLastLesson.bind(this, nextEvent)}>{nextEvent.lessonName && nextEvent.lessonTranslate? nextEvent.lessonName + ' / ' + nextEvent.lessonTranslate : "Examen"}</span>
+                                  onClick={this.checkLastLesson.bind(this, nextEvent)}>{nextEvent.lessonName && nextEvent.lessonTranslate? nextEvent.lessonTranslate + ' / ' + nextEvent.lessonName : "Examen"}</span>
                             {/* <span className="col-xs-12 event-next-name mousePoint" onClick={this.checkLastLesson.bind(this, nextEvent)}>{nextEvent.entryName}</span> */}
                             <span className="col-xs-12 event-next-hour">{eventDate}</span>
                           </div>
