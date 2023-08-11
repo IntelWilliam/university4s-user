@@ -323,7 +323,7 @@ var defaultParams = {
   closeOnCancel: true,
   confirmButtonText: 'OK',
   confirmButtonColor: '#8CD4F5',
-  cancelButtonText: 'Cancel',
+  cancelButtonText: 'Cancelar',
   imageUrl: null,
   imageSize: null,
   timer: null,

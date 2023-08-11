@@ -60,13 +60,13 @@ export default class CalendarEvent extends React.Component {
     } else {
 
       swal({
-        title: 'Bloqueado!',
+        title: 'Bloqueado',
         text: "Para desbloquear debe aprobar el subnivel!",
         type: 'warning',
         showCancelButton: true,
         confirmButtonColor: '#DD6B55',
         cancelButtonColor: '#3085d6',
-        confirmButtonText: 'Ok, ir!'
+        confirmButtonText: 'Ir'
       }).then(() => {
         this.context.router.push('/user-area/exams/')
       })
