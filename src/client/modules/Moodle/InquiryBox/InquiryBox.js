@@ -354,7 +354,7 @@ class InquiryBox extends React.Component {
                     float: 'right'
                   }}>
                   <button className="crop-button bold inquiryButton" type="submit">{this.state.pageTexts[30]}</button>
-                  {/* <button className="crop-button bold inquiryButton" type="submit">Aceptar</button> */}
+                  {/* <button className="crop-button bold inquiryButton" type="submit">Enviar</button> */}
                 </div>
               </div>
             </div>

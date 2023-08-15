@@ -116,6 +116,7 @@ router.use('/userIncident', userIncident)
 router.use('/upload-file-incident', uploadFileIncident)
 router.use('/file-chat', express.static(path.join("/mnt", "akron-volume", "uploads_chat" ) , {fallthrough: false}))
 router.use('/welcome-message', welcomeMessage)
+router.use('/consult', consult)
 
 
 // router.use('/account-creation', accountCreation)
@@ -130,7 +131,6 @@ router.use((req, res, next) => {
 router.use('/privados/videos', express.static(path.join("/mnt", "akron-volume", "Finales-Akron"), {fallthrough: false}))
 router.use('/accept-terms', acceptTerms)
 router.use('/chats-off-line', chatsOffLine)
-router.use('/consult', consult)
 router.use('/moodle-unlock', moodleUnlock)
 router.use('/user', userData)
 router.use('/examaudio', express.static(path.join("/var", "www", "html", "dev.ibceducacion.com", "public", "uploads", 'exams')))

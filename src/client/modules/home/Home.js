@@ -171,24 +171,18 @@ export default class Home extends React.Component {
     formdata.append("email", this.state.userData.email)
     formdata.append("type", this.state.userData.type)
     formdata.append("comment", this.state.userData.comment)
-    formdata.append('docFile', $('input[type=file]')[0].files[0]);
+    // formdata.append('docFile', $('input[type=file]')[0].files[0]);
 
     InquiryBoxStore.SendForm(formdata, (err, body) => {
       if (err) {
-
         swal({
-          title: this.state.pageTexts[46],
-          text: this.state.pageTexts[47],
-          // title: 'Error!',
-          // text: "La consulta no fue enviada, intente nuevamente!",
-          type: 'warning',
-          showCancelButton: true,
-          cancelButtonColor: '#3085d6',
-          confirmButtonText: this.state.pageTexts[48],
-          cancelButtonText: this.state.pageTexts[49]
-          // confirmButtonText: 'Cancelar!',
-          // cancelButtonText: 'Intentar nuevamente!'
+          title: "Enviado.",
+          text: "Su consulta fue enviada exitosamente!",
+          confirmButtonColor: "#DD6B55",
+          confirmButtonText: "Continuar",
+          type: "info"
         }).then(() => {
+          this.goTop()
           this.context.router.push('/user-area/')
         })
 
@@ -203,7 +197,7 @@ export default class Home extends React.Component {
         type: "info"
       }).then(() => {
         this.goTop()
-        // this.context.router.push('/user-area/')
+        this.context.router.push('/user-area/')
       })
 
     })
@@ -723,7 +717,7 @@ export default class Home extends React.Component {
                               onChange={this.handleForm.bind(this)}
                               id="fullname"
                               name="fullname"
-                                className="account-input"
+                              className="account-input"
                               data-error=".errorTxt2"
                             >
                             </input>
@@ -860,13 +854,13 @@ export default class Home extends React.Component {
                             <span className="card-next-event-title">{this.state.pageTexts[42]}</span>
                             {/* <span className="card-next-event-title">Información</span> */}
                           </div>
-                          <div className="col-xs-12 inquiryCard-body">
+                          <div className="col-xs-12 inquiryCard-body" style={{color: 'white'}}>
                             <div className="col-xs-12">
                               <p>
                                 {this.state.pageTexts[43]}
                                 {/* La respuesta llegará a su correo electrónico en un plazo de 24 a 48 horas. */}
                               </p>
-                            </div>
+                            </div>  
                           </div>
                         </div>
                       </div>

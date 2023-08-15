@@ -6,10 +6,10 @@ import { mailTemplate } from 'src/server/util/mailTemplate'
 export function sendConsult(data, callback) {
   if (data['username'] && data['fullname'] && data['email'] && data['type'] && data['comment']) { //Se pregunta si existen los campos requeridos
     // Se configura la vista que va a tener el correo electrónico
-    let msg = '<p> <b> Usuario </b> : ' + data['username'] + '</p>' +
+    let msg = '<p> <b> Usuario </b> : ' +  ['username'] + '</p>' +
       '<p> <b> Nombre completo </b> : ' + data['fullname'] + '</p>' +
       '<p> <b> Correo electrónico </b> : ' + data['email'] + '</p>' +
-      '<p> <b> Tipo </b> : ' + data['type'] + '</p>' +
+      '<p> <b> Tipo </b> : ' + data['type'] + '</p>' + 
       '<p> <b> Consulta </b> : ' + data['comment'] + '</p>';
 
     let htmlView = mailTemplate (msg)
