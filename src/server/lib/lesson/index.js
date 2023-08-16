@@ -202,9 +202,9 @@ export function getAllLinks(callback){
 
     lessons.forEach((element)=>{
 
-      let levelName =  element.Nivel == 1 ? 'Inicial' :
-      element.Nivel == 2 ?  'Fundamental':
-      element.Nivel == 3 ? 'Operacional': ''
+       let levelName =  element.Nivel == 1 ? 'Basico' :
+      element.Nivel == 2 ?  'Intermedio':
+      element.Nivel == 3 ? 'Avanzado': ''
 
       links.push(baseUrl + jsonToURL(params))
 
