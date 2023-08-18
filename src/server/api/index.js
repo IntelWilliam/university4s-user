@@ -133,7 +133,7 @@ router.use('/accept-terms', acceptTerms)
 router.use('/chats-off-line', chatsOffLine)
 router.use('/moodle-unlock', moodleUnlock)
 router.use('/user', userData)
-router.use('/examaudio', express.static(path.join("/var", "www", "html", "dev.ibceducacion.com", "public", "uploads", 'exams')))
+router.use('/examaudio', express.static('/home/ubuntu/IBCPHP/public/uploads/exams'));
 router.use('/simulationaudio', express.static('/home/ubuntu/IBCPHP/public/uploads/simulators'));
 router.use('/pdf-solution', express.static(path.join("/mnt", "akron-volume", "pdf_solucionario" ) , {fallthrough: false}))
 router.use('/languages', language)
