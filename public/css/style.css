@@ -4063,7 +4063,8 @@ Nuevo Css akron 2.0
 }
 
 .blue-back {
-    background: #2d47c4 !important;
+    background: #00a400  !important;
+    color: white;
 }
 
 .document-button-back {
@@ -4732,3 +4733,10 @@ div#slider figure {
 .text-condition {
     text-align: justify;
 }
+
+.wtsp-consult-icon:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+    cursor: pointer;
+}
+

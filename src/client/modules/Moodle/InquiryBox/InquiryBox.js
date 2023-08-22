@@ -397,7 +397,7 @@ class InquiryBox extends React.Component {
 
         <div className="card-next-event account-container col-xs-12">
           <div className="row">
-            <div className="col-xs-12 header-card blue-back">
+            <div className="col-xs-12 header-card blue-back wtsap">
               <span className="card-next-event-title">{this.state.pageTexts[24]}</span>
               {/* <span className="card-next-event-title">Chat en Línea</span> */}
             </div>
@@ -419,10 +419,10 @@ class InquiryBox extends React.Component {
               <div className="col-xs-12" style={{
                 'textAlign': 'center'
               }}>
-              <Link to={hrefChat}>
-                <img src="/images/consultasMini.png"/>
-              </Link>
-            </div>
+                <a href='https://api.whatsapp.com/send?phone=987402662&text=Hol%20Mundo' target='_blank'>
+                  <img className="wtsp-consult-icon" src="/images/consultasMini.png"/>
+                </a>
+              </div>
 
             <p >{this.state.pageTexts[28]} &nbsp;
               {/* <p >Tienes algún problema con la comunicación. &nbsp; */}

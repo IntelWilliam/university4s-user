@@ -127,12 +127,8 @@ class BoxChat extends React.Component {
                       <div className="col-xs-12">
                         <p >{this.state.pageTexts[25]}&nbsp;
                           {/* <p >Para contactarse con el&nbsp; */}
-                          <Link to={hrefChat} style={{
-                            'color': '#363cd8',
-                            'fontFamily': 'Tofino-Regular'
-                          }}>{this.state.pageTexts[26]}
+                        {this.state.pageTexts[26]}
                           {/* }}>Profesor en Línea */}
-                        </Link>
                         {this.state.pageTexts[27]}
                         {/* , haga click en el siguiente icono: */}
                       </p>
@@ -140,20 +136,16 @@ class BoxChat extends React.Component {
                       <div className="col-xs-12" style={{
                         'textAlign': 'center'
                       }}>
-                      <Link to={hrefChat}>
-                        <img src="/images/consultasMini.png"/>
-                      </Link>
-                    </div>
+                        <a href='https://api.whatsapp.com/send?phone=987402662&text=Buen%20día%20Profesor%2C%20tengo%20una%20consulta%20sobre%20las%20clases%20de%20Inglés' target='_blank'>
+                          <img className="wtsp-consult-icon"  src="/images/consultasMini.png"/>
+                        </a>
+                      </div>
 
                     <p >{this.state.pageTexts[28]} &nbsp;
                       {/* <p >Tienes algún problema con la comunicación. &nbsp; */}
-                      <Link to={hrefChat} style={{
-                        'color': '#363cd8',
-                        'fontFamily': 'Tofino-Regular'
-                      }}>{this.state.pageTexts[29]}
+                      {this.state.pageTexts[29]}
                       {/* }}>Informanos. */}
-                    </Link>
-                  </p>
+                    </p>
                 </div>
               </div>
             </div>
