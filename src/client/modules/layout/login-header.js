@@ -6,7 +6,7 @@ export default class LoginHeader extends React.Component {
     render() {
         return (
             <div className="col-xs-12 front front-nackground">
-                <div className="row" style={{paddingBottom: "1rem"}}>
+                <div className="row" style={{paddingBottom: "1.3rem"}}>
                     <div className="container width-100">
                         <div className="col-xs-12 height-login-header">
                             <div className="row height-100">

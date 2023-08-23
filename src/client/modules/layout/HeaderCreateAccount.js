@@ -52,7 +52,7 @@ export default class HeaderCreateAccount extends React.Component {
                         <div className="col-xs-12 height-100">
                             <div className="row height-100">
                                 <Link to="/" className="col-xs-3 col-sm-2 col-md-1 image-logo-container height-100">
-                                    <img src="/images/logo.png" className="logo-page"/>
+                                    <img src="/images/logoi.png" className="logo-pagei"/>
                                 </Link>
                                 <div className="col-xs height-100 menu-top-container">
                                     <ul className="menu-top">
