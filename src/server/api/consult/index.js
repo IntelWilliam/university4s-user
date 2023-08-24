@@ -1,35 +1,20 @@
 import express from 'express'
-import fs from 'fs'
-import { sendConsult } from 'src/server/lib/consult'
-import { uploadFile } from 'src/server/shared/fileUploader'
+import { sendCorreo } from '../../lib/consult';
 
-// se crea el nuevo router para almacenar rutas
+
+// creando nuevo router para almacenar rutas 
 const router = express.Router()
 
-/*
- * Este endpoint envia un formulario con o sin archivo adjunto al buzón de consultas
- */
+// ruta {host/api/consult/ } donde enviaremos consultas desde el formualrio Home 
 router.post('/', (req, res) => {
-  console.log('esto es lo que trae res =>');  
-  console.log(res);  
+  
+  // traer data que vienee del front 
+  const data = req.body; 
+  console.log(data, "data del back");
 
-  uploadFile(req, res, (error, result) => {
-    if (error)
-      return res.status(500).json({ error: error })
-
-    sendConsult(result, (err, response) => {
-      if (err) {
-        if (err['file']) { //Se pregunta si existe el archivo para eliminarlo
-          fs.unlink(err['file'], (err) => {});
-        }
-        return res.status(500).json(err)
-      }
-      if (response['file']) { //Se pregunta si existe el archivo para eliminarlo
-        fs.unlink(response['file'], (err) => {});
-      }
-      res.json({ 'ok': 'request sent' })
-    })
-  })
+  // enviar esa data a que lo procese mi controlador
+  const result = sendCorreo(data)
+  res.json(result)
 
 })
 

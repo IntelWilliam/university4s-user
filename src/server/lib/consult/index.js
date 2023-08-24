@@ -93,3 +93,12 @@ export function sendPass(email, newpass, callback) {
   }
 
 }
+
+
+/*
+Funcion que va a enviar un correo desde el home.  
+*/
+export function sendCorreo(data) {
+  
+  return data;
+}

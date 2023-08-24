@@ -422,6 +422,7 @@ class InquiryBox extends React.Component {
                 <a href='https://api.whatsapp.com/send?phone=987402662&text=Hol%20Mundo' target='_blank'>
                   <img className="wtsp-consult-icon" src="/images/consultasMini.png"/>
                 </a>
+                <p> hola mundo</p>
               </div>
 
             <p >{this.state.pageTexts[28]} &nbsp;

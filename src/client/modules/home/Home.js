@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from 'src/client/modules/layout/footer'
 import HeaderPage from 'src/client/modules/Moodle/HeaderPage'
 import HeaderHome from 'src/client/modules/layout/HeaderHome'
-import InquiryBoxStore from 'src/client/modules/Moodle/InquiryBox/InquiryBoxStore'
+// import InquiryBoxStore from 'src/client/modules/Moodle/InquiryBox/InquiryBoxStore'
 import loading from 'src/client/modules/Chat/Modals/loading'
 import FrontTextsActions from 'src/client/modules/FrontTexts/FrontTextsActions'
 
@@ -69,10 +69,6 @@ export default class Home extends React.Component {
 
     $("#formlogin").validate({
       rules: {
-        username: {
-          required: true,
-          minlength: 2
-        },
         fullname: {
           required: true,
           minlength: 2
@@ -91,13 +87,9 @@ export default class Home extends React.Component {
       },
       //For custom messages
       messages: {
-        username: {
-          required: "Ingrese el Usuario",
-          minlength: "Ingrese al menos 2 caracteres"
-        },
         fullname: {
           required: "Ingrese su Nombre completo",
-          minlength: "Ingrese al menos 2 caracteres"
+          minlength: "Ingrese al menos 4 caracteres"
         },
         email: {
           required: "Ingrese sus Email",
@@ -154,54 +146,55 @@ export default class Home extends React.Component {
   }
 
   handleForm(event) {
-    let item = this.state.userData;
-    item[event.target.name] = event.target.value;
-    this.setState({userData: item})
-  }
+    const {name, value} = event.target;
+    this.setState((prevState) => ({
+      userData: { ...prevState.userData, [name]: value }
+    }))
+    
+  };
+
 
   confirm() {
     let loadingNew = loading.replace(/text-to-load/g, this.state.pageTexts[45]);
 
     swal({html: loadingNew, showCloseButton: false, showCancelButton: false, showConfirmButton: false})
 
-    let formdata = new FormData();
+    const {fullname, email, type, comment} = this.state.userData;
 
-    formdata.append("username", this.state.userData.username)
-    formdata.append("fullname", this.state.userData.fullname)
-    formdata.append("email", this.state.userData.email)
-    formdata.append("type", this.state.userData.type)
-    formdata.append("comment", this.state.userData.comment)
-    // formdata.append('docFile', $('input[type=file]')[0].files[0]);
+    const dataline = {fullname, email, type, comment}
+    const data = JSON.stringify(dataline)
 
-    InquiryBoxStore.SendForm(formdata, (err, body) => {
-      if (err) {
-        swal({
-          title: "Enviado.",
-          text: "Su consulta fue enviada exitosamente!",
-          confirmButtonColor: "#DD6B55",
-          confirmButtonText: "Continuar",
-          type: "info"
-        }).then(() => {
-          this.goTop()
-          this.context.router.push('/user-area/')
-        })
-
-        return console.log(err);
-      }
-
-      swal({
-        title: "Enviado.",
-        text: "Su consulta fue enviada exitosamente!",
-        confirmButtonColor: "#DD6B55",
-        confirmButtonText: "Continuar",
-        type: "info"
-      }).then(() => {
-        this.goTop()
-        this.context.router.push('/user-area/')
-      })
-
-    })
-
+    $.ajax({
+            url: 'http://localhost:3017/api/consult/',
+            type: 'POST',
+            processData: false, 
+            contentType: 'application/json', 
+            data: data
+      }).done(function(body) {
+          console.log('json que se envia al back:', body);
+          swal({
+            title: "Enviado",
+            text: "Su consulta fue enviada exitosamente!",
+            confirmButtonColor: "#DD6B55",
+            confirmButtonText: "Aceptar",
+            type: "error"
+          }).then(() => {
+            this.goTop()
+            this.context.router.push('/user-area/')
+          })
+      }).fail((err) => {
+          console.log('error', err);
+          swal({
+            title: "Error",
+            text: "Hubo un error al enviar su cosulta",
+            confirmButtonColor: "#DD6B55",
+            confirmButtonText: "Aceptar",
+            type: "error"
+          }).then(() => {
+            this.goTop()
+            this.context.router.push('/user-area/')
+          })
+      });
   }
 
   goTop() {
@@ -650,39 +643,7 @@ export default class Home extends React.Component {
             </div>
           </div>
 
-          {/* <div className="col-xs-12 learner-data-container" id="Convenios">
-    <div className="row">
-      <div className="col-xs-12 center-flex">
-        <span className="home-title bold">
-          {this.state.pageTexts[32]}
-        </span>
-      </div>
-
-
-      <div className="col-xs-10 col-xs-offset-1 comments-slider-container">
-        <div className="comments-slider">
-          <div>
-            <img src="/images/testimony4.jpg"></img>
-          </div>
-
-          <div>
-            <img src="/images/testimony1.jpg"></img>
-          </div>
-
-          <div>
-            <img src="/images/testimony2.jpg"></img>
-          </div>
-
-          <div>
-            <img src="/images/testimony3.jpg"></img>
-          </div>
-
-
-        </div>
-      </div>
-    </div>
-  </div> */}
-
+     
           <div className="col-xs-12 learner-data-container" style={{
             background: "#0c2d70"
           }} id="Contacto">
@@ -698,10 +659,12 @@ export default class Home extends React.Component {
                   className="login-form formValidate account-login-form"
                   id="formlogin"
                   method="POST"
-                  encType="multipart/form-data"
                 >
+
                   <div className="row">
-                    <div className="col-xs-12">
+
+                  {/* Campo para FullName */}
+                  <div className="col-xs-12">
                       <div className="row">
                         <div className="col-xs-12 col-sm-8 account-container">
                           <div className="row">
@@ -723,10 +686,12 @@ export default class Home extends React.Component {
                             </input>
                           </div>
                           <div className="col-xs-6 col-xs-offset-6 errorTxt2"></div>
+                          </div>
                         </div>
                       </div>
-                    </div>
                   </div>
+
+                  {/* Campo para Email */}
                   <div className="col-xs-12">
                     <div className="row">
                       <div className="col-xs-12 col-sm-8 account-container">
@@ -754,6 +719,7 @@ export default class Home extends React.Component {
                     </div>
                   </div>
 
+                  {/* Campo para TIPO DE CONSULTA  */}
                   <div className="col-xs-12">
                     <div className="row">
                       <div className="col-xs-12 col-sm-8 account-container">
@@ -790,6 +756,7 @@ export default class Home extends React.Component {
                     </div>
                   </div>
 
+                  {/* Campo para el CONTENDIO DE CONSULTA */}
                   <div className="col-xs-12">
                     <div className="row">
                       <div className="col-xs-12 account-container">
@@ -828,7 +795,7 @@ export default class Home extends React.Component {
                         <div style={{float: 'right'}}>
                           <button
                             className="crop-button bold inquiryButton"
-                            type="submit"
+                            type="submit" 
                           >
                             {this.state.pageTexts[44]}
                           </button>
@@ -840,6 +807,7 @@ export default class Home extends React.Component {
 
                 </div>
               </form>
+
             </div>
 
               <div className="col-xs-12 col-sm-3">
