@@ -1,4 +1,5 @@
 import { mailTemplate } from 'src/server/util/mailTemplate'
+import { nodemailer } from "nodemailer";
 
 /*
  * Esta función permite enviar un correo electrónico con la petición de la consulta
@@ -98,7 +99,34 @@ export function sendPass(email, newpass, callback) {
 /*
 Funcion que va a enviar un correo desde el home.  
 */
-export function sendCorreo(data) {
+export function sendCorreo(data, callback) {
   
-  return data;
+  //Configuracion de Transporte de correo
+  const transpoter = nodemailer.createTransport({
+    host: 'smtp.ibceducacion.us',
+    port: '465',
+    secure: true,
+    auth: {
+      user: "consultas@ibceducacion.us",
+      pass: 's%KoG!WTmcy=',
+    }
+  });
+
+  // Detalles del correo
+  const mailOptions = {
+    from: 'consultas@ibceducacion.us',
+    to: data.email, 
+    subject: 'Consulta IBC',
+    text: data.text,
+  };
+
+  // Envio de Correo
+  _smtpTransport.sendMail(mailOptions, function(error, info) {
+    if (error) {
+      callback('Error al enviar el correo: ' + error);
+    } else {
+      callback('Correo enviado: ' + info.response);
+    }
+  });
+
 }

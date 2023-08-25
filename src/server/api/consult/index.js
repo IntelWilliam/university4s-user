@@ -10,11 +10,12 @@ router.post('/', (req, res) => {
   
   // traer data que vienee del front 
   const data = req.body; 
-  console.log(data, "data del back");
+  console.log(data, "data del backend");
 
   // enviar esa data a que lo procese mi controlador
-  const result = sendCorreo(data)
-  res.json(result)
+  sendCorreo(data, function(message) {
+    res.json({message});
+  })
 
 })
 
