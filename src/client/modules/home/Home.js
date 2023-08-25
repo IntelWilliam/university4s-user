@@ -153,7 +153,6 @@ export default class Home extends React.Component {
     
   };
 
-
   confirm() {
     let loadingNew = loading.replace(/text-to-load/g, this.state.pageTexts[45]);
 
@@ -164,37 +163,41 @@ export default class Home extends React.Component {
     const dataline = {fullname, email, type, comment}
     const data = JSON.stringify(dataline)
 
+    const baseUrl = window.location.hostname === 'localhost' ? 'http://localhost:3017' : 'https://ibceducacion.com';
+    
     $.ajax({
-            url: 'http://localhost:3017/api/consult/',
-            type: 'POST',
-            processData: false, 
-            contentType: 'application/json', 
-            data: data
-      }).done(function(body) {
-          console.log('json que se envia al back:', body);
-          swal({
-            title: "Enviado",
-            text: "Su consulta fue enviada exitosamente!",
-            confirmButtonColor: "#DD6B55",
-            confirmButtonText: "Aceptar",
-            type: "error"
-          }).then(() => {
-            this.goTop()
-            this.context.router.push('/user-area/')
-          })
-      }).fail((err) => {
-          console.log('error', err);
-          swal({
-            title: "Error",
-            text: "Hubo un error al enviar su cosulta",
-            confirmButtonColor: "#DD6B55",
-            confirmButtonText: "Aceptar",
-            type: "error"
-          }).then(() => {
-            this.goTop()
-            this.context.router.push('/user-area/')
-          })
-      });
+      url: `${baseUrl}/api/consult/`,
+      type: 'POST',
+      processData: false, 
+      contentType: 'application/json', 
+      data: data,
+      success: (body) => { // Utilizar el método success para manejar el éxito
+        console.log('json que se envia al back:', body);
+        swal({
+          title: "Enviado",
+          text: "Su consulta fue enviada exitosamente!",
+          confirmButtonColor: "#DD6B55",
+          confirmButtonText: "Aceptar",
+          type: "success"
+        }).then(() => {
+          this.goTop();
+          this.context.router.push('/user-area/');
+        });
+      },
+      error: (err) => { // Manejar el error con el método error
+        console.log('error', err);
+        swal({
+          title: "Error",
+          text: "Hubo un error al enviar su consulta",
+          confirmButtonColor: "#DD6B55",
+          confirmButtonText: "Aceptar",
+          type: "error"
+        }).then(() => {
+          this.goTop();
+          this.context.router.push('/user-area/');
+        });
+      }
+    });
   }
 
   goTop() {

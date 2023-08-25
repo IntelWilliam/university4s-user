@@ -14,7 +14,7 @@ router.post('/', (req, res) => {
 
   // enviar esa data a que lo procese mi controlador
   sendCorreo(data, function(message) {
-    res.json({message});
+    res.status(200).json({message: `respuesta exitosa`});
   })
 
 })

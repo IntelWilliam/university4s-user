@@ -80,12 +80,13 @@ passport.use(
 
 //Variable global para configurar el correo electrónico y enviar los emails
 global._smtpTransport = nodemailer.createTransport({
-  service: 'gmail',
-  host: 'smtp.gmail.com',
+  host: 'ibceducacion.us',
+  port: '465',
+  secure: true,
   auth: {
-    user: 'akroninternational537@gmail.com',
-    pass: 'akroninternational1',
-  },
+    user: "consultas@ibceducacion.us",
+    pass: 's%KoG!WTmcy=',
+  }
 });
 
 //Configuración mail gun - envío correo masivos
