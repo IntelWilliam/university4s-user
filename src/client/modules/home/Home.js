@@ -171,8 +171,8 @@ export default class Home extends React.Component {
       processData: false, 
       contentType: 'application/json', 
       data: data,
-      success: (body) => { // Utilizar el método success para manejar el éxito
-        console.log('json que se envia al back:', body);
+      success: (body) => { 
+        console.log('json que se envia al back:', body.message);
         swal({
           title: "Enviado",
           text: "Su consulta fue enviada exitosamente!",

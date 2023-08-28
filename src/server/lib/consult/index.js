@@ -96,8 +96,8 @@ export function sendPass(email, newpass, callback) {
 /*
 Funcion que va a enviar un correo desde el home.  
 */
-export function sendCorreo(data) {
-
+export function sendCorreo(data,res) {
+  
   const {fullname, email, type, comment} = data
 
   const msghtml = `
@@ -111,9 +111,9 @@ export function sendCorreo(data) {
   // Detalles del correo
   const mailOptions = {
     from: 'consultas@ibceducacion.us',
-    to: 'san05guevara@gmail.com', 
+    to: 'consultas@ibceducacion.com', 
     subject: 'Consulta IBC',
-    html: msghtml,
+    html: msghtml,  
   };
 
   console.log(mailOptions, `Data a enviar en correo`)
@@ -124,6 +124,8 @@ export function sendCorreo(data) {
       console.log('error al enviar el correo', error);
     } else {
       console.log('se envio el correo con exito', info) 
+      res.status(200).json({message: `respuesta exitosa del controlador`})
+      
     }
   });
 

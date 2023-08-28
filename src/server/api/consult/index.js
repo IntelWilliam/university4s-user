@@ -13,9 +13,9 @@ router.post('/', (req, res) => {
   console.log(data, "data del backend");
 
   // enviar esa data a que lo procese mi controlador
-  sendCorreo(data, function(message) {
-    res.status(200).json({message: `respuesta exitosa`});
-  })
+  sendCorreo(data,res)
+
+  res.status(200).json({message: `respuesta exitosa esto no se mostrara`});
 
 })
 
