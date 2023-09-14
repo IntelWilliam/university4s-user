@@ -94,7 +94,7 @@ export class HeaderHome extends React.Component {
                         Testimonios
                       </span>
                     </Link> */}
-                    <Link
+                    {/* <Link
                       to={'/?goTo=Convenios'}
                       className='item-menu-border mousePoint'
                     >
@@ -102,6 +102,7 @@ export class HeaderHome extends React.Component {
                         Convenios
                       </span>
                     </Link>
+
                     <Link
                       to={'/?goTo=Contacto'}
                       className='item-menu-border mousePoint'
@@ -109,13 +110,13 @@ export class HeaderHome extends React.Component {
                       <span onClick={this.goTo.bind(this, '#Contacto')}>
                         Contacto
                       </span>
-                    </Link>
+                    </Link> */}
                     <li
                       onClick={this.goNewPlatform.bind(this, 'new')}
                       className='item-menu mousePoint tutorial-button old-platform-link'
-                      style={{ maxWidth: '8em', marginRight: '1em' }}
+                      style={{ maxWidth: '34em', marginRight: '1em', padding: '8px' }}
                     >
-                      <span>Plataforma</span>
+                      <span> Ingreso a Plataforma </span>
                     </li>
                   </ul>
                 </div>

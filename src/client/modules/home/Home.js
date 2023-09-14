@@ -249,6 +249,8 @@ export default class Home extends React.Component {
                         </div>
                       </div>
                     </div>
+
+                    {/* Nueva Metodologia */}
                     <div className="col-xs-12 col-md-4 padding-card-home">
                       <div className="row">
                         <div className="col-xs-12 center-img-home">
@@ -264,13 +266,15 @@ export default class Home extends React.Component {
                         </div>
 
                         <div className="col-xs-12 second-home-description-container">
-                      <span className="second-home-description">
-                        {this.state.pageTexts[9]}
-                        {/* Con nuestro sistema de autoaprendizaje podrás aprovechar al máximo las herramientas disponibles y tener acceso a una gran cantidad de recursos novedosos en el mismo lugar. Estas herramientas han sido desarrolladas por un equipo de profesionales especializados en la enseñanza del idioma inglés. */}
-                      </span>
+                          <span className="second-home-description">
+                            {this.state.pageTexts[9]}
+                            {/* Con nuestro sistema de autoaprendizaje podrás aprovechar al máximo las herramientas disponibles y tener acceso a una gran cantidad de recursos novedosos en el mismo lugar. Estas herramientas han sido desarrolladas por un equipo de profesionales especializados en la enseñanza del idioma inglés. */}
+                          </span>
                         </div>
                       </div>
                     </div>
+
+                    {/* Optimo Aprendizaje */}
                     <div className="col-xs-12 col-md-4 padding-card-home">
                       <div className="row">
                         <div className="col-xs-12 center-img-home">
@@ -287,27 +291,15 @@ export default class Home extends React.Component {
                         </div>
 
                         <div className="col-xs-12 second-home-description-container">
-                      <span className="second-home-description subtittle-card">
-                        {/* Seguimiento académico personalizado */}
-                        {this.state.pageTexts[12]}
-                      </span>
-                          <ul>
-                            <li className="second-home-description">
-                              <span>{this.state.pageTexts[13]}</span>
-                              {/* <span>Podrás completar tus acciones de estudio en el MANUAL DE ESTUDIO.</span> */}
-                            </li>
-                            {/*<li className="second-home-description">*/}
-                              {/*<span>{this.state.pageTexts[14]}</span>*/}
-                              {/*/!* <span>Recibirás correos de felicitación por haber ingresado de manera constante a Skype para recibir tus asesorías virtuales, además de correos recordatorios cuando no te estés conectando a Skype.</span> *!/*/}
-                            {/*</li>*/}
-                            <li className="second-home-description">
-                              <span>{this.state.pageTexts[15]}</span>
-                              {/* <span>Recibirás llamadas telefónicas y correos electrónicos para comprobar tu progreso como alumno.</span> */}
-                            </li>
-                          </ul>
+                          <span className="second-home-description">
+                            {this.state.pageTexts[12]}
+                            {this.state.pageTexts[13]}
+                            {this.state.pageTexts[15]}
+                          </span>                    
                         </div>
                       </div>
                     </div>
+
                   </div>
                 </div>
               </div>
@@ -382,7 +374,8 @@ export default class Home extends React.Component {
             </div>
           </div>
           
-          <div className="col-xs-12 padding-big" id="" style={{
+          {/* PLATAFORMA E-LEARNING */}
+          <div className="col-xs-12 padding-big" id="" style={{display:"none",
             marginTop: "4em"
           }}>
             <div>
@@ -449,6 +442,7 @@ export default class Home extends React.Component {
             </div>
           </div>
 
+          {/* TESTIMONIOS - OCULTO */}
           <div className="container" style={{display: "none"}}>
             <div className="col-xs-12 padding-big" id="Testimonios">
               <div className="row">
@@ -577,7 +571,8 @@ export default class Home extends React.Component {
             </div>
           </div>
 
-          <div className="container" style={{marginTop: "1em", marginBottom: "2em"}}>
+          {/* ALIANZAS Y CONVENIOS - OCULTO */}
+          <div className="container" style={{display: "none", marginTop: "1em", marginBottom: "2em"}}>
             <div className="col-xs-12 padding-big" id="Convenios">
               <div className="row">
                 <div className="col-xs-10 col-xs-offset-1 ">
@@ -646,8 +641,9 @@ export default class Home extends React.Component {
             </div>
           </div>
 
-     
-          <div className="col-xs-12 learner-data-container" style={{
+          
+          {/* CONSULTA Y FORMULARIO - OCULTO */}
+          <div className="col-xs-12 learner-data-container" style={{ display: "none",
             background: "#0c2d70"
           }} id="Contacto">
             <div className="row">
@@ -747,10 +743,6 @@ export default class Home extends React.Component {
                               <option className="account-input" value="Consulta Técnica">{this.state.pageTexts[38]}</option>
                               <option className="account-input" value="Consulta Aministrativa">{this.state.pageTexts[39]}</option>
                               <option className="account-input" value="Consulta de Contenidos">{this.state.pageTexts[40]}</option>
-                              {/* <option className="account-input" value="0" disabled>Seleccione uno</option>
-                              <option className="account-input" value="Consulta Técnica">Consulta técnica</option>
-                              <option className="account-input" value="Consulta Aministrativa">Consulta administrativa</option>
-                              <option className="account-input" value="Consulta de Contenidos">Consulta de contenidos</option> */}
                             </select>
                           </div>
                           <div className="col-xs-6 col-xs-offset-6 errorTxt4"></div>

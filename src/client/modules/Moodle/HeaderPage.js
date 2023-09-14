@@ -35,7 +35,7 @@ export default class HeaderPage extends React.Component {
                   <div className="col-xs-12">
                     <div className="row start-flex">
                       <div className="col-xs-12 front">
-                        <div>
+                        <div style={{paddingTop: "1rem"}}>
                           {/* <span className="title-home break-word-tittle">¡El inglés es la lengua */}
                             <span className="title-home break-word-tittle">{this.props.pageTexts[0]}
                           </span>
@@ -43,18 +43,21 @@ export default class HeaderPage extends React.Component {
                           <span className="subtitle-home break-word-tittle">{this.props.pageTexts[1]}</span>
                         </div>
                       </div>
-                      <div className="bottom-div"></div>
+                      {/* <div className="bottom-div"></div> */}
                       <div className="col-xs-9 col-md-9 front">
                         <div className="home-description" style={{'textAlign': 'center'}}>
                           <p className="disp-block">
-                            {/* <span>Somos AKRON INTERNATIONAL, una organización especializada en la enseñanza del programa de autoaprendizaje del idioma inglés con asesoría online con tutores las 24 horas del día y dueña del programa educativo AKRON ENGLISH. </span> */}
                             <span>{this.props.pageTexts[2]}</span>
                           </p>
                           <p className="disp-block">
-                            {/* <span>Nuestro programa educativo de inglés, AKRON ENGLISH, tiene como objetivo lograr que nuestros alumnos se comuniquen en inglés de manera fácil, eficaz y fluida usando los avances tecnológicos que tienen a su disposición. </span> */}
                             <span>{this.props.pageTexts[3]}</span>
                           </p>
-
+                          {/* <p className="disp-block  ">
+                            <span>¡UN MUNDO DE OPORTUNIDADES A SU ALCANCE! </span>
+                          </p>
+                          <p className="disp-block">
+                            <span> NUESTRO INGLES CONVERSACIONAL LE ABRE LAS PUERTAS DEL MUNDO. </span>
+                          </p> */}
                         </div>
                       </div>
                     </div>
