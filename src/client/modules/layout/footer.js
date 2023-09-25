@@ -90,7 +90,7 @@ export default class Footer extends React.Component {
               <div className="col-xs-12">
                 <div className="row flex-center">
                   <div className="col-md col-xs-12">
-                    <img src="/images/logo.png" className="logo-page-footer"/>
+                    <img src="/images/logoi.png" className="logo-page-footer"/>
                   </div>
                   <div className="col-md col-xs-12 flex-center">
                     <Link style={{color: 'white',fontSize: '1.5em'}} to="/terms-and-conditions" > Términos, Condiciones y Políticas </Link>

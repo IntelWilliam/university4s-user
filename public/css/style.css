@@ -897,7 +897,7 @@ bottom: 0;
 .lesson-title {
     font-family: "Tofino-Black";
     z-index: 1;
-    color: #294f75;
+    color: #ebeced;
     font-size: 3.5rem;
     width: 80%;
     text-align: left;
@@ -909,7 +909,7 @@ bottom: 0;
     margin-top: 0.4em;
     font-family: "Tofino-Bold";
     z-index: 1;
-    color: #294f75;
+    color: #ebeced;
     font-size: 1.5rem;
     text-align: left;
     display: block;
@@ -920,7 +920,7 @@ bottom: 0;
     margin-top: 0.4em;
     font-family: "Tofino-Book";
     z-index: 1;
-    color: #294f75;
+    color: #ebeced;
     font-size: 0.9rem;
     text-align: left;
     display: block;
@@ -1098,7 +1098,7 @@ bottom: 0;
     position: relative;
     BACKGROUND-SIZE: cover;
     BACKGROUND-REPEAT: no-repeat;
-    background-image: url("/images/home.gif");
+    background-image: url("/images/slideinsitutointerno.jpg");
 }
 
 .tutorial-color {
@@ -1952,7 +1952,7 @@ bottom: 0;
 }
 
 .item-menu-border a {
-    color: #2b4b92;
+    color: #e7f0ff;
     display: block;
     font-size: 0.9rem;
 }
@@ -2242,7 +2242,7 @@ bottom: 0;
     text-align: left;
     font-family: "Tofino-Regular";
     z-index: 1;
-    color: #194395;
+    color: #dde2eb;
     font-size: 2.5rem;
     line-height: 1em;
     display: block;
@@ -2256,7 +2256,7 @@ bottom: 0;
     text-align: left;
     font-family: "Tofino-Black";
     z-index: 1;
-    color: #194395;
+    color: #dde2eb;
     font-size:2.5rem;
     line-height: 1.4em;
     display: block;
@@ -2269,7 +2269,7 @@ bottom: 0;
     margin-bottom: 0.5em;
     font-family: "Tofino-Book";
     z-index: 1;
-    color: #4e4f58;
+    color: #d0d4da;
     font-size: 1rem;
     font-weight: 600;
     display: block;

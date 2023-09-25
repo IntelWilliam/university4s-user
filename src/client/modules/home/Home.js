@@ -207,7 +207,7 @@ export default class Home extends React.Component {
   }
 
   render() {
-    let backgroundImage = "/images/home.gif";
+    let backgroundImage = "/images/fo.jpg";
     let headerInfo = {
       backgroundImage: backgroundImage
     }

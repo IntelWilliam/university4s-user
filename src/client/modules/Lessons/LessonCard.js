@@ -11,7 +11,7 @@ class LessonCard extends React.Component {
       cardClass = 'card-text-container web-backg-operational'
     }
 
-    let imageUrl ="/images/Web-lessons.png";
+    let imageUrl ="/images/Webleson.jpg";
     // let imageUrl = this.props.smallImage ? this.props.smallImage : "/images/Web-lessons.png";
     return (
       <div className="card" style={{position: 'relative'}}>

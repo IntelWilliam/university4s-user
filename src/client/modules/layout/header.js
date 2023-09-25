@@ -84,7 +84,7 @@ export default class Header extends React.Component {
                         <div className="col-xs-12 height-100">
                             <div className={teacherClass}>
                                 <div className="col-xs-3 col-sm-2 col-md-1 image-logo-container height-100">
-                                        <img src="/images/logo.png" onClick={this.goHome.bind(this)} className="logo-page mousePoint"/>
+                                        <img src="/images/logoi.png" onClick={this.goHome.bind(this)} className="logo-page mousePoint"/>
                                 </div>
                                 {(() => {
                                     if(true) {

@@ -1662,7 +1662,7 @@ class VideoChat extends React.Component {
       let notifyTittle = tittle ? tittle : 'Nuevo mensage'
 
       let options = {
-        icon: '/images/logo.png',
+        icon: '/images/logoi.png',
         body: menssage,
 
         // body: "Tienes un mensaje nuevo de ...",

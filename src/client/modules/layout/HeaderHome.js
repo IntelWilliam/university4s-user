@@ -66,7 +66,7 @@ export class HeaderHome extends React.Component {
             <div className='col-xs-12 height-100'>
               <div className='row height-100'>
                 <div className='col-xs-3 col-sm-2 col-md-1 image-logo-container height-100'>
-                  <img src='/images/logo.png' className='logo-page' />
+                  <img src='/images/logoi.png' className='logo-page' />
                 </div>
                 <div className='col-xs height-100 menu-top-container'>
                   <ul className='menu-top menu-top-flex'>

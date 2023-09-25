@@ -4,14 +4,14 @@ import Constants from 'src/client/Constants/Constants'
 
 class SubLevelItem extends React.Component {
     render() {
-        let image = "/images/inicial1.png"
+        let image = "/images/basico.jpg"
         let cardClass = "card-text-container web-backg-initial"
         if (this.props.levelId == 3) {
             cardClass = "card-text-container web-backg-operational"
-            image = "/images/operational.png"
+            image = "/images/avanzado.jpg"
         } else if (this.props.levelId == 2) {
           cardClass = "card-text-container web-backg-fundamental"
-            image = "/images/fundamental.png"
+            image = "/images/intermedio.jpg"
         }
 
         let ConditionalLink = this.props.userdata.passed || this.props.isTeacher

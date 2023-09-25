@@ -122,7 +122,7 @@ export default class VideoCat extends React.Component {
               <Link to={hrefClase}>
                 <div className="card">
                   <div className="image-container">
-                    <img src="/images/videos-clase.png"/>
+                    <img src="/images/videoclase.jpg"/>
                   </div>
 
                   <div className="card-text-container video-card-color">

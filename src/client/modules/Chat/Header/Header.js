@@ -52,7 +52,7 @@ export default class Header extends React.Component {
         <div className="navbar-fixed">
           <nav className="navbar-color">
             <div className="nav-wrapper">
-            <Logo logo="/images/materialize-logo.png" alt="materialize logo"/>
+            <Logo logo="/images/materialize-logoi.png" alt="materialize logo"/>
             <HeaderSearch placeholder="Explora en la pagina" />
             <HeaderNav notifications={this.state.notifications}/>
             </div>
