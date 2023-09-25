@@ -46,6 +46,7 @@ import videoTutorial from 'src/client/modules/videoTutorial/videoTutorial'
 import TermsAndConditions from 'src/client/modules/TermsAndConditions/TermsAndConditions'
 import ValidateTerms from 'src/client/modules/TermsAndConditions/ValidateTerms'
 import SwornDeclaration from 'src/client/modules/Moodle/SwornDeclaration/SwornDeclaration'
+import Dashboard from './Moodle/Metricas/Dashboard'
 
 const USER_AREA = "/user-area/"
 const WEB_PRACTICA = "practice-web/"
@@ -77,6 +78,7 @@ const PDFVIEW = "pdfview/"
 const CHAT_COSMO = "chat-cosmo"
 const VALIDATE_TERMS = "validate-terms-conditions"
 const SWORN_DECLARATION = "declaration"
+const METRICAS = "metricas/"
 
 
 // funcion que se llama para autorizar la entrada a un estado de la palicacion
@@ -120,6 +122,7 @@ export default <Route>
         <Route component={PracticeOrder} path={USER_AREA + PRACTICAS + PRACTICAS_LECCIONES + PRACTICAS_ORDENAR} onEnter={requireAuth}/>
         <Route component={Timeline} path={USER_AREA + WEB_PRACTICA} onEnter={requireAuth}/>
         <Route component={Exams} path={USER_AREA + EXAMS} onEnter={requireAuth}/>
+        <Route component={Dashboard} path={USER_AREA + METRICAS} onEnter={requireAuth}/>
         <Route component={ExamGrammar} path={USER_AREA + EXAMS + GRAMMAR} onEnter={requireAuth}/>
         <Route component={ExamReading} path={USER_AREA + EXAMS + READING} onEnter={requireAuth}/>
         <Route component={ExamListening} path={USER_AREA + EXAMS + LISTENING} onEnter={requireAuth}/>

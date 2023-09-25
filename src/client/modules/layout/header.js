@@ -54,6 +54,7 @@ export default class Header extends React.Component {
     let hrefPractices = '/user-area/practices/'
     let hrefWebPractice = '/user-area/practice-web/'
     let hrefEval = '/user-area/exams/'
+    let hrefDash = '/user-area/metricas/'
     let hrefVideo = '/user-area/video/'
     let videoTutorial = '/video-tutorial/'
 
@@ -142,6 +143,11 @@ export default class Header extends React.Component {
 
                                               <li className="item-menu-border">
                                                 <Link className="mousePoint" target={newTab} to={hrefEval}>Evaluación
+                                                </Link>
+                                              </li>
+
+                                              <li className="item-menu-border">
+                                                <Link className="mousePoint" target={newTab} to={hrefDash}> Progreso
                                                 </Link>
                                               </li>
 
