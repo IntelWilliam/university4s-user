@@ -41,7 +41,9 @@ class LevelItem extends React.Component {
                     </div>
                 </div>
                 {this.state.allSubLevels.map((subLevel, index) => {
-                    return <SubLevelItem key={index} isTeacher={this.props.isTeacher} subName={subLevel.name} subLevelId={subLevel.code} levelId={this.props.id} levelName={this.props.name} userdata={this.props.levelUserData[index + 1]}/>
+                    if(subLevel.name !== "Nivel A1" || subLevel.name !== "Nivel A2" || subLevel.name !== "Nivel B1" ) {
+                        return <SubLevelItem key={index} isTeacher={this.props.isTeacher} subName={subLevel.name} subLevelId={subLevel.code} levelId={this.props.id} levelName={this.props.name} userdata={this.props.levelUserData[index + 1]}/>
+                    }
                 })}
             </div>
         )
