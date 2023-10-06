@@ -207,7 +207,7 @@ app.use('/api', api);
 
 app.post(
   '/loginlearnerDev',
-  passport.authenticate('learnerDev-local', { session: true }),
+  // passport.authenticate('learnerDev-local', { session: true }),
   getUserData
 );
 
