@@ -8,7 +8,7 @@ router.post('', (req, res) => {
   request(
     {
       uri:
-        (process.env.API_URL || Constants.API_BASE_URL || 'https://dev.ibceducacion.com/') +
+        (process.env.API_URL || Constants.API_BASE_URL || 'https://phpb12.ibcinstituto.com/') +
         'admin/students/notes/do_new/',
       method: 'POST',
       form: {

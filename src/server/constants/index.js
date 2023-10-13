@@ -1,10 +1,10 @@
 export default {
-  API_BASE_URL: 'https://php.akronenglish.com/base/api/',
-  API_BASE_URL_CHAT: 'https://php.akronenglish.com/base/ajax/',
+  API_BASE_URL: 'https://phpb12.ibcinstituto.com/base/api/',
+  API_BASE_URL_CHAT: 'https://phpb12.ibcinstituto.com/base/ajax/',
   API_BASE_CHAT_COSMO: 'http://chatbot.akronenglish1.com/',
   API_BASE_CHAT_STS: 'http://neuralconvo-ec2.huggingface.co/hey/',
-  AJAX_BASE_URL: 'https://php.akronenglish.com/base/ajax/',
-  DOMAIN: 'akronenglish1.com',
+  AJAX_BASE_URL: 'https://phpb12.ibcinstituto.com/base/ajax/',
+  DOMAIN: 'phpb12.ibcinstituto.com',
   URL_EVENTS: '/user-area/calendar/',
 }
 
