@@ -135,16 +135,16 @@ export default class Lesson extends React.Component {
         this.props.location.query.subName.length - 1
       ];
 
-    console.log('sublevelIndex', sublevelIndex);
-    let bookSrc =
-      'https://d23hm4f8ygkcco.cloudfront.net/new_books_course/' +
-      this.props.location.query.levelName.toLowerCase() +
-      '_' +
-      this.romanize(parseInt(sublevelIndex)) +
-      '/lesson_' +
-      this.props.location.query.lessonIndex +
-      '/1.html';
-
+      console.log('sublevelIndex', sublevelIndex);
+      var levelName = this.props.location.query.levelName.toLowerCase().replace(/\s+/g, '_'); // Esto reemplaza todos los espacios por guiones bajos
+      var bookSrc = 'https://d23hm4f8ygkcco.cloudfront.net/new_books_course/' + 
+                    levelName +
+                    '_' +
+                    this.romanize(parseInt(sublevelIndex)) +
+                    '/lesson_' +
+                    this.props.location.query.lessonIndex +
+                    '/1.html';
+                    
     console.log('bookSrc', bookSrc);
 
     let subName = this.props.location.query.subName;
