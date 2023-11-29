@@ -137,7 +137,7 @@ export default class Lesson extends React.Component {
 
       console.log('sublevelIndex', sublevelIndex);
       var levelName = this.props.location.query.levelName.toLowerCase().replace(/\s+/g, '_'); // Esto reemplaza todos los espacios por guiones bajos
-      var bookSrc = 'https://d23hm4f8ygkcco.cloudfront.net/new_books_course/' + 
+      var bookSrc = 'https://university-4s.s3.amazonaws.com/new_books_course/' + 
                     levelName +
                     '_' +
                     this.romanize(parseInt(sublevelIndex)) +
