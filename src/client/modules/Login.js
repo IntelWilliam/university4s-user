@@ -122,7 +122,7 @@ class Login extends React.Component {
           let saveUser = JSON.parse(localStorage.user)
           // console.log("saveUser", saveUser)
           if (saveUser.role == 'teacher') {
-            this.context.router.replace('/user-area/video-chat/')
+            this.context.router.replace('/user-area/')
           } else {
             this.context.router.replace('/user-area/')
           }
