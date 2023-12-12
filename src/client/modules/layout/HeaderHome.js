@@ -66,7 +66,8 @@ export class HeaderHome extends React.Component {
             <div className='col-xs-12 height-100'>
               <div className='row height-100'>
                 <div className='col-xs-3 col-sm-2 col-md-1 image-logo-container height-100'>
-                  <img src='/images/logoi.png' className='logo-page' />
+                  <img src='/images/logoi.png' className='logo-page logo-desktop' />
+                  <img src='/images/logo.png' className='logo-page logo-mobile' />
                 </div>
                 <div className='col-xs height-100 menu-top-container'>
                   <ul className='menu-top menu-top-flex'>
@@ -132,9 +133,9 @@ export class HeaderHome extends React.Component {
         </header>
         <div className={openMenuClass}>
           <div className='col-xs-12'>
-            <Link to={videoTutorial} className='col-xs-12 item-mobile-menu'>
+            {/* <Link to={videoTutorial} className='col-xs-12 item-mobile-menu'>
               <span className='link-menu'>Video tutoriales</span>
-            </Link>
+            </Link> */}
             <div className='col-xs-12 item-mobile-menu'>
               <a
                 className='link-menu'
@@ -162,15 +163,15 @@ export class HeaderHome extends React.Component {
               </a>
             </div> */}
 
-            <div className='col-xs-12 item-mobile-menu'>
+            {/* <div className='col-xs-12 item-mobile-menu'>
               <a
                 className='link-menu'
                 onClick={this.goTo.bind(this, '#Convenios')}
               >
                 Convenios
               </a>
-            </div>
-
+            </div> */}
+{/* 
             <div className='col-xs-12 item-mobile-menu'>
               <a
                 className='link-menu'
@@ -178,7 +179,7 @@ export class HeaderHome extends React.Component {
               >
                 Contacto
               </a>
-            </div>
+            </div> */}
 
             <div className='col-xs-12 item-mobile-menu'>
               <Link className='link-menu' to={hrefLogin}>

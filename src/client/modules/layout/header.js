@@ -84,7 +84,8 @@ export default class Header extends React.Component {
                         <div className="col-xs-12 height-100">
                             <div className={teacherClass}>
                                 <div className="col-xs-3 col-sm-2 col-md-1 image-logo-container height-100">
-                                        <img src="/images/logoi.png" onClick={this.goHome.bind(this)} className="logo-page mousePoint"/>
+                                        <img src="/images/logoi.png" onClick={this.goHome.bind(this)} className="logo-page mousePoint logo-desktop"/>
+                                        <img src="/images/logo.png" onClick={this.goHome.bind(this)} className="logo-page mousePoint logo-mobile"/>
                                 </div>
                                 {(() => {
                                     if(true) {
@@ -209,10 +210,10 @@ export default class Header extends React.Component {
                     // if(curUser.role == "learner") {
                         return ( <div className={openMenuClass}>
                                     <div className="col-xs-12">
-                                        <div className="col-xs-12 item-mobile-menu">
+                                        {/* <div className="col-xs-12 item-mobile-menu">
                                             <Link to={videoTutorial} target={newTab} className="link-menu">Video tutoriales
                                             </Link>
-                                        </div>
+                                        </div> */}
 
                                         <div className="col-xs-12 item-mobile-menu">
                                             <Link to={hrefCurso} target={newTab} className="link-menu">Curso
@@ -268,10 +269,10 @@ export default class Header extends React.Component {
                                         <Link target={newTab} to={hrefEval}>Evaluación
                                         </Link>
                                       </div>
-                                        <div className="col-xs-12 item-mobile-menu">
+                                        {/* <div className="col-xs-12 item-mobile-menu">
                                               <Link className="link-menu" to={hrefChat}>Video chat
                                             </Link>
-                                        </div>
+                                        </div> */}
 
 
                                         <div className="col-xs-12 item-mobile-menu">

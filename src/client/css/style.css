@@ -225,6 +225,25 @@ a {
     float: left;
 }
 
+.logo-desktop {
+    display: block; /* o inline, inline-block, etc., dependiendo de tus necesidades */
+  }
+
+  .logo-mobile {
+    display: none;
+  }
+
+  /* En dispositivos con un ancho menor a 768px, se ocultará el logo-desktop y se mostrará el logo-mobile */
+  @media (max-width: 768px) {
+    .logo-desktop {
+      display: none;
+    }
+    .logo-mobile {
+      display: block; /* o inline, inline-block, etc. */
+    }
+  }
+
+
 .practice-text {
     /*    white-space: nowrap;
       overflow: hidden;
@@ -2012,8 +2031,8 @@ bottom: 0;
     height: 2.3em;
     position: relative;
     width: 100%;
-    background: #F0533E;
-    border: 1px solid #F0533E;
+    background: #0c0e74;
+    border: 1px solid #e35908;
 }
 
 .item-mobile-menu {
