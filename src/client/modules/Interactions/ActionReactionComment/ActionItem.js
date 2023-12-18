@@ -6,6 +6,9 @@ import { sentenceCase, caseDescription } from 'src/client/Util/Capitalize'
 class ActionItem extends React.Component {
   constructor(props) {
     super(props);
+    this.state = {
+        isListening: false
+    }
   }
 
   componentDidMount() {
@@ -51,8 +54,11 @@ class ActionItem extends React.Component {
   }
 
   speakWord() {
-    this.props.triggerListenChange.call(null, this.props.name, this.props.refComponent)
-    this.props.changeListening.call(null, true)
+    const isListening = !this.state.isListening
+    this.setState({isListening}, () => {
+        this.props.triggerListenChange.call(null, this.props.name, this.props.refComponent, isListening)
+        this.props.changeListening.call(null, isListening)
+    })
   }
 
   render() {
